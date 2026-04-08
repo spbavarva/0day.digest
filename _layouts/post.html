@@ -1,0 +1,40 @@
+---
+layout: page
+# Override of Chirpy's default post layout.
+# Renders severity + sources for Daily Signal items, plain body for Threat Research.
+---
+
+<article class="post-detail{% if page.must_know %} post-detail--must-know{% endif %}">
+
+  {% if page.severity %}
+    <div class="post-detail__badges">
+      {% include severity-badge.html severity=page.severity must_know=page.must_know %}
+    </div>
+  {% endif %}
+
+  <h1 class="post-detail__title">{{ page.title }}</h1>
+
+  <div class="post-detail__meta">
+    <time>{{ page.date | date: "%B %-d, %Y · %-l:%M %p" }}</time>
+    {% if page.tags and page.tags.size > 0 %}
+      <span class="post-detail__tags">
+        ·
+        {% for tag in page.tags %}
+          <a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="post-detail__body">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+    <footer class="post-detail__sources">
+      <h4>Sources</h4>
+      {% include source-links.html sources=page.sources %}
+    </footer>
+  {% endif %}
+
+</article>

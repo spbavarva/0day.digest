@@ -1,0 +1,5 @@
+{% assign sev = include.severity | default: 'informational' %}
+<span class="severity severity--{{ sev }}">{{ sev | upcase }}</span>
+{% if include.must_know %}
+  <span class="must-know-badge" title="Must-Know">⚡ MUST-KNOW</span>
+{% endif %}

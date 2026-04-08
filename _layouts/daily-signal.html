@@ -1,0 +1,32 @@
+---
+layout: page
+# Daily Signal — grouped by date
+---
+
+<div class="signal-feed">
+  <header class="feed-header">
+    <div class="feed-header__eyebrow">THE FEED</div>
+    <h1 class="feed-header__title">Daily Signal</h1>
+    <p class="feed-header__sub">Short-form intelligence at the intersection of AI and cybersecurity.</p>
+  </header>
+
+  {% assign daily = site.posts | where_exp: "p", "p.categories contains 'Daily Signal'" %}
+
+  {% assign last_date = "" %}
+  {% assign idx = 0 %}
+  {% for post in daily %}
+    {% assign this_date = post.date | date: "%Y-%m-%d" %}
+    {% if this_date != last_date %}
+      {% include date-divider.html date=post.date %}
+      {% assign last_date = this_date %}
+      {% assign idx = 0 %}
+    {% endif %}
+    {% assign idx = idx | plus: 1 %}
+
+    {% include signal-card.html post=post index=idx %}
+  {% endfor %}
+
+  {% if daily.size == 0 %}
+    <p class="feed-empty">No signal yet. Quiet day on the wire.</p>
+  {% endif %}
+</div>

@@ -1,0 +1,7 @@
+{% if include.sources %}
+  <div class="source-links">
+    {% for source in include.sources %}
+      <a href="{{ source.url }}" class="source-link" target="_blank" rel="noopener">→ {{ source.name }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
