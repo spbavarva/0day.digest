@@ -13,13 +13,13 @@
    ============================================================================ */
 
 :root {
-  --paper:     #0e1013;
-  --paper-2:   #14171c;
+  --paper:     #000000;
+  --paper-2:   #000000;
   --ink:       #d7d5cf;
   --ink-2:     #a6a59f;
   --ink-3:     #6e6d68;
-  --ink-4:     #353530;
-  --rule:      #1c1f25;
+  --ink-4:     #232323;
+  --rule:      #171717;
 
   --accent:    #8fb4d9;   /* cool pale blue — base title color */
   --warm:      #d4a576;   /* warm, muted, off-orange — hover */
@@ -55,11 +55,43 @@ html[data-mode="dark"] {
   --text-muted-color:     var(--ink-3);
   --link-color:           var(--accent);
   --link-underline-color: var(--accent);
+  --topbar-bg:            #000000;
+  --topbar-text-color:    var(--ink);
+  --search-border-color:  #1a1a1a;
+  --search-icon-color:    var(--ink-3);
+  --card-header-bg:       #000000;
+  --search-tag-bg:        #060606;
   --sidebar-bg:           #0a0b0e;
 }
 
 html[data-mode="dark"] a { color: var(--accent); }
 html[data-mode="dark"] a:hover { color: var(--warm); }
+
+/* ============ Shell surfaces ============ */
+
+html[data-mode="dark"] #main-wrapper,
+html[data-mode="dark"] #main-wrapper > .container,
+html[data-mode="dark"] #topbar-wrapper,
+html[data-mode="dark"] #topbar,
+html[data-mode="dark"] .content,
+html[data-mode="dark"] #tail-wrapper,
+html[data-mode="dark"] #panel-wrapper {
+  background: #000000 !important;
+}
+
+html[data-mode="dark"] #topbar-wrapper {
+  border-bottom: 1px solid var(--rule);
+}
+
+html[data-mode="dark"] #breadcrumb,
+html[data-mode="dark"] #breadcrumb a,
+html[data-mode="dark"] #topbar-title {
+  color: var(--ink-2);
+}
+
+html[data-mode="dark"] #search {
+  background: #000000;
+}
 
 /* ============ Reading column ============ */
 
