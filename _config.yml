@@ -68,7 +68,7 @@ theme_mode: dark
 
 cdn:
 
-avatar:
+avatar: /assets/img/sidebar-logo-allmight.png
 
 social_preview_image:
 
