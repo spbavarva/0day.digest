@@ -1,7 +1,19 @@
 {% if include.sources %}
   <div class="source-links">
     {% for source in include.sources %}
-      <a href="{{ source.url }}" class="source-link" target="_blank" rel="noopener">→ {{ source.name }}</a>
+      <a href="{{ source.url }}" class="source-link" target="_blank" rel="noopener">
+        <span class="source-link__arrow">→</span>
+        <img
+          src="https://www.google.com/s2/favicons?sz=64&domain_url={{ source.url | uri_escape }}"
+          class="source-link__icon"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="this.style.display='none'"
+        >
+        <span class="source-link__label">{{ source.name }}</span>
+      </a>
     {% endfor %}
   </div>
 {% endif %}

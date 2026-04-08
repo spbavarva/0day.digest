@@ -381,9 +381,13 @@ html[data-mode="dark"] #sidebar #avatar img {
 .post-detail__body ul li { margin-bottom: 0.35em; }
 
 .post-detail__sources {
+  display: block;
+  height: auto !important;
   margin-top: 2.5rem;
   padding-top: 1.25rem;
+  padding-bottom: 1rem;
   border-top: 1px solid var(--ink-4);
+  background: transparent;
 }
 .post-detail__sources h4 {
   font-family: var(--mono);
@@ -396,14 +400,33 @@ html[data-mode="dark"] #sidebar #avatar img {
 }
 .post-detail__sources .source-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
   font-family: var(--mono);
   font-size: 0.8rem;
 }
 .post-detail__sources .source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   color: var(--accent);
   text-decoration: none;
+}
+.post-detail__sources .source-link__arrow {
+  color: inherit;
+  line-height: 1;
+}
+.post-detail__sources .source-link__icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: 0 0 0.95rem;
+  border-radius: 0.15rem;
+  background: #fff;
+}
+.post-detail__sources .source-link__label {
+  color: inherit;
+  line-height: 1.3;
 }
 .post-detail__sources .source-link:hover { color: var(--warm); text-decoration: underline; }
 
