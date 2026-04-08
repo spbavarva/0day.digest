@@ -1,4 +1,3 @@
-<header class="day-header">
-  <div class="day-header__dow">{{ include.date | date: "%A" }}</div>
-  <div class="day-header__date">{{ include.date | date: "%B %-d, %Y" }}</div>
-</header>
+<h2 class="day-mark">
+  <span>{{ include.date | date: "%A, %B %-d, %Y" }}</span>
+</h2>
