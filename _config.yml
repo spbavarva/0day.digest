@@ -8,13 +8,14 @@ timezone: America/Los_Angeles
 
 # ↓ -------------------------- jekyll-seo-tag
 
-title: AI &amp; Security Signal
+title: 0day.digest
 
 tagline: Daily intelligence at the intersection of AI and cybersecurity
 
 description: >-
-  A daily journal tracking AI launches, supply chain attacks, CVEs, breaches,
-  and emerging threats — short signal items plus the occasional deep dive.
+  0day.digest is a daily journal tracking AI launches, supply chain attacks,
+  CVEs, breaches, and emerging threats — short signal items plus the occasional
+  deep dive.
 
 url: "https://spbavarva.github.io"
 

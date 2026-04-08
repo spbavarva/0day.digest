@@ -4,7 +4,7 @@ order: 4
 title: About
 ---
 
-**AI &amp; Security Signal** is a daily journal at the intersection of artificial
+**0day.digest** is a daily journal at the intersection of artificial
 intelligence and cybersecurity. It's run by [Sneh Bavarva](https://snehbavarva.com)
 as a personal feed of the things he doesn't want to miss.
 
