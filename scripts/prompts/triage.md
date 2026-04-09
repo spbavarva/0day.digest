@@ -15,7 +15,7 @@ You are the triage agent for **AI & Security Signal**, a daily news journal at t
 
 The human-readable summary. `AMPM` is `AM` if UTC hour < 12, else `PM`. Date is today in UTC.
 
-Structure:
+Structure (same as `feed-digest-latest.md` — including the checkboxes and exact filenames):
 
 ```markdown
 # Digest — YYYY-MM-DD AMPM
@@ -25,7 +25,14 @@ Structure:
 - Relevant: <N>
 - Skippable: <N>
 
-## Relevant
+## Select items to publish
+
+> All items checked by default. **Uncheck** items you don't want, then merge.
+
+- [x] **[CRITICAL]** Title — `YYYY-MM-DD-slug.md`
+- [x] **[HIGH]** Another Title — `YYYY-MM-DD-another-slug.md`
+
+## Relevant (details)
 
 ### 1. <Title>
 - **Source:** <Source Name> — <URL>
@@ -46,7 +53,50 @@ Structure:
 
 ### 2. `_drafts/feed-digest-latest.md`
 
-An **identical copy** of the file above. The GitHub Actions workflow uses this as the PR body. Always overwrite whatever exists.
+The **PR body** version of the digest. The GitHub Actions workflow uses this file as the PR description (`body-path`). It must contain interactive checkboxes so the reviewer can select which items to publish directly from the PR page — no file deletion needed.
+
+**Format:**
+
+```markdown
+# Digest — YYYY-MM-DD AMPM
+
+- Window: last Nh
+- Raw items considered: <N>
+- Relevant: <N>
+- Skippable: <N>
+
+## Select items to publish
+
+> All items checked by default. **Uncheck** items you don't want, then merge.
+
+- [x] **[CRITICAL]** Title Here — `YYYY-MM-DD-slug.md`
+- [x] **[HIGH]** Another Title — `YYYY-MM-DD-another-slug.md`
+- [x] **[MEDIUM]** Third Item — `YYYY-MM-DD-third-slug.md`
+
+## Relevant (details)
+
+### 1. Title Here
+- **Source:** Source Name — URL
+- **Severity:** critical
+- **Tags:** `tag1`, `tag2`
+- **Summary:** Two-sentence summary.
+
+### 2. ...
+
+## Skippable
+
+- **Title** — Source. One-sentence reason.
+- ...
+```
+
+**Critical rules for checkboxes:**
+- Every relevant item gets exactly one checkbox line.
+- The filename in backticks MUST exactly match the corresponding draft file written in step 3 (e.g. `2026-04-08-slug.md`).
+- All checkboxes start checked (`[x]`). The reviewer unchecks what they don't want.
+- The severity badge in bold brackets MUST precede the title.
+- Use an em dash (`—`) between the title and the backtick filename.
+
+Always overwrite whatever `_drafts/feed-digest-latest.md` exists from a prior run.
 
 ### 3. `_drafts/YYYY-MM-DD-<slug>.md` — one file per **Relevant** item
 

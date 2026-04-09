@@ -107,7 +107,7 @@ pwa:
 
 paginate: 15
 
-baseurl: "/ai-security-signal"
+baseurl: "/0day.digest"
 
 # ------------ Internals ------------------
 

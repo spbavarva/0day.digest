@@ -1,16 +1,15 @@
 name: Publish Drafts
 
-# When a digest PR is merged (or any other push touches _drafts/),
-# walk _drafts/ and promote approved candidates into _posts/.
-# The existing pages-deploy.yml picks up the promote commit and ships the site.
+# When a digest PR is merged, read the PR body checkboxes to see which items
+# the reviewer kept checked, delete unchecked drafts, then promote the rest
+# into _posts/. The existing pages-deploy.yml picks up the commit and ships.
 
 on:
-  push:
+  pull_request:
+    types: [closed]
     branches:
       - main
       - master
-    paths:
-      - "_drafts/**"
 
 permissions:
   contents: write
@@ -21,19 +20,29 @@ concurrency:
 
 jobs:
   promote:
+    # Only run when the PR was actually merged (not just closed)
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # Use the default GITHUB_TOKEN for the follow-up push.
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Apply PR checkbox selections
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          gh pr view "$PR_NUMBER" --json body -q .body > /tmp/pr-body.md
+          python3 scripts/apply_selections.py --body /tmp/pr-body.md
 
       - name: Promote drafts
         run: python3 scripts/promote_drafts.py
@@ -48,5 +57,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore(publish): promote approved drafts"
+          git commit -m "chore(publish): promote selected drafts"
           git push
