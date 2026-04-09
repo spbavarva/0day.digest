@@ -1,6 +1,8 @@
 # RSS Sources — AI & Security Signal
 
-These are the sources Cowork should check for new stories during each digest run.
+These are the sources the fetcher checks during each digest run.
+
+---
 
 ## Cybersecurity — Primary
 
@@ -9,68 +11,110 @@ These are the sources Cowork should check for new stories during each digest run
 - Krebs on Security — https://krebsonsecurity.com/feed/
 - Dark Reading — https://www.darkreading.com/rss.xml
 - The Record (Recorded Future) — https://therecord.media/feed
-- Cybersecurity Dive — https://www.cybersecuritydive.com/feeds/news/
 - SecurityWeek — https://feeds.feedburner.com/securityweek
 
 ## Cybersecurity — Research & Threat Intel
 
 - SentinelOne Labs — https://www.sentinelone.com/feed/
 - Cisco Talos — https://blog.talosintelligence.com/rss/
-- Google Threat Intelligence (Mandiant) — https://cloud.google.com/feeds/google-threat-intelligence-blog.xml
 - Unit 42 (Palo Alto) — https://unit42.paloaltonetworks.com/feed/
 - Flashpoint — https://flashpoint.io/feed/
+- PortSwigger Research — https://portswigger.net/research/rss
+- Trail of Bits — https://blog.trailofbits.com/feed/
+- Google Project Zero — https://projectzero.google/feed.xml
+- Securelist (Kaspersky GReAT) — https://securelist.com/feed/
 
-## AI / Model Launches
+## AI — Labs & Model Launches
 
-- Anthropic Blog — https://www.anthropic.com/blog/rss
 - OpenAI Blog — https://openai.com/blog/rss.xml
+- Google DeepMind — https://deepmind.google/blog/rss.xml
 - Google AI Blog — https://blog.google/technology/ai/rss/
 - Hugging Face Blog — https://huggingface.co/blog/feed.xml
-- Meta AI Blog — https://ai.meta.com/blog/rss/
 
-## Mixed / General Tech Security
+> **No RSS available:** Anthropic, Meta AI, DeepSeek, Zhipu/GLM, Alibaba Qwen.
+> These are covered via Twitter/X feeds below and TechCrunch AI.
 
-- Ars Technica Security — https://feeds.arstechnica.com/arstechnica/security
+## AI — News & Analysis
+
+- TechCrunch AI — https://techcrunch.com/category/artificial-intelligence/feed/
+- Simon Willison — https://simonwillison.net/atom/everything/
+- Lilian Weng (OpenAI) — https://lilianweng.github.io/index.xml
 - The Verge AI — https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+
+## Twitter / X (manual — automation blocked)
+
+X/Twitter blocks all public RSS bridges (RSSHub, Nitter). These accounts are
+worth checking manually until a self-hosted solution is set up. To automate
+later: self-host RSSHub with Twitter API keys, or use a paid service like
+RSS.app.
+
+### AI Labs (no RSS feed — Twitter is the primary channel)
+
+- @AnthropicAI — Anthropic launches, Claude updates, safety research
+- @OpenAI — covered by blog RSS, but Twitter has faster announcements
+- @GoogleDeepMind — covered by blog RSS
+- @huggingface — covered by blog RSS
+- @deepseek_ai — DeepSeek model releases (no blog RSS exists)
+- @Alibaba_Qwen — Qwen model releases (no blog RSS exists)
+
+### Security Researchers
+
+- @_JohnHammond — exploit demos, CTF content
+- @SwiftOnSecurity — infosec commentary, Windows security
+- @GossiTheDog — threat intel, enterprise security
+- @taviso — Google Project Zero researcher
+- @ProjectDiscovery — nuclei, security tooling
+- @PortSwigger — web security research
+
+## Government / Advisory
+
 - CISA Alerts — https://www.cisa.gov/cybersecurity-advisories/all.xml
 
-## Twitter / X (Manual — Future Automation)
+---
 
-For now, these are accounts to manually check. Twitter RSS automation to be added later.
+## Removed (confirmed dead / 404)
 
-- @_JohnHammond
-- @malaboratory
-- @SwiftOnSecurity
-- @GossiTheDog
-- @taviso
-- @anthropaborator
-- @AnthropicAI
-- @OpenAI
-- @GoogleDeepMind
-- @huggingface
-- @ProjectDiscovery
-- @PortSwigger
-- @bavarvasneh (your own, for context)
+These were in the original list but no longer resolve:
+
+- ~~Anthropic Blog~~ — `https://www.anthropic.com/blog/rss` → 404 (no RSS feed exists)
+- ~~Meta AI Blog~~ — `https://ai.meta.com/blog/rss/` → 404
+- ~~Google Threat Intelligence (Mandiant)~~ — `https://cloud.google.com/feeds/google-threat-intelligence-blog.xml` → redirect chain → 404
+- ~~Ars Technica Security~~ — `https://feeds.arstechnica.com/arstechnica/security` → 403 blocked
+- ~~Cybersecurity Dive~~ — removed (too enterprise/marketing, low signal)
+
+---
 
 ## What's Relevant vs Skippable
 
-### RELEVANT — Include in digest
+### RELEVANT — include in digest
 
-- New CVEs, especially critical/high severity
-- Supply chain attacks (npm, PyPI, GitHub Actions, etc.)
-- AI model launches, updates, safety incidents
-- Major breaches or ransomware incidents
-- New offensive/defensive security tools
-- AI + security intersection (prompt injection, LLM vulnerabilities, AI-assisted attacks)
+**Security (technical focus):**
+- Novel attack techniques, exploitation primitives, kill chains
+- Critical/high CVEs, especially under active exploitation
+- Supply chain compromises (npm, PyPI, GitHub Actions, container images)
+- Zero-days with technical detail
+- Offensive/defensive tool releases with real utility
+- Major breaches ONLY if technically interesting or > 100k users
 - Source code leaks, credential exposures
-- Significant policy/regulation changes affecting AI or security
 
-### SKIPPABLE — Put in "other" section or ignore
+**AI (launches & substance):**
+- New model releases from any lab (Anthropic, OpenAI, Google, Meta, Chinese labs)
+- Significant model updates, benchmarks, capability jumps
+- AI safety incidents, jailbreaks, prompt injection research
+- AI + security intersection (LLM vulns, AI-assisted attacks, AI in defense)
+- Developer tool launches (agents, APIs, frameworks)
+- Regulatory actions with real impact on AI deployment
 
-- Generic enterprise IT (AWS cost optimization, cloud migration tips)
+### SKIPPABLE — list in digest but don't draft a post
+
+- Generic breach disclosures without technical substance ("X company got hacked")
+- Regional/local incidents (city government ransomware, single-org phishing)
+- Individual phishing kits without novel technique
+- Ransomware victim disclosures without TTPs or IOCs
+- "FBI/CISA warns" advisories without new IOCs or technical guidance
+- Generic enterprise IT (cloud migration, cost optimization)
 - Marketing content disguised as news
-- Product launch announcements for non-security SaaS
-- Routine patch Tuesday items unless critical
 - Opinion pieces without news value
 - Recruitment or career content
-- Repeated coverage of the same story across multiple sources (pick the best source, skip duplicates)
+- Duplicate coverage (pick the best source, skip the rest)
+- Routine patch Tuesday unless a single CVE is critical + exploited

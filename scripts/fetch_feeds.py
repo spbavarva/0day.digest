@@ -69,7 +69,7 @@ FEED_LINE = re.compile(r"^\s*[-*]\s+(?P<name>.+?)\s*[—–\-:]\s*(?P<url>https?
 
 
 def parse_sources(path: Path) -> list[tuple[str, str, str]]:
-    """Return list of (section, name, url) from rss-sources.md. Stops at Twitter/rules sections."""
+    """Return list of (section, name, url) from rss-sources.md. Skips Removed/rules sections."""
     feeds: list[tuple[str, str, str]] = []
     section = "Uncategorized"
     skip_section = False
@@ -79,11 +79,12 @@ def parse_sources(path: Path) -> list[tuple[str, str, str]]:
             section = line[3:].strip()
             low = section.lower()
             skip_section = (
-                "twitter" in low or "manual" in low
+                "removed" in low or "manual" in low or "twitter" in low
                 or "relevant" in low or "skippable" in low
             )
             continue
         if line.startswith("### "):
+            section = line[4:].strip()
             continue
         if skip_section:
             continue
@@ -257,8 +258,12 @@ def dedupe(items: list[dict], seen: dict[str, str]) -> tuple[list[dict], int, in
 SECTION_PRIORITY = {
     "Cybersecurity — Primary": 0,
     "Cybersecurity — Research & Threat Intel": 1,
-    "AI / Model Launches": 2,
-    "Mixed / General Tech Security": 3,
+    "AI — Labs & Model Launches": 2,
+    "AI — News & Analysis": 3,
+    "Twitter / X (via RSSHub bridge)": 4,
+    "AI Labs & Figures": 4,
+    "Security Researchers & Builders": 4,
+    "Government / Advisory": 3,
 }
 
 
