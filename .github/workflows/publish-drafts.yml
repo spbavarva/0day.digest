@@ -1,0 +1,52 @@
+name: Publish Drafts
+
+# When a digest PR is merged (or any other push touches _drafts/),
+# walk _drafts/ and promote approved candidates into _posts/.
+# The existing pages-deploy.yml picks up the promote commit and ships the site.
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - "_drafts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-drafts
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Use the default GITHUB_TOKEN for the follow-up push.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Promote drafts
+        run: python3 scripts/promote_drafts.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts _drafts
+          if git diff --quiet --cached; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(publish): promote approved drafts"
+          git push
