@@ -66,6 +66,16 @@ RSS.app.
 - @ProjectDiscovery — nuclei, security tooling
 - @PortSwigger — web security research
 
+## Cloud Security & Infrastructure
+
+- AWS Security Blog — https://aws.amazon.com/blogs/security/feed/
+- AWS News Blog — https://aws.amazon.com/blogs/aws/feed/
+- Google Cloud Security — https://cloudblog.withgoogle.com/products/identity-security/rss/
+
+> **No RSS available:** Wiz, Datadog, Upwind, Orca, Sysdig, Aqua Security,
+> Azure/MSRC. Most cloud security vendors don't publish RSS feeds.
+> Their news typically surfaces via the Primary cybersec feeds above.
+
 ## Government / Advisory
 
 - CISA Alerts — https://www.cisa.gov/cybersecurity-advisories/all.xml
@@ -96,6 +106,14 @@ These were in the original list but no longer resolve:
 - Offensive/defensive tool releases with real utility
 - Major breaches ONLY if technically interesting or > 100k users
 - Source code leaks, credential exposures
+
+**Cloud (AWS, GCP, Azure):**
+- New cloud service launches with security implications
+- IAM misconfigurations, privilege escalation, cross-account attacks
+- Container/Kubernetes security findings
+- Cloud-native security tool releases (Wiz, Datadog, Upwind, Orca findings)
+- Cloud provider security incidents or outages
+- CSPM/CNAPP/CWPP tool capabilities that matter to practitioners
 
 **AI (launches & substance):**
 - New model releases from any lab (Anthropic, OpenAI, Google, Meta, Chinese labs)

@@ -79,7 +79,7 @@ Body: 5-10 lines max. Factual, no marketing voice.
 
 - Never push to git or deploy anything from local runs — CI handles that.
 - Keep post bodies SHORT — 5-10 lines max for Daily Signal.
-- Use tags from this approved list when possible: `supply-chain`, `ransomware`, `phishing`, `xss`, `sqli`, `rce`, `ssrf`, `privilege-escalation`, `data-breach`, `zero-day`, `ai-launch`, `model-release`, `ai-safety`, `llm`, `vulnerability`, `cve`, `malware`, `cloud-security`, `appsec`, `devsecops`, `anthropic`, `openai`, `google`, `microsoft`, `aws`, `pypi`, `npm`, `github`.
+- Use tags from this approved list when possible: `supply-chain`, `ransomware`, `phishing`, `xss`, `sqli`, `rce`, `ssrf`, `privilege-escalation`, `data-breach`, `zero-day`, `ai-launch`, `model-release`, `ai-safety`, `llm`, `vulnerability`, `cve`, `malware`, `cloud-security`, `appsec`, `devsecops`, `container-security`, `kubernetes`, `iam`, `cspm`, `anthropic`, `openai`, `google`, `microsoft`, `aws`, `gcp`, `azure`, `datadog`, `wiz`, `upwind`, `pypi`, `npm`, `github`, `deepseek`, `meta`.
 - If a new tag is clearly needed, create it — keep it lowercase and hyphenated.
 - `must_know: true` only for severity=critical AND (supply-chain | zero-day under active exploit | source/credential leak | breach > 10k users). When in doubt, leave it false.
 - Never fabricate details not present in the feed summary. A shorter post is better than an invented one.

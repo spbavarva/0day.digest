@@ -258,12 +258,10 @@ def dedupe(items: list[dict], seen: dict[str, str]) -> tuple[list[dict], int, in
 SECTION_PRIORITY = {
     "Cybersecurity — Primary": 0,
     "Cybersecurity — Research & Threat Intel": 1,
-    "AI — Labs & Model Launches": 2,
-    "AI — News & Analysis": 3,
-    "Twitter / X (via RSSHub bridge)": 4,
-    "AI Labs & Figures": 4,
-    "Security Researchers & Builders": 4,
-    "Government / Advisory": 3,
+    "Cloud Security & Infrastructure": 2,
+    "AI — Labs & Model Launches": 3,
+    "AI — News & Analysis": 4,
+    "Government / Advisory": 4,
 }
 
 
