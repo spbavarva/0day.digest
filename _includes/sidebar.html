@@ -18,25 +18,36 @@
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
-      <!-- home -->
-      <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+      <li class="nav-item{% if page.url == '/' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
-      <!-- the real tabs -->
-      {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
-      {% endfor %}
+      <li class="nav-item{% if page.url == '/daily-signal/' or page.url contains '/daily-signal/page/' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/daily-signal/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-bolt"></i>
+          <span>DAILY SIGNAL</span>
+        </a>
+      </li>
+      <li class="nav-item{% if page.url == '/must-know/' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/must-know/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-exclamation-triangle"></i>
+          <span>MUST-KNOW</span>
+        </a>
+      </li>
+      <li class="nav-item{% if page.url == '/threat-research/' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/threat-research/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-microscope"></i>
+          <span>THREAT RESEARCH</span>
+        </a>
+      </li>
+      <li class="nav-item{% if page.url == '/about/' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/about/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-info-circle"></i>
+          <span>ABOUT</span>
+        </a>
+      </li>
     </ul>
   </nav>
 

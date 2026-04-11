@@ -105,8 +105,6 @@ pwa:
     enabled: true
     deny_paths:
 
-paginate: 8
-
 pagination:
   enabled: true
   per_page: 8
