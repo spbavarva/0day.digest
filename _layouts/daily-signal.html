@@ -9,7 +9,7 @@ layout: page
     <p class="masthead__sub">A daily journal at the intersection of AI and cybersecurity.</p>
   </header>
 
-  {% assign daily = site.posts | where_exp: "p", "p.categories contains 'Daily Signal'" %}
+  {% assign daily = paginator.posts | default: site.posts | where_exp: "p", "p.categories contains 'Daily Signal'" %}
 
   {% assign last_date = "" %}
   {% for post in daily %}
@@ -24,5 +24,23 @@ layout: page
 
   {% if daily.size == 0 %}
     <p class="feed-empty">No signal yet. Quiet day on the wire.</p>
+  {% endif %}
+
+  {% if paginator and paginator.total_pages > 1 %}
+    <nav class="signal-pager" aria-label="pagination">
+      {% if paginator.previous_page %}
+        <a class="signal-pager__link" href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+      {% else %}
+        <span class="signal-pager__link signal-pager__link--disabled">← Newer</span>
+      {% endif %}
+
+      <span class="signal-pager__status">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+      {% if paginator.next_page %}
+        <a class="signal-pager__link" href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+      {% else %}
+        <span class="signal-pager__link signal-pager__link--disabled">Older →</span>
+      {% endif %}
+    </nav>
   {% endif %}
 </section>
