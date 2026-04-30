@@ -1,0 +1,567 @@
+{
+  "generated_at": "2026-04-29T18:10:23.242039+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 43,
+  "seen_skipped": 1,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 5,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "published": "2026-04-29T18:03:05+00:00",
+      "summary": "The Musk v. Altman trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some high-level takeaways: [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Ubuntu\u2019s AI plans have Linux users looking for a &#8216;kill switch&#8217;",
+      "url": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
+      "published": "2026-04-29T17:32:02+00:00",
+      "summary": "Canonical's plan to add AI features to Ubuntu has some users asking for \"a version of Ubuntu that does not include these features,\" while others say they'll stick with older versions of the Linux distro or even switch to a different one. After Canonical's announcement earlier this week that it's bringing AI features to Ubuntu, [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Hugging Face Blog",
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "published": "2026-04-29T16:45:09+00:00",
+      "summary": ""
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Google Photos uses AI to make the iconic closet from \u2018Clueless\u2019 a reality",
+      "url": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
+      "published": "2026-04-29T16:42:33+00:00",
+      "summary": "Google recreates Cher's closet from \"Clueless\" with AI."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "More Gemini features are coming to Google TV",
+      "url": "https://techcrunch.com/2026/04/29/more-gemini-features-are-coming-to-google-tv/",
+      "published": "2026-04-29T16:40:49+00:00",
+      "summary": "Google TV just got more Gemini features, including the ability to transform photos and videos with tools Nano Banana and Veo."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "published": "2026-04-29T16:26:00+00:00",
+      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign \u2013 calling itself the mini Shai-Hulud \u2013 has affected the following packages associated with SAP's JavaScript and cloud application"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Google Photos launches an AI try-on feature for clothes you already have",
+      "url": "https://www.theverge.com/tech/920420/google-photos-ai-try-on-wardrobe",
+      "published": "2026-04-29T16:00:00+00:00",
+      "summary": "Google Photos is launching a new AI-powered feature you can use to virtually try on clothes you already have. Using the photos in your gallery, Google will create a virtual \"wardrobe,\" allowing you to mix and match outfits, save the looks you like, and share them with friends. A video shared by Google shows how [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
+      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+      "published": "2026-04-29T15:51:44+00:00",
+      "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "European Commission accuses Meta of breaching child safety rules",
+      "url": "https://therecord.media/european-commission-accuses-meta-of-breaching-digital-child-safety-laws",
+      "published": "2026-04-29T15:47:00+00:00",
+      "summary": "The platforms allegedly flouted the bloc\u2019s Digital Services Act (DSA) by \u201cfailing to diligently identify, assess and mitigate the risks of minors under 13 years old accessing their services,\u201d the commission said."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Vect 2.0 Ransomware Acts as Wiper, Thanks to Design Error",
+      "url": "https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error",
+      "published": "2026-04-29T15:23:53+00:00",
+      "summary": "The emerging ransomware has been deployed against victims of the TeamPCP supply chain attacks, but organizations should think twice before paying for a decryptor."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Hugging Face Blog",
+      "title": "Granite 4.1 LLMs: How They\u2019re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "published": "2026-04-29T15:01:48+00:00",
+      "summary": ""
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Tumbler Ridge families are suing OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920479/tumbler-ridge-chagpt-openai-lawsuit",
+      "published": "2026-04-29T14:47:57+00:00",
+      "summary": "Seven families of victims injured or killed in the Tumbler Ridge school shooting in Canada have filed lawsuits against OpenAI and CEO Sam Altman, accusing the company and its leadership of negligence after they failed to alert police to the suspected shooter's ChatGPT activity. The families allege OpenAI stayed silent after its systems flagged activity [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "ChatGPT downloads are slowing \u2014 and may cause problems for OpenAI&#8217;s IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920476/openai-chatgpt-downloads-slow-down-ipo",
+      "published": "2026-04-29T14:43:41+00:00",
+      "summary": "ChatGPT is struggling to keep up its once-explosive growth as users uninstall the app or opt for rival chatbots instead. According to data from market intelligence firm Sensor Tower, ChatGPT experienced a 132 percent increase in uninstalls year over year in April. Its uninstall rate was even higher last month, up 413 percent year-over-year, following [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "published": "2026-04-29T14:43:00+00:00",
+      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).\nThe package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "European police dismantles \u20ac50 million crypto investment fraud ring",
+      "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+      "published": "2026-04-29T14:27:36+00:00",
+      "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over \u20ac50 million ($58.5 million) to victims worldwide. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Swiss police arrest 10 suspected members of Nigeria-linked crime group Black Axe",
+      "url": "https://therecord.media/black-axe-switzerland-germany-cyber",
+      "published": "2026-04-29T14:15:00+00:00",
+      "summary": "Swiss and German law enforcement have arrested 10 suspected members of the Nigerian criminal network Black Axe, including a regional leader believed to oversee operations in Southern Europe."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Larry\u2019s risky business",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920378/oracle-openai-datacenter-buildout",
+      "published": "2026-04-29T13:57:16+00:00",
+      "summary": "If you want to know whether the AI bubble is bursting, there's only one publicly traded company that will tell you: Oracle. That's right, the database company. Oracle has burned its boats and pivoted to AI, but not in any kind of usual way. It is not a foundation model builder like OpenAI or Anthropic, [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Firestorm Labs raises $82M to take drone factories into the field",
+      "url": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
+      "published": "2026-04-29T13:10:57+00:00",
+      "summary": "A defense startup just raised $82 million to put drone factories inside shipping containers and bring manufacturing to the front lines."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "published": "2026-04-29T13:05:14+00:00",
+      "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure",
+      "url": "https://www.securityweek.com/fresh-litellm-vulnerability-exploited-shortly-after-disclosure/",
+      "published": "2026-04-29T13:04:05+00:00",
+      "summary": "The vulnerability allows attackers to read data from a LiteLLM proxy\u2019s database and potentially modify it.\nThe post Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Lotus Wiper Attack Targets Venezuelan Energy Firms, Utilities",
+      "url": "https://www.darkreading.com/cyber-risk/lotus-wiper-attack-targeted-venezuelan-energy-firms-utilities",
+      "published": "2026-04-29T13:00:00+00:00",
+      "summary": "An analysis of the destructive malware reveals sophisticated living-off-the-land (LotL) techniques and detailed strategies for the widespread deletion of data."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Meet Shapes, the app bringing humans and AI into the same group chats",
+      "url": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
+      "published": "2026-04-29T13:00:00+00:00",
+      "summary": "Think Discord chats, but with AI characters in addition to humans."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Taylor Swift deepfakes are pushing scams on TikTok",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920351/ai-celebrity-deepfake-ads-tiktok-copyleaks",
+      "published": "2026-04-29T13:00:00+00:00",
+      "summary": "Scammers are using AI-generated videos of celebrities including Taylor Swift and Rihanna to promote shady services on TikTok, according to authentication company Copyleaks. The ads typically show celebrities in interview settings, such as red carpets, podcasts, or talk shows, and often manipulate real footage with AI, the company said. Many promote rewards programs claiming users [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+      "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "published": "2026-04-29T12:41:17+00:00",
+      "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854)\u00a0that could have allowed\u00a0attackers to access millions of private repositories. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Hundreds of Internet-Facing VNC Servers Expose ICS/OT",
+      "url": "https://www.securityweek.com/hundreds-of-internet-facing-vnc-servers-expose-ics-ot/",
+      "published": "2026-04-29T12:03:40+00:00",
+      "summary": "Forescout has identified tens of thousands of exposed RDP and VNC servers that can be mapped to specific industries.\nThe post Hundreds of Internet-Facing VNC Servers Expose ICS/OT appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "published": "2026-04-29T12:02:00+00:00",
+      "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing better phishing emails anymore. We\u2019re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.\nThe problem? Most defensive workflows"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "Adapting Zero Trust Principles to Operational Technology",
+      "url": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
+      "published": "2026-04-29T12:00:00+00:00",
+      "summary": "Adapting Zero Trust Principles to Operational Technology\nCISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released Adapting Zero Trust Principles to Operational Technology, joint guidance for organizations applying zero trust (ZT) principles to operational technology (OT). Zero trust is a modern, adaptive approach to cybersecurity that eliminates implicit trust and requires continuously validating access based on identity, context, and risk.\nWith advancements in technology, OT systems that were traditionally isola"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "published": "2026-04-29T11:30:00+00:00",
+      "summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"\nCrickets.\nThe room goes quiet because an honest answer requires context \u2013 which is something that patch counts and CVSS scores were never designed to provide. Exposure"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Checkmarx Confirms Data Stolen in Supply Chain Attack",
+      "url": "https://www.securityweek.com/checkmarx-confirms-data-stolen-in-supply-chain-attack/",
+      "published": "2026-04-29T11:03:03+00:00",
+      "summary": "The hackers exfiltrated the data from Checkmarx\u2019s GitHub environment on March 30, a week after publishing malicious code.\nThe post Checkmarx Confirms Data Stolen in Supply Chain Attack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Trail of Bits",
+      "title": "Extending Ruzzy with LibAFL",
+      "url": "https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/",
+      "published": "2026-04-29T11:00:00+00:00",
+      "summary": "LibAFL is all the rage in the fuzzing community these days, especially with LLVM\u2019s libFuzzer being placed in maintenance mode. Written in Rust, LibAFL claims improved performance, modularity, state-of-the-art fuzzing techniques, and libFuzzer compatibility. For these reasons, I set out to add LibAFL support to Ruzzy, our coverage-guided fuzzer for pure Ruby code and Ruby C extensions. This gives Ruby developers and security researchers access to a more advanced and actively maintained fuzzing engine without changing how they write their fuzzing harnesses.\nRuzzy was originally built on top of L"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "China freezes new robotaxi licenses after Baidu chaos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920312/china-suspends-autonomous-vehicle-permits-baidu-chaos",
+      "published": "2026-04-29T10:39:21+00:00",
+      "summary": "China has suspended new licenses for autonomous vehicles, Bloomberg reports, citing unnamed people familiar with the matter. The move comes after dozens of robotaxis operated by Chinese tech giant Baidu ground to a halt in traffic last month in Wuhan, creating chaos. The restrictions will prevent companies from adding new driverless cars to their fleets, [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Iranian Cyber Group Handala Targets US Troops in Bahrain",
+      "url": "https://www.securityweek.com/iranian-cyber-group-handala-targets-us-troops-in-bahrain/",
+      "published": "2026-04-29T10:35:36+00:00",
+      "summary": "US service members received WhatsApp messages claiming they would be targeted with drones and missiles.\nThe post Iranian Cyber Group Handala Targets US Troops in Bahrain appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+      "published": "2026-04-29T10:29:31+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "GitHub rushed to fix a critical vulnerability in less than six hours",
+      "url": "https://www.theverge.com/news/920295/github-remote-code-execution-vulnerability-fix",
+      "published": "2026-04-29T10:04:25+00:00",
+      "summary": "GitHub employees fixed a critical remote code execution vulnerability in less than six hours last month. Wiz Research used AI models to uncover a vulnerability in GitHub's internal git infrastructure that could have allowed attackers to access millions of public and private code repositories. \"Our security team immediately began validating the bug bounty report. Within [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Cisco Talos",
+      "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
+      "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/",
+      "published": "2026-04-29T10:00:42+00:00",
+      "summary": "Just as AI brings time-saving advantages to our lives, it\u00a0brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "38 Vulnerabilities Found in OpenEMR Medical Software",
+      "url": "https://www.securityweek.com/38-vulnerabilities-found-in-openemr-medical-software/",
+      "published": "2026-04-29T09:54:17+00:00",
+      "summary": "Some of the vulnerabilities discovered by Aisle can be exploited to access and alter sensitive patient information.\nThe post 38 Vulnerabilities Found in OpenEMR Medical Software appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Colby Adcock\u2019s Scout AI raises $100M to train its models for war: We visited its bootcamp",
+      "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+      "published": "2026-04-29T09:45:00+00:00",
+      "summary": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Critical cPanel Authentication Vulnerability Identified \u2014 Update Your Server Immediately",
+      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "published": "2026-04-29T09:37:00+00:00",
+      "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software.\nThe problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions -\n\n11.110.0.97\n11.118.0.63\n11.126.0.54\n11.132.0.29"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Chrome 147, Firefox 150 Security Updates Rolling Out",
+      "url": "https://www.securityweek.com/chrome-147-firefox-150-security-updates-rolling-out/",
+      "published": "2026-04-29T09:24:29+00:00",
+      "summary": "The browser refreshes resolve critical and high-severity vulnerabilities that could lead to arbitrary code execution.\nThe post Chrome 147, Firefox 150 Security Updates Rolling Out appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+      "published": "2026-04-29T08:46:00+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\n\nCVE-2024-1708 (CVSS score: 8.4) - A path traversal vulnerability in&nbsp; ConnectWise ScreenConnect"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft says backend change broke Teams Free chat and calls",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
+      "published": "2026-04-29T08:38:07+00:00",
+      "summary": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical GitHub Vulnerability Exposed Millions of Repositories",
+      "url": "https://www.securityweek.com/critical-github-vulnerability-exposed-millions-of-repositories/",
+      "published": "2026-04-29T06:27:49+00:00",
+      "summary": "The remote code execution flaw CVE-2026-3854 was found to impact GitHub.com and GitHub Enterprise Server.\nThe post Critical GitHub Vulnerability Exposed Millions of Repositories appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+      "published": "2026-04-29T05:34:00+00:00",
+      "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge.\nThe vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying"
+    }
+  ]
+}
