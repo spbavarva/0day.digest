@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-04-30T18:08:21.835266+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 50,
+  "seen_skipped": 4,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "published": "2026-04-30T18:03:57+00:00",
+      "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Cisco Talos",
+      "title": "Great responsibility, without great power",
+      "url": "https://blog.talosintelligence.com/great-responsibility-without-great-power/",
+      "published": "2026-04-30T18:00:07+00:00",
+      "summary": "In this week\u2019s newsletter, Hazel uses International Superhero Day as a springboard to explore why empathy \u2014 rather than just technical prowess \u2014 is the most essential, underrated superpower for navigating the human side of cybersecurity."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
+      "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+      "published": "2026-04-30T17:53:53+00:00",
+      "summary": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red tape."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Google\u2019s Gemini AI assistant is hitting the road in millions of vehicles",
+      "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+      "published": "2026-04-30T17:46:54+00:00",
+      "summary": "Google announced on Thursday that it will begin rolling out Gemini to cars with Google built-in, marking a significant upgrade from the current Google Assistant. The move signals Google\u2019s push to bring more advanced, conversational AI into the driving experience. The announcement follows closely behind news from General Motors, which revealed yesterday that Gemini is [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Romanian leader of online swatting ring gets 4 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+      "published": "2026-04-30T17:45:12+00:00",
+      "summary": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+      "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+      "published": "2026-04-30T17:15:19+00:00",
+      "summary": "Link lets users connect cards, banks, and subscriptions, then authorize AI agents to spend securely via approval flows."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Zambia cancels global digital freedoms conference days before start",
+      "url": "https://therecord.media/zabia-cancels-global-digital-freedoms-conference-shortly-before-start",
+      "published": "2026-04-30T17:11:00+00:00",
+      "summary": "On Tuesday, Zambia\u2019s Minister of Technology and Science offered the first hint that the conference would be cancelled, telling a Zambian news outlet that participants\u2019 security clearances were incomplete and that the government has concerns about the conference\u2019s \u201cdialogue.\u201d"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Meta is running get-rich-quick ads for its AI tools",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915970/meta-manus-ai-ads-website-slop",
+      "published": "2026-04-30T16:48:13+00:00",
+      "summary": "Manus, an AI company Meta acquired for $2 billion last year is running ads promising quick, easy money with AI: Find local businesses without websites or with bad websites, have AI build them one, then call them up and sell it to them. As part of the campaign, Manus was paying content creators to build [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Trump\u2019s cyber ambassador nominee advances to full Senate vote",
+      "url": "https://therecord.media/trump-cyber-ambassador-nominee-advances-to-senate",
+      "published": "2026-04-30T16:34:00+00:00",
+      "summary": "Adam Cassady, who was nominated last month to helm the State Department\u2019s Bureau of Cyberspace and Digital Policy, was approved by a vote of 17-5."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+      "published": "2026-04-30T16:32:18+00:00",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reaching nearly $725 million in 2025. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials",
+      "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+      "published": "2026-04-30T16:31:00+00:00",
+      "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an extension of the"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "France investigates 15-year-old over alleged hack of national ID agency",
+      "url": "https://therecord.media/france-investigates-teen-over-national-id-agency-hack",
+      "published": "2026-04-30T16:28:00+00:00",
+      "summary": "The minor was taken into police custody on April 25 on suspicion of involvement in a data breach affecting the National Agency for Secure Documents (ANTS), which processes applications for passports, national identity cards, residence permits and driver\u2019s licenses."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Salesforce is crowdsourcing its AI roadmap \u2014 with customers",
+      "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
+      "published": "2026-04-30T16:06:49+00:00",
+      "summary": "Salesforce lets its customers lead its product roadmap with the thinking that if one enterprise customer has a problem, the others likely do too."
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "Google Cloud Security",
+      "title": "Cloud CISO Perspectives: At Next \u201826, why we\u2019re multicloud and multi-AI",
+      "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-next-26-why-we-re-multicloud-and-multi-ai/",
+      "published": "2026-04-30T16:00:00+00:00",
+      "summary": "Welcome to the second Cloud CISO Perspectives for April 2026. Today, Francis deSouza, COO Google Cloud and President, Security Products, explains why Google is multicloud and multi-AI, straight from Next \u201826.As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog. If you\u2019re reading this on the website and you\u2019d like to receive the email version, you can subscribe here.\n\n    aside_block\n    &lt;ListValue: [StructValue([(&#x27;title&#x27;, &#x27;Get vital board insights with Google Cloud&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText ob"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Gemini is rolling out to cars with Google built-in",
+      "url": "https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade",
+      "published": "2026-04-30T16:00:00+00:00",
+      "summary": "Google is preparing to update vehicles that have Google built-in with its Gemini AI assistant. This will be an upgrade from the current Google Assistant according to Google's announcement, and promises to provide an improved experience for natural conversations, fetching vehicle-specific information, settings adjustments, and more. \"When cars with Google built-in first hit the road [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Here&#8217;s how the new Microsoft and OpenAI deal breaks down",
+      "url": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
+      "published": "2026-04-30T16:00:00+00:00",
+      "summary": "Microsoft's relationship with OpenAI has always been complicated, so I expected the close partnership-turned-situationship to end in tears. After all, executive disagreements, rearranged contracts, and frustrations over AI infrastructure have all regularly been part of the partnership, creating plenty of tension along the way. But against all odds, Microsoft and OpenAI divorced this week in [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "April KB5083769 Windows 11 update causes backup software failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+      "published": "2026-04-30T15:23:03+00:00",
+      "summary": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "X announces a rebuilt ad platform powered by AI",
+      "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
+      "published": "2026-04-30T15:14:55+00:00",
+      "summary": "X is rolling out a rebuilt ads platform powered by AI as it works to grow revenue again."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "All these smart glasses and nothing to do",
+      "url": "https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard",
+      "published": "2026-04-30T15:00:00+00:00",
+      "summary": "I'm currently wearing a pair of smart glasses called the Even Realities G2. Another two pairs, from Rokid, sit on my desk. A few feet away, I've got the Meta Ray-Ban Display charging alongside their Neural Wristband. In my closet are six pairs of $50 smart sunnies that an overzealous Walmart rep sent me. Those [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "SonicWall Urges Immediate Patching of Firewall Vulnerabilities",
+      "url": "https://www.securityweek.com/sonicwall-urges-immediate-patching-of-firewall-vulnerabilities/",
+      "published": "2026-04-30T14:52:20+00:00",
+      "summary": "The bugs could be exploited to bypass security controls, access restricted services, and crash firewalls.\nThe post SonicWall Urges Immediate Patching of Firewall Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "SAP NPM Packages Targeted in Supply Chain Attack",
+      "url": "https://www.securityweek.com/sap-npm-packages-targeted-in-supply-chain-attack/",
+      "published": "2026-04-30T14:27:36+00:00",
+      "summary": "The Mini Shai-Hulud attack introduced a preinstall hook to fetch and execute a Bun binary and bypass security monitoring.\nThe post SAP NPM Packages Targeted in Supply Chain Attack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Krebs on Security",
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "published": "2026-04-30T14:04:26+00:00",
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+      "published": "2026-04-30T14:02:12+00:00",
+      "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+      "published": "2026-04-30T13:55:00+00:00",
+      "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online.\nSecurity is always a moving target. Millions of servers are currently sitting online without any passwords, and"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "New Linux \u2018Copy Fail\u2019 flaw gives hackers root on major distros",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+      "published": "2026-04-30T13:54:47+00:00",
+      "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root permissions. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Oracle Red Bull Racing Team Revs Up Automation to Boost Security",
+      "url": "https://www.darkreading.com/identity-access-management-security/oracle-red-bull-racing-team-revs-up-automation-to-boost-security",
+      "published": "2026-04-30T13:45:58+00:00",
+      "summary": "While drivers race to shave off seconds on the track, the team's IT and engineering staff are speeding up how they deliver security."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "OpenAI talks about not talking about goblins",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
+      "published": "2026-04-30T13:42:29+00:00",
+      "summary": "OpenAI is opening up about its goblin problem. After a report from Wired revealed instructions to OpenAI's coding model to \"never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures,\" the AI startup published an explanation on its website, calling references to the creatures a \"strange habit\" its models developed as [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Moldova\u2019s health insurance agency reports possible data leak after cyberattack",
+      "url": "https://therecord.media/moldova-health-insurance-agency-reports-possible-data-leak-cyberattack",
+      "published": "2026-04-30T13:37:00+00:00",
+      "summary": "The agency said the incident occurred several weeks ago and that technical assessments indicated a possible theft of limited information."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Verified by Spotify badge lets you know this artist isn&#8217;t AI",
+      "url": "https://www.theverge.com/tech/921048/verified-by-spotify-badge",
+      "published": "2026-04-30T13:08:23+00:00",
+      "summary": "Spotify is launching a new verification program to combat spam, fakes, and AI. Some artists will now have a \"Verified by Spotify\" badge and a green checkmark on their profile, indicating that the company has confirmed a real person is behind the music and the profile. At least at launch, Spotify says that AI personas [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+      "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+      "published": "2026-04-30T12:36:00+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts.\n\"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical Gemini CLI Flaw Enabled Host Code Execution, Supply Chain Attacks",
+      "url": "https://www.securityweek.com/critical-gemini-cli-flaw-enabled-host-code-execution-supply-chain-attacks/",
+      "published": "2026-04-30T12:34:05+00:00",
+      "summary": "An attacker could have planted a malicious configuration to execute commands outside the sandbox.\nThe post Critical Gemini CLI Flaw Enabled Host Code Execution, Supply Chain Attacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published": "2026-04-30T12:14:15+00:00",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Meta says its business AI now facilitates 10 million conversations a week",
+      "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+      "published": "2026-04-30T12:08:45+00:00",
+      "summary": "Meta said over 8 billion advertisers have used at least one of its GenAI tools"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB AWIN Gateways",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details.\nThe following versions of ABB AWIN Gateways are affected:\n\nABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0&nbsp;\nABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1&nbsp;\nABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0&nbsp;\nABB AWIN Firmware (1.2-1) installed on ABB AWIN GW120 1.2-1&nbsp;\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB Ability OPTIMAX",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign On integration.\nThe following versions of ABB Ability OPTIMAX are affected:\n\nABB Ability OPTIMAX 6.1 vers:all/*&nbsp;\nABB Ability OPTIMAX 6.2 vers:all/*&nbsp;\nABB Ability OPTIMAX 6.3 &lt;6.3.1-251120&nbsp;\nABB Ability OPTIMAX 6.4 &lt;6.4.1-251120&nbsp;\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.1\nABB\nABB Ability OPTIMAX\nIncorrect Implementation of Authentication Algorithm\n\n\n\n\nBackground\n\nC"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB PCM600",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code.\nThe following versions of ABB PCM600 are affected:\n\nPCM600 &gt;=1.5|&lt;=2.13&nbsp;\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 4.4\nABB\nABB PCM600\nImproper Limitation of a Pathname to a Restricted Directory ('Path Traversal')\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: Switzerland\n\n\nVulnerabilities\n\nExpand All +\n\n"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB Edgenius Management Portal",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary code, uninstall applications, and modify the configuration of installed applications.\nThe following versions of ABB Edgenius Management Portal are affected:\n\nEdgenius Management Portal 3.2.0.0|3.2.1.1\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.6\nABB\nABB Edgenius Management Portal\nAuthentication Bypass Using an Alternate Path or Channel\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical M"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "CISA has added&nbsp;one&nbsp;new&nbsp;vulnerability&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp;\n\nCVE-2026-41940&nbsp;WebPros cPanel &amp; WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability\n\nThis&nbsp;type of vulnerability&nbsp;is a&nbsp;frequent attack vector for malicious cyber actors and poses&nbsp;significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a livi"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB Ability Symphony Plus Engineering",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and earlier versions. If an attacker gains access to a site\u2019s S+ Client Server network, they could exploit such vulnerabilities by executing arbitrary code and potentially compromising the entire system.\nThe following versions of ABB Ability Symphony Plus Engineering are affected:\n\nAbility Symphony Plus 2.2, 2.3, 2.3_RU1, 2.3_RU2, 2.3_RU3, 2.4, 2.4_SP1, 2.4_SP2, 2.4_SP2_RU1&nbsp;\n\n\n\n\n"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "published": "2026-04-30T12:00:00+00:00",
+      "summary": "View CSAF\nSummary\nThis vulnerability was privately reported relating to ABB\u2019s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system products. Note: IEC 61850 communication typically supports MMS and GOOSE protocols. Some ABB products support both, others only MMS (e.g. S+ Operations and PM 877). In any case, GOOSE communication is not impacted by this reported vulnerability. If an attacker gains access to a site\u2019s IEC 61850 network, then exploiting this vulnerability will result in a device fault (PM 877, CI850 and CI868 modules)"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "EnOcean SmartServer Flaws Expose Buildings to Remote Hacking",
+      "url": "https://www.securityweek.com/enocean-smartserver-flaws-expose-buildings-to-remote-hacking/",
+      "published": "2026-04-30T11:57:31+00:00",
+      "summary": "Claroty researchers discovered two vulnerabilities that can be exploited for security bypass and remote code execution.\nThe post EnOcean SmartServer Flaws Expose Buildings to Remote Hacking appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+      "published": "2026-04-30T11:40:31+00:00",
+      "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Meta lost 20 million users last quarter",
+      "url": "https://www.theverge.com/tech/921089/meta-earnings-q1-2026-user-decline-ai-investments",
+      "published": "2026-04-30T11:38:26+00:00",
+      "summary": "Meta is planning to pump billions more into AI investments this year, despite noting that millions of users have seemingly started to abandon its platforms. In an earning call on Wednesday, Meta reported that figures for \"Family daily active people\" - the term Meta has coined for all collective users of Facebook, Instagram, WhatsApp, or [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+      "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+      "published": "2026-04-30T11:30:00+00:00",
+      "summary": "Intro\nA sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating&nbsp;Search Engine Order (SEO)"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+      "published": "2026-04-30T11:21:02+00:00",
+      "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical cPanel & WHM Vulnerability Exploited as Zero-Day for Months",
+      "url": "https://www.securityweek.com/critical-cpanel-whm-vulnerability-exploited-as-zero-day-for-months/",
+      "published": "2026-04-30T11:10:30+00:00",
+      "summary": "The authentication bypass flaw allows attackers to gain administrative access to vulnerable servers.\nThe post Critical cPanel &#038; WHM Vulnerability Exploited as Zero-Day for Months appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "OpenAI\u2019s new security model is for \u2018critical cyber defenders\u2019 only",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921073/openai-sam-altman-new-cybersecurity-model-gpt-5-5-cyber",
+      "published": "2026-04-30T11:09:01+00:00",
+      "summary": "OpenAI is preparing to launch a new frontier cybersecurity model, GPT-5.5-Cyber. CEO Sam Altman said the model will not be available to the general public, but will be first rolled out to a select group of trusted \"cyber defenders\" in order for institutions to shore up their cyberdefenses. The limited rollout will take place \"in [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "The more young people use AI, the more they hate it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920401/gen-z-ai",
+      "published": "2026-04-30T11:00:00+00:00",
+      "summary": "It's been almost three years since Silicon Valley started aggressively pushing large language model-based chatbots like ChatGPT as the supposedly inevitable future of everything, and there's no group that has felt the pressure quite like Gen Z. Like with many tech trends before it, it's no surprise that young people are among the biggest adopters [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "\u2018Copy Fail\u2019 Logic Flaw in Linux Kernel Enables System Takeover",
+      "url": "https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/",
+      "published": "2026-04-30T10:06:00+00:00",
+      "summary": "Affecting the kernel\u2019s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions.\nThe post &#8216;Copy Fail&#8217; Logic Flaw in Linux Kernel Enables System Takeover appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "published": "2026-04-30T09:24:00+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori.\n\"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux"
+    }
+  ]
+}
