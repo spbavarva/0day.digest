@@ -1,0 +1,647 @@
+{
+  "generated_at": "2026-05-06T18:13:52.260288+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 53,
+  "seen_skipped": 1,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 9,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 12,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 5,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "North Korean hackers targeted ethnic Koreans in China with Android \u2018BirdCall\u2019 malware",
+      "url": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
+      "published": "2026-05-07T00:12:00+00:00",
+      "summary": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "published": "2026-05-06T18:06:21+00:00",
+      "summary": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Mira Murati tells the court that she couldn\u2019t trust Sam Altman\u2019s words",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+      "published": "2026-05-06T17:55:53+00:00",
+      "summary": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a new AI model did not [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
+      "url": "https://therecord.media/cisa-initiative-aims-for-critical-infrastructure-to-operate-during-cyberattacks",
+      "published": "2026-05-06T17:26:00+00:00",
+      "summary": "The initiative, named CI Fortify, focuses on isolation and recovery efforts that would see critical infrastructure organizations proactively disconnect from third-party dependencies and find ways to operate without reliable telecommunications and internet."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "SpaceX may spend up to $119B on \u2018Terafab\u2019 chip factory in Texas",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "published": "2026-05-06T17:23:08+00:00",
+      "summary": "The project would be a \"multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,\" according to the proposal."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "published": "2026-05-06T17:20:34+00:00",
+      "summary": "The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a fraction of the compute power and at a fraction of the cost of the big U.S. models like those from OpenAI and Anthropic."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "published": "2026-05-06T16:43:30+00:00",
+      "summary": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "Google Cloud Security",
+      "title": "What's new in IAM: Security, governance, and runtime defense",
+      "url": "https://cloud.google.com/blog/products/identity-security/whats-new-in-iam-security-governance-and-runtime-defense/",
+      "published": "2026-05-06T16:00:00+00:00",
+      "summary": "The AI era demands a fundamental shift in security, and that includes identity and access management (IAM). Traditional controls simply aren\u2019t built for autonomous AI agents that interact with sensitive data at machine speed, a reality we address with our new IAM advancements for the agentic enterprise era.\u00a0\nEngineered as built-in Google Cloud capabilities to secure the rapidly-expanding world of AI agents, at Google Cloud Next we introduced a new security and governance paradigm for managing agent identity and access. This comprehensive framework focuses on foundational Agent Identity and an "
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "Google Cloud Security",
+      "title": "Google named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Cyberthreat Intelligence Technologies",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cyberthreat-intelligence-technologies/",
+      "published": "2026-05-06T16:00:00+00:00",
+      "summary": "At Google, we see firsthand how cyber threats can outpace traditional defense mechanisms \u2014 and how agentic threat intelligence can help bridge the gap. We have a vision for agentic defense where autonomous AI agents, powered by Gemini and fed by our unmatched threat visibility, can reason through complex malware and preemptively neutralize threats at scale. This evolution can help security teams shift from anticipating risks to autonomously disrupting attack chains in real-time, effectively out-maneuvering adversaries before they can strike.\nWe are proud to announce that Gartner has named Goog"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Google AI Blog",
+      "title": "5 gardening tips you can try right in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "published": "2026-05-06T16:00:00+00:00",
+      "summary": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifying glass."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Live blog: Code w/ Claude 2026",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+      "published": "2026-05-06T15:58:27+00:00",
+      "summary": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day.\n    \n        Tags: ai, generative-ai, llms, anthropic, claude, claude-code, live-blog"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Google updates AI search to include quotes from Reddit and other sources",
+      "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+      "published": "2026-05-06T15:49:39+00:00",
+      "summary": "While citing web forums and discussion boards can help users find answers to more niche queries, this design choice could also prove chaotic."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "published": "2026-05-06T15:46:38+00:00",
+      "summary": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing complex tasks."
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS News Blog",
+      "title": "The AWS MCP Server is now generally available",
+      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+      "published": "2026-05-06T15:36:44+00:00",
+      "summary": "AWS announces the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server that gives AI agents and coding assistants secure, authenticated access to all AWS services. The AWS MCP Server is part of the Agent Toolkit for AWS, a suite of tooling that includes the MCP Server, skills, and plugins that help coding agents build more effectively and efficiently on AWS."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Tinder owner Match Group is slowing hiring to pay for its increased use of AI tools",
+      "url": "https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/",
+      "published": "2026-05-06T15:27:36+00:00",
+      "summary": "Match Group said that it's slowing its hiring plans for the rest of the year because AI tools \"cost a lot of money.\""
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Flashpoint",
+      "title": "2026 Gartner\u00ae Magic Quadrant\u2122 for Cyber Threat Intelligence: Key Takeaways for Security Leaders",
+      "url": "https://flashpoint.io/blog/2026-gartner-magic-quadrant-for-cyber-threat-intelligence-key-takeaways-for-security-leaders/",
+      "published": "2026-05-06T15:14:30+00:00",
+      "summary": "We are proud to share that Flashpoint has been named a Challenger in the inaugural 2026 Gartner\u00ae Magic Quadrant\u2122 for Cyber Threat Intelligence Technologies.\u00a0\nThe post 2026 Gartner\u00ae Magic Quadrant\u2122 for Cyber Threat Intelligence: Key Takeaways for Security Leaders appeared first on Flashpoint."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple to pay $250M to settle lawsuit over Siri\u2019s delayed AI features",
+      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+      "published": "2026-05-06T15:12:49+00:00",
+      "summary": "Apple has agreed to pay $250 million to settle a class action lawsuit for overpromising the arrival of Siri's AI features."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Ethos raises $22.75M from a16z for its expert network with voice onboarding",
+      "url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
+      "published": "2026-05-06T15:00:00+00:00",
+      "summary": "Ethos says it is onboarding 35,000 experts per week."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Autonomous Offensive Security Firm XBOW Raises $35 Million",
+      "url": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/",
+      "published": "2026-05-06T14:49:33+00:00",
+      "summary": "The company raised another $35 million as an extension to its previously announced Series C funding round.\nThe post Autonomous Offensive Security Firm XBOW Raises $35 Million appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "At TechCrunch Disrupt 2026, all your M&A questions will be answered",
+      "url": "https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered/",
+      "published": "2026-05-06T14:30:00+00:00",
+      "summary": "Leaders from Coinbase, M13, and Mignano Law Group talk about how M&#038;A is an early-stage strategy at TechCrunch Disrupt 2026. Register to hear this live."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+      "published": "2026-05-06T14:24:08+00:00",
+      "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison. Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work.\nOne thing I really enjoy about podcasts is that they sometimes push me to think out loud in a way that exposes an idea I've not previously been able to put into words.\nVibe coding and agentic engineering are starting to overlap\nA few weeks after vibe coding was first coined I published Not all "
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Why ransomware attacks succeed even when backups exist",
+      "url": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
+      "published": "2026-05-06T14:04:14+00:00",
+      "summary": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "3 days left to\u00a0lock in 50% off a second ticket to TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/05/06/3-days-left-to-lock-in-50-off-a-second-ticket-to-techcrunch-disrupt-2026/",
+      "published": "2026-05-06T14:00:00+00:00",
+      "summary": "Three days left to\u00a0lock in 50% off a second ticket to Disrupt 2026. Buy one TechCrunch Disrupt 2026 ticket, and get a second ticket at 50% off. Gain more visibility in the tech industry. Offer ends May 8 at 11:59 p.m. PT."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "AI boom pushes Samsung to $1T",
+      "url": "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+      "published": "2026-05-06T13:54:09+00:00",
+      "summary": "Samsung crossed the $1 trillion valuation mark after shares surged on AI-driven chip demand, making it only the second Asian company after TSMC to hit the milestone."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Herd Security Raises $3 Million for AI-Powered Training Platform",
+      "url": "https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/",
+      "published": "2026-05-06T13:30:00+00:00",
+      "summary": "The startup will invest in expanding its training categories, optimizing video generation, and growing its partnership ecosystem.\nThe post Herd Security Raises $3 Million for AI-Powered Training Platform appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "published": "2026-05-06T13:02:52+00:00",
+      "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on \u00a0Microsoft Teams social engineering to gain access and establish persistence. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "OceanLotus suspected of using PyPI to deliver ZiChatBot malware",
+      "url": "https://securelist.com/oceanlotus-suspected-pypi-zichatbot-campaign/119603/",
+      "published": "2026-05-06T13:00:34+00:00",
+      "summary": "Kaspersky researchers uncovered malicious wheel packages in PyPI that targeted both Windows and Linux and contained a dropper delivering malware dubbed ZiChatBot. We attribute this activity to OceanLotus APT."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Google&#8217;s AI search summaries will now quote Reddit",
+      "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
+      "published": "2026-05-06T13:00:30+00:00",
+      "summary": "Google is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview of perspectives\" from firsthand sources like social media, Reddit, and other web forums, effectively linking your search queries with online conversations around similar topics. [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+      "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+      "published": "2026-05-06T13:00:00+00:00",
+      "summary": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation.\nThe attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Iranian APT Intrusion Masquerades as Chaos Ransomware Attack",
+      "url": "https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/",
+      "published": "2026-05-06T13:00:00+00:00",
+      "summary": "Likely perpetrated by MuddyWater, the attack combined social engineering, persistence, credential harvesting, and data theft.\nThe post Iranian APT Intrusion Masquerades as Chaos Ransomware Attack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Webinar: Why network incidents escalate and how to fix response gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+      "published": "2026-05-06T12:56:32+00:00",
+      "summary": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Hackers compromise Daemon Tools in global supply-chain attack, researchers say",
+      "url": "https://therecord.media/hackers-compromise-daemon-tools-global-supply-chain-attack",
+      "published": "2026-05-06T12:45:00+00:00",
+      "summary": "Researchers at Kaspersky said attackers tampered with installers for Daemon Tools \u2014 a popular program used to mount disk images as virtual drives \u2014 and distributed them through the software\u2019s official website."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' \u2014 Submissions Now Open",
+      "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+      "published": "2026-05-06T12:03:00+00:00",
+      "summary": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace \u2014 big hacks, broken systems, and new threats.\nBut behind every headline, there\u2019s a quieter, better story.\nIt\u2019s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 \u2014 even when it\u2019s hard.\nMost of the time, this work is"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber",
+      "url": "https://www.darkreading.com/threat-intelligence/stuxnet-chatgpt-20-news-events-cyber",
+      "published": "2026-05-06T12:00:00+00:00",
+      "summary": "As part of its 20th anniversary celebration, Dark Reading looks back on 20 of the biggest newsmaking events from the past two decades that influenced the risk landscape for today's cybersecurity teams."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago",
+      "url": "https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/",
+      "published": "2026-05-06T11:57:40+00:00",
+      "summary": "Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026.\nThe post Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Microsoft\u2019s Office and LinkedIn chief now runs Teams in latest reshuffle",
+      "url": "https://www.theverge.com/tech/924931/microsoft-office-copilot-windows-reorg-shuffle",
+      "published": "2026-05-06T11:45:41+00:00",
+      "summary": "Microsoft's LinkedIn chief, Ryan Roslansky, took on an expanded role at the company as head of Office last year, and he's now getting more responsibilities as part of the latest leadership reshuffle inside Microsoft. Sources tell me that the Microsoft Teams organization is moving to report to Roslansky, who will now lead a new Work [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+      "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+      "published": "2026-05-06T10:57:00+00:00",
+      "summary": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that \u201centerprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.\u201d Enterprise leaders can request access to the Gartner Market Guide for"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Attacks Abuse Windows Phone Link to Steal Texts &amp; Bypass 2FA",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa",
+      "published": "2026-05-06T10:30:27+00:00",
+      "summary": "In hard-to-detect attacks, hackers are dropping the CloudZ RAT and a fresh plugin, Pheno, to hijack the Windows-based bridge between PCs and smartphones."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "CISA Launches \u2018CI Fortify\u2019 to Prepare Critical Infrastructure for Geopolitical Cyber Conflict",
+      "url": "https://www.securityweek.com/cisa-critical-infrastructure-must-master-isolation-recovery/",
+      "published": "2026-05-06T10:15:34+00:00",
+      "summary": "Agency issued guidance and calls on operators to build resilient OT environments capable of surviving extended isolation and cyber compromise.\nThe post CISA Launches \u2018CI Fortify\u2019 to Prepare Critical Infrastructure for Geopolitical Cyber Conflict appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Chrome\u2019s AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "published": "2026-05-06T10:13:09+00:00",
+      "summary": "Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that, in some cases, is being automatically downloaded to the browser's system folders. Users who have noticed unexplained drops in their available desktop device storage are now discovering that Chrome is installing a 4GB weights.bin [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Cisco Talos",
+      "title": "Insights into the clustering and reuse of phone numbers in scam emails",
+      "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
+      "published": "2026-05-06T10:00:12+00:00",
+      "summary": "Talos has recently\u00a0started to collect and gather intelligence around phone numbers\u00a0within emails\u00a0as an\u00a0additional\u00a0indicator of compromise (IOC).\u00a0In this blog, we discuss\u00a0new insights into\u00a0in-the-wild\u00a0phone number reuse\u00a0in\u00a0scam\u00a0emails."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Sophisticated Quasar Linux RAT Targets Software Developers",
+      "url": "https://www.securityweek.com/sophisticated-quasar-linux-rat-targets-software-developers/",
+      "published": "2026-05-06T09:48:39+00:00",
+      "summary": "The persistent, evasive implant provides remote access, surveillance, and credential exfiltration capabilities.\nThe post Sophisticated Quasar Linux RAT Targets Software Developers appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "Websites with an undefined trust level: avoiding the trap",
+      "url": "https://securelist.com/suspicious-websites-undefined-trust-level/119675/",
+      "published": "2026-05-06T09:30:46+00:00",
+      "summary": "We explain what suspicious websites are and how to distinguish a safe site from a fraudulent one. A new category in Kaspersky solutions: we're sharing global statistics on untrusted site detection."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+      "published": "2026-05-06T09:18:16+00:00",
+      "summary": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+      "published": "2026-05-06T09:13:00+00:00",
+      "summary": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks.\n\"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said.\nThe initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
+      "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+      "published": "2026-05-06T08:34:00+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft.\n\"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\""
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack",
+      "url": "https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/",
+      "published": "2026-05-06T08:33:40+00:00",
+      "summary": "While trojanized Daemon Tools versions were installed worldwide, a sophisticated backdoor was dropped only on a dozen systems.\nThe post Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Peter Sarlin\u2019s QuTwo reaches $380M valuation in angel round",
+      "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/",
+      "published": "2026-05-06T06:47:12+00:00",
+      "summary": "Enterprise AI will be QuTwo\u2019s bread and butter. \u201cAI is the north star that we will continue to aim for. Quantum is just a new type of compute,\u201d said Sarlin, who is adamant that QuTwo is an AI company."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
+      "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
+      "published": "2026-05-06T06:34:32+00:00",
+      "summary": "Wonder wants to turn its robotic kitchens into AI-powered \u201crestaurant factories,\u201d letting anyone spin up a virtual food brand with a prompt."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Oracle Debuts Monthly Critical Security Patch Updates",
+      "url": "https://www.securityweek.com/oracle-debuts-monthly-critical-security-patch-updates/",
+      "published": "2026-05-06T06:32:17+00:00",
+      "summary": "Containing fixes for critical-severity vulnerabilities, the monthly rollouts will focus on addressing priority issues faster.\nThe post Oracle Debuts Monthly Critical Security Patch Updates appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+      "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+      "published": "2026-05-06T06:14:00+00:00",
+      "summary": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Middle East Cyber Battle Field Broadens \u2014 Especially in UAE",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/middle-east-cyber-battle-field-broadens-uae",
+      "published": "2026-05-06T05:30:00+00:00",
+      "summary": "As the war with Iran continues, breach attempts targeting the United Arab Emirates tripled in a few weeks \u2014 many targeting critical infrastructure."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls",
+      "url": "https://www.securityweek.com/palo-alto-networks-to-patch-zero-day-exploited-to-hack-firewalls/",
+      "published": "2026-05-06T04:46:23+00:00",
+      "summary": "CVE-2026-0300 affects the Captive Portal service of PAN-OS software on PA and VM series firewalls.\nThe post Palo Alto Networks to Patch Zero-Day Exploited to Hack Firewalls appeared first on SecurityWeek."
+    }
+  ]
+}
