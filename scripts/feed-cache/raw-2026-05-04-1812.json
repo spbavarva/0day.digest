@@ -1,0 +1,527 @@
+{
+  "generated_at": "2026-05-04T18:12:20.880555+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 38,
+  "seen_skipped": 1,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+      "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+      "published": "2026-05-04T18:06:00+00:00",
+      "summary": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "TRE Python binding \u2014 ReDoS robustness demo",
+      "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+      "published": "2026-05-04T17:52:00+00:00",
+      "summary": "Research: TRE Python binding \u2014 ReDoS robustness demo\n        If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail.\nI had Claude Code build an experimental Python binding (it used ctypes) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking.\n    \n    \n        Tags: security, python, regular-expressions, c, ctypes"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Trellix Source Code Repository Breached",
+      "url": "https://www.securityweek.com/trellix-source-code-repository-breached/",
+      "published": "2026-05-04T17:23:54+00:00",
+      "summary": "The cybersecurity firm\u2019s investigation has not found any impact on its source code release or distribution process.\u00a0\nThe post Trellix Source Code Repository Breached appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Educational company Infrastructure reports cyber incident",
+      "url": "https://therecord.media/infrastructure-education-company-canvas-incident",
+      "published": "2026-05-04T17:19:00+00:00",
+      "summary": "By Saturday, Infrastructure\u2019s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "published": "2026-05-04T17:15:27+00:00",
+      "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS News Blog",
+      "title": "AWS Weekly Roundup: What\u2019s Next with AWS 2026, Amazon Quick, OpenAI partnership, and more (May 4, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026/",
+      "published": "2026-05-04T17:05:41+00:00",
+      "summary": "Last week, I took some time off in York, England, often described as the most haunted city in the country. I wandered through the ruins of abbeys that have stood for nearly a thousand years, walked along medieval walls, and spent an evening on a ghost tour hearing stories passed down through centuries. There\u2019s something [\u2026]"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "published": "2026-05-04T17:00:00+00:00",
+      "summary": "mp4 featuring an underwater video and a mobile AI video mockup."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Elon Musk\u2019s only AI expert witness at the OpenAI trial fears an AGI arms race",
+      "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+      "published": "2026-05-04T16:57:47+00:00",
+      "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "The creator of Roomba is back with a furry robot companion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
+      "published": "2026-05-04T16:51:38+00:00",
+      "summary": "Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines &#38; Magic, is a dog-sized robotic pet that resembles [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
+      "url": "https://therecord.media/forbes-agrees-10-million-settlement-privacy-class-action",
+      "published": "2026-05-04T16:49:00+00:00",
+      "summary": "The preliminary settlement agreement, released on Thursday, said that Forbes has agreed to give users \u201cgreater notice\u201d of its use of trackers and will add language to its website providing  California residents with more control over how their data is collected and shared with third parties."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "published": "2026-05-04T16:45:55+00:00",
+      "summary": "The raise gives Sierra more than $1 billion to work with \u2014 capital the company says it will use to become the \"global standard\" for AI-powered customer experiences."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
+      "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+      "published": "2026-05-04T16:36:03+00:00",
+      "summary": "Musk texted OpenAI's president and co-founder saying that he and CEO Sam Altman \"will be the most hated men in America.\""
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "published": "2026-05-04T16:34:00+00:00",
+      "summary": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass.\nMOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts.&nbsp;\nThe"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Trellix discloses data breach after source code repository hack",
+      "url": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
+      "published": "2026-05-04T16:25:07+00:00",
+      "summary": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "published": "2026-05-04T15:59:24+00:00",
+      "summary": "Both Anthropic and OpenAI have partnered with asset managers to more aggressively market their enterprise AI products."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Redis Array Playground",
+      "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+      "published": "2026-05-04T15:53:57+00:00",
+      "summary": "Tool: Redis Array Playground\n        Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. \nThe new commands are ARCOUNT, ARDEL, ARDELRANGE, ARGET, ARGETRANGE, ARGREP, ARINFO, ARINSERT, ARLASTITEMS, ARLEN, ARMGET, ARMSET, ARNEXT, AROP, ARRING, ARSCAN, ARSEEK, ARSET.\nThe implementation is currently available in a branch, so I had Claude Code for web \nbuild this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser.\n\nThe most interesting new command is ARGREP which can run a server-side grep against a"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Ransomware group claims breach of pro-Orb\u00e1n Hungarian media firm",
+      "url": "https://therecord.media/ransomware-group-claims-breach-of-pro-orban-media-firm",
+      "published": "2026-05-04T15:23:00+00:00",
+      "summary": "Mediaworks confirmed the incident on Friday, warning that \u201ca significant amount of illegally obtained data may have come into the possession of unauthorized persons.\""
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
+      "url": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
+      "published": "2026-05-04T14:39:26+00:00",
+      "summary": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and other malware."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "\u26a1 Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "published": "2026-05-04T14:23:00+00:00",
+      "summary": "This week, the shadows moved faster than the patches.\nWhile most teams were still triaging last month\u2019s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems.\nThe game has shifted from breach to occupation. They\u2019re living inside SaaS sessions, pushing code with trusted commits, and scaling"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "5 days only: Bring a\u00a0partner or\u00a0colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+      "url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+      "published": "2026-05-04T14:00:00+00:00",
+      "summary": "The BOGO offer is live.\u00a0For a limited time, buy one pass to\u00a0TechCrunch Disrupt 2026\u00a0and\u00a0get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "They don\u2019t hack, they borrow: How fraudsters target credit unions",
+      "url": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+      "published": "2026-05-04T13:42:51+00:00",
+      "summary": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Cybersecurity M&A Roundup: 33 Deals Announced in April 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-april-2026/",
+      "published": "2026-05-04T13:02:28+00:00",
+      "summary": "Significant cybersecurity M&#038;A deals announced by Airbus, Cyera, Fortra, Palo Alto Networks, Silverfort, and Socket.\nThe post Cybersecurity M&#038;A Roundup: 33 Deals Announced in April 2026 appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+      "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+      "published": "2026-05-04T13:00:00+00:00",
+      "summary": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "DigiCert Revokes Certificates After Support Portal Hack",
+      "url": "https://www.securityweek.com/digicert-revokes-certificates-after-support-portal-hack/",
+      "published": "2026-05-04T12:46:53+00:00",
+      "summary": "Hackers delivered malware via a customer chat channel, infected an analyst\u2019s system, and accessed the internal support portal.\nThe post DigiCert Revokes Certificates After Support Portal Hack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "published": "2026-05-04T12:18:57+00:00",
+      "summary": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Webinar: Why MSPs must rethink security and backup strategies",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+      "published": "2026-05-04T12:16:24+00:00",
+      "summary": "Security breaches don't just test your defenses\u2014they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "2026: The Year of AI-Assisted Attacks",
+      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "published": "2026-05-04T11:58:00+00:00",
+      "summary": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan\u2019s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pok\u00e9mon cards.\nIn a sense, this is a fairly conventional story."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
+      "url": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+      "published": "2026-05-04T11:57:00+00:00",
+      "summary": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor.\nThe activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities.\n\"Both waves followed a nearly identical"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "CISA says \u2018Copy Fail\u2019 flaw now exploited to root Linux systems",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+      "published": "2026-05-04T11:28:15+00:00",
+      "summary": "CISA has warned that threat actors have started exploiting the\u00a0\"Copy Fail\" Linux security vulnerability in the wild, one day after\u00a0Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "How Dark Reading Lifted Off the Launchpad in 2006",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/how-dark-reading-lifted-off-launchpad-2006",
+      "published": "2026-05-04T11:15:08+00:00",
+      "summary": "Twenty years ago, this media brand didn't have a print edition to attract eyeballs and sponsors. Top-notch content and editorial talent did the heavy lifting."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Exploitation of \u2018Copy Fail\u2019 Linux Vulnerability Begins",
+      "url": "https://www.securityweek.com/exploitation-of-copy-fail-linux-vulnerability-begins/",
+      "published": "2026-05-04T10:42:33+00:00",
+      "summary": "CISA has added the bug to its KEV list, and Microsoft has observed limited exploitation, mainly associated with PoC testing.\nThe post Exploitation of &#8216;Copy Fail&#8217; Linux Vulnerability Begins appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft confirms April Windows updates cause backup failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
+      "published": "2026-05-04T10:40:11+00:00",
+      "summary": "Microsoft has confirmed that\u00a0the April 2026 security updates are causing\u00a0failures in third-party backup applications using the psmounterex.sys driver. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "\u201cLegitimate\u201d phishing: how attackers weaponize Amazon SES to bypass email security",
+      "url": "https://securelist.com/amazon-ses-phishing-and-bec-attacks/119623/",
+      "published": "2026-05-04T10:00:23+00:00",
+      "summary": "Kaspersky expert breaks down a new phishing scheme that uses the Amazon SES cloud email service. Let's look at some examples to see how you can tell a phishing email from a real one."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "OpenAI Rolls Out Advanced Security for ChatGPT Accounts",
+      "url": "https://www.securityweek.com/openai-rolls-out-advanced-security-for-chatgpt-accounts/",
+      "published": "2026-05-04T09:29:30+00:00",
+      "summary": "Advanced Account Security provides stronger login methods, more secure account recovery, shorter sessions, and training exclusion.\nThe post OpenAI Rolls Out Advanced Security for ChatGPT Accounts appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+      "url": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+      "published": "2026-05-04T09:27:00+00:00",
+      "summary": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel.\nThe activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Over 40,000 Servers Compromised in Ongoing cPanel Exploitation",
+      "url": "https://www.securityweek.com/over-40000-servers-compromised-in-ongoing-cpanel-exploitation/",
+      "published": "2026-05-04T08:25:04+00:00",
+      "summary": "The attacks likely target CVE-2026-41940, a recently patched zero-day leading to administrative access.\nThe post Over 40,000 Servers Compromised in Ongoing cPanel Exploitation appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats",
+      "url": "https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/",
+      "published": "2026-05-04T07:02:51+00:00",
+      "summary": "Hackers disrupted services and stole names, email addresses, student ID numbers, and user messages.\nThe post Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+      "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+      "published": "2026-05-04T05:59:00+00:00",
+      "summary": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.\nThe crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal"
+    }
+  ]
+}
