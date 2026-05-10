@@ -1,0 +1,31 @@
+{%- comment -%}
+  "On this page" TOC built from h2/h3 IDs in {{ content }}.
+  Wrapped in <details open> so users can collapse on mobile; on desktop the
+  CSS-grid layout pins it as a sticky right rail (open state forced by CSS).
+{%- endcomment -%}
+
+{%- assign headings = content | split: '<h' -%}
+{%- assign toc_items = '' -%}
+
+{%- for chunk in headings -%}
+  {%- if chunk == '' -%}{%- continue -%}{%- endif -%}
+  {%- assign level = chunk | slice: 0, 1 -%}
+  {%- if level == '2' or level == '3' -%}
+    {%- assign id_start = chunk | split: 'id="' -%}
+    {%- if id_start.size > 1 -%}
+      {%- assign id = id_start[1] | split: '"' | first -%}
+      {%- assign text_start = chunk | split: '>' -%}
+      {%- assign text = text_start[1] | split: '</h' | first | strip_html -%}
+      {%- capture toc_items -%}{{ toc_items }}<li class="research-toc__item research-toc__item--h{{ level }}"><a href="#{{ id }}">{{ text }}</a></li>{%- endcapture -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if toc_items != '' -%}
+<details class="research-toc" open>
+  <summary class="research-toc__title">On this page</summary>
+  <ul class="research-toc__list">
+    {{ toc_items }}
+  </ul>
+</details>
+{%- endif -%}

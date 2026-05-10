@@ -3,6 +3,8 @@ title: "Dissecting the LiteLLM Kill Chain"
 date: 2026-04-08 20:00:00 +0000
 categories: [Threat Research]
 tags: [supply-chain, pypi, llm, malware-analysis]
+layout: research-post
+toc: true
 ---
 
 The LiteLLM compromise that landed on PyPI yesterday is a textbook example of

@@ -1,0 +1,49 @@
+---
+layout: page
+# Long-form Threat Research layout.
+# Two-column grid on desktop (body + sticky TOC rail), collapses to single column
+# with a <details> TOC on mobile. Chirpy's right #panel-wrapper is hidden on
+# these pages via :has() selector in the stylesheet.
+---
+
+{% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 220 %}
+{% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+
+<article class="research-post">
+
+  <header class="research-post__header">
+    {% if page.categories and page.categories.size > 0 %}
+      <span class="research-post__eyebrow">{{ page.categories | first | upcase }}</span>
+    {% endif %}
+
+    <h1 class="research-post__title">{{ page.title }}</h1>
+
+    <div class="research-post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span class="research-post__dot">·</span>
+      <span>{{ minutes }} min read</span>
+      {% if page.tags and page.tags.size > 0 %}
+        <span class="research-post__dot">·</span>
+        <span class="research-post__tags">
+          {% for tag in page.tags %}<a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% unless forloop.last %} <span class="research-post__dot">·</span> {% endunless %}{% endfor %}
+        </span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="research-post__layout">
+    <div class="research-post__body">
+      {{ content }}
+    </div>
+
+    <aside class="research-post__rail">
+      {% include research-toc.html %}
+    </aside>
+  </div>
+
+  <footer class="research-post__footer">
+    <a href="{{ '/threat-research/' | relative_url }}" class="research-post__back">← All research</a>
+  </footer>
+
+</article>
