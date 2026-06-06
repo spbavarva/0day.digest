@@ -14,8 +14,8 @@
     {%- assign id_start = chunk | split: 'id="' -%}
     {%- if id_start.size > 1 -%}
       {%- assign id = id_start[1] | split: '"' | first -%}
-      {%- assign text_start = chunk | split: '>' -%}
-      {%- assign text = text_start[1] | split: '</h' | first | strip_html -%}
+      {%- assign text_start = chunk | split: '">' -%}
+      {%- assign text = text_start[1] | split: '</h' | first | strip_html | strip -%}
       {%- capture toc_items -%}{{ toc_items }}<li class="research-toc__item research-toc__item--h{{ level }}"><a href="#{{ id }}">{{ text }}</a></li>{%- endcapture -%}
     {%- endif -%}
   {%- endif -%}
