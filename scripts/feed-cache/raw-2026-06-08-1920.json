@@ -1,0 +1,583 @@
+{
+  "generated_at": "2026-06-08T19:20:37.499320+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 45,
+  "seen_skipped": 1,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 8,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 5,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "published": "2026-06-08T19:14:11+00:00",
+      "summary": "Apple&#8217;s WWDC 2026 event kicked off this morning at 10 a.m. PT at Apple Park, starting a week full of expected announcements around Siri, iOS 27, Apple Intelligence and more, along with developer events and demos. This year&#8217;s event is particularly notable for a couple things. It marks CEO Tim Cook&#8217;s last with the company, [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+      "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+      "published": "2026-06-08T18:48:45+00:00",
+      "summary": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "published": "2026-06-08T18:45:12+00:00",
+      "summary": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+      "published": "2026-06-08T18:40:53+00:00",
+      "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple\u2019s Image Playground doesn\u2019t suck anymore",
+      "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+      "published": "2026-06-08T18:38:07+00:00",
+      "summary": "Apple's AI image generator is getting a makeover that could make it more competitive."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple\u2019s Photos app is getting new AI editing features",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "published": "2026-06-08T18:36:04+00:00",
+      "summary": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple gives Siri its own dedicated app",
+      "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+      "published": "2026-06-08T18:33:42+00:00",
+      "summary": "Siri is finally getting its own app."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+      "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+      "published": "2026-06-08T18:23:04+00:00",
+      "summary": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Apple\u2019s long-awaited AI Siri overhaul is finally here",
+      "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+      "published": "2026-06-08T17:56:21+00:00",
+      "summary": "The idea behind the new \"Siri AI\" is to turn the assistant from a voice controlled assistant into an AI companion that can do a lot more."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+      "published": "2026-06-08T17:52:51+00:00",
+      "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed on to blanks for sale on Amazon. They can then share the link to the design so other people can buy [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "published": "2026-06-08T17:34:24+00:00",
+      "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational and more capable than [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "A Security Raises $37 Million for Autonomous Offensive Security Platform",
+      "url": "https://www.securityweek.com/a-security-raises-37-million-for-autonomous-offensive-security-platform/",
+      "published": "2026-06-08T17:19:38+00:00",
+      "summary": "The company founded by Yossi Torati, Omer Gull, and Yuval Itzchakov has emerged from stealth mode.\nThe post A Security Raises $37 Million for Autonomous Offensive Security Platform appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Armenia\u2019s pro-Europe party wins election despite Russia-linked disinformation",
+      "url": "https://therecord.media/armenia-pro-europe-party-wins-election-despite-russia-disinformation",
+      "published": "2026-06-08T17:10:00+00:00",
+      "summary": "Pashinyan's Civil Contract party won nearly 50% of Sunday's vote, defeating the pro-Russian Strong Armenia party led by Russian-Armenian billionaire Samvel Karapetyan, which received around 23% of the vote."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "published": "2026-06-08T17:08:44+00:00",
+      "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.\n\nIn addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users.\n\n\"They tried to trick people into clicking on malicious links to drive them to external websites"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "WhatsApp says NSO targeted users with spearfishing attacks in violation of court order",
+      "url": "https://therecord.media/whatsapp-says-nso-targeted-users-with-attacks-against-court-order",
+      "published": "2026-06-08T16:51:00+00:00",
+      "summary": "WhatsApp said it is filing a federal court contempt order against NSO for violating a permanent injunction that bars it from mounting attacks against its users."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Gogs patches critical zero-day enabling remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+      "published": "2026-06-08T16:18:40+00:00",
+      "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Operationalizing AWS security: A maturity roadmap",
+      "url": "https://aws.amazon.com/blogs/security/operationalizing-aws-security-a-maturity-roadmap/",
+      "published": "2026-06-08T16:18:04+00:00",
+      "summary": "Enabling security tooling is the starting point. Making it operational\u2014where findings drive decisions, response times are measurable, and your security posture improves week over week\u2014is where most organizations struggle. This blog post provides a phased maturity roadmap for organizations that have already enabled AWS Security Hub and Amazon GuardDuty. These two services form the foundation [\u2026]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "'Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud",
+      "url": "https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud",
+      "published": "2026-06-08T16:13:41+00:00",
+      "summary": "The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "published": "2026-06-08T16:00:00+00:00",
+      "summary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to interact with your notes and sources using AI, [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "published": "2026-06-08T15:51:19+00:00",
+      "summary": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Amazon now lets you design custom merch using AI",
+      "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "published": "2026-06-08T15:49:12+00:00",
+      "summary": "A new feature in the Amazon Shopping app allows users to generate designs with Alexa, then print them on products like T-shirts, hoodies, and tumblers."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "WWDC 2026: What to expect, from Siri\u2019s highly anticipated revamp to Apple Intelligence and iOS 27",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-what-to-expect-from-siris-highly-anticipated-revamp-to-apple-intelligence-and-ios-27/",
+      "published": "2026-06-08T15:34:59+00:00",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Everybody Is Vibe Coding But Nobody Told the Security Team",
+      "url": "https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/",
+      "published": "2026-06-08T15:30:00+00:00",
+      "summary": "AI-driven development is not something organizations can or should block. But it must be governed.\nThe post Everybody Is Vibe Coding But Nobody Told the Security Team appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+      "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "published": "2026-06-08T14:17:39+00:00",
+      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol.\n\nThe vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a logic flow weakness in certificate validation that allows an unauthenticated remote attacker to bypass user"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Russia upgrades rules for its digital spy system to better track citizens online",
+      "url": "https://therecord.media/russia-upgrades-rules-for-digital-spy-system-sorm",
+      "published": "2026-06-08T14:04:00+00:00",
+      "summary": "New regulations published by Russia's Ministry of Digital Development at the end of May updated the technical standards governing SORM, formally known as the System for Operative Investigative Activities."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Reducing security operations complexity with Wazuh Cloud",
+      "url": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "published": "2026-06-08T14:01:11+00:00",
+      "summary": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations through managed infrastructure, automated scaling, and AI-driven security analysis. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Microsoft\u2019s AI chief says superintelligence is near, but won\u2019t take your job",
+      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "published": "2026-06-08T14:00:00+00:00",
+      "summary": "Today I\u2019m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I\u2019m actually going to keep today\u2019s intro short \u2014 I\u2019m working from my wife\u2019s family farm this week, as you\u2019ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa\u2019s approach to training new [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "WhatsApp Catches Spyware Firm NSO Defying No-Hacking Court Order",
+      "url": "https://www.securityweek.com/whatsapp-catches-spyware-firm-nso-defying-no-hacking-court-order/",
+      "published": "2026-06-08T13:23:03+00:00",
+      "summary": "The Meta-owned communications app is filing a federal court contempt order against NSO.\nThe post WhatsApp Catches Spyware Firm NSO Defying No-Hacking Court Order appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "published": "2026-06-08T13:19:13+00:00",
+      "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine.\n\nAttackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance.\n\nAs the queue grows, a credential theft attempt or malware delivery can easily"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "\u26a1 Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "published": "2026-06-08T13:18:57+00:00",
+      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked.\n\nA chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "published": "2026-06-08T13:05:16+00:00",
+      "summary": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Cybersecurity M&A Roundup: 26 Deals Announced in May 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-26-deals-announced-in-may-2026/",
+      "published": "2026-06-08T12:38:45+00:00",
+      "summary": "Significant cybersecurity M&#038;A deals announced by Akamai, Check Point, Cisco, Cyera, Dragos, WatchGuard and Zscaler.\nThe post Cybersecurity M&#038;A Roundup: 26 Deals Announced in May 2026 appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Everest Forms Vulnerability Exploited to Hack WordPress Sites",
+      "url": "https://www.securityweek.com/everest-forms-vulnerability-exploited-to-hack-wordpress-sites/",
+      "published": "2026-06-08T12:16:09+00:00",
+      "summary": "The flaw allows attackers to execute arbitrary code remotely and has been exploited in the wild for two months.\nThe post Everest Forms Vulnerability Exploited to Hack WordPress Sites appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "The Hardest Fork",
+      "url": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "published": "2026-06-08T11:53:00+00:00",
+      "summary": "Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't \"whoops, this line right here is wrong, and that's RCE.\" They're novel combinations of a few dozen issues out of thousands of things every SAST scanner already finds, chained together into something much worse. It's real creativity,"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "174,000 Impacted by Lansing Community College Data Breach",
+      "url": "https://www.securityweek.com/174000-impacted-by-lansing-community-college-data-breach/",
+      "published": "2026-06-08T11:27:00+00:00",
+      "summary": "Hackers accessed personal information stored on certain Lansing Community College systems in February 2025.\nThe post 174,000 Impacted by Lansing Community College Data Breach appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Oxford University discloses data breach after careers platform hack",
+      "url": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "published": "2026-06-08T11:14:41+00:00",
+      "summary": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "WWDC 2026: How to watch and what to expect",
+      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+      "published": "2026-06-08T11:00:00+00:00",
+      "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live. When WWDC will happen and where you can watch [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Silent Ransom Group Uses DNS Fast Flux in Attacks",
+      "url": "https://www.securityweek.com/silent-ransom-group-uses-dns-fast-flux-in-attacks/",
+      "published": "2026-06-08T10:31:39+00:00",
+      "summary": "Focusing on hacking law firms in the US, the ransomware group relies on fast flux to hide its C&#038;C infrastructure.\nThe post Silent Ransom Group Uses DNS Fast Flux in Attacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+      "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "published": "2026-06-08T10:27:32+00:00",
+      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD to target Linux systems.\n\nThe activity has been attributed by Volexity to a threat cluster it tracks as VerdantBamboo, which it said overlaps with hacking groups known as Clay Typhoon (Microsoft),"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "OpenAI Rolling Out ChatGPT Account Security Controls",
+      "url": "https://www.securityweek.com/openai-rolling-out-chatgpt-account-security-controls/",
+      "published": "2026-06-08T08:32:49+00:00",
+      "summary": "The Active Sessions and Lockdown Mode features are being made more broadly available by the AI giant.\nThe post OpenAI Rolling Out ChatGPT Account Security Controls appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Anthropic Urges Industry Coordination to Allow for a \u2018Pause\u2019 in AI Development if Risks Grow",
+      "url": "https://www.securityweek.com/anthropic-urges-industry-coordination-to-allow-for-a-pause-in-ai-development-if-risks-grow/",
+      "published": "2026-06-08T08:00:00+00:00",
+      "summary": "The proposed coordination would let advanced AI labs verify that global rivals have actually stopped or slowed their work.\nThe post Anthropic Urges Industry Coordination to Allow for a \u2018Pause\u2019 in AI Development if Risks Grow appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "SolarWinds Serv-U Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/solarwinds-patches-exploited-serv-u-vulnerability/",
+      "published": "2026-06-08T07:52:28+00:00",
+      "summary": "Unauthenticated attackers can exploit the flaw via specially crafted POST requests that crash the Serv-U service.\nThe post SolarWinds Serv-U Vulnerability Exploited in the Wild appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+      "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "published": "2026-06-08T07:39:28+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial services in the U.S. between January and May 2026.\n\nThe activity has been attributed by Google Mandiant and Google Threat Intelligence Group (GTIG) to a threat actor dubbed UNC3753, which is also known as"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+      "published": "2026-06-08T06:08:44+00:00",
+      "summary": "Microsoft has announced that Visual Studio Code (VS Code) will apply a two-hour delay before extensions for the integrated development environment (IDE) are updated automatically to a newer version in an attempt to tackle software supply chain threats.\n\n\"When automatic updates are enabled, new versions are auto-updated two hours after they are published, adding an extra layer of protection"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+      "published": "2026-06-08T06:00:27+00:00",
+      "summary": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers\u00a0used Meta's AI-powered support system to reset passwords. [...]"
+    }
+  ]
+}
