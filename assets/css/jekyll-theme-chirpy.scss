@@ -755,6 +755,7 @@ html:is([data-mode="dark"], [data-bs-theme="dark"]) #sidebar > * {
 
 html:is([data-mode="dark"], [data-bs-theme="dark"]) #sidebar .profile-wrapper {
   position: relative;
+  flex-shrink: 0;
   padding-top: 0.4rem;
 }
 
