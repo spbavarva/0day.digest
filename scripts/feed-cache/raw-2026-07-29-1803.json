@@ -1,0 +1,599 @@
+{
+  "generated_at": "2026-07-29T18:03:51.243337+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 47,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 13,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "published": "2026-07-29T17:54:05+00:00",
+      "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+      "published": "2026-07-29T17:43:38+00:00",
+      "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+      "published": "2026-07-29T17:35:23+00:00",
+      "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "OpenAI says rogue agent behind Hugging Face hack broke into additional services",
+      "url": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
+      "published": "2026-07-29T17:22:00+00:00",
+      "summary": "The four additional targeted organizations weren\u2019t named. OpenAI said they were not affected as severely as Hugging Face."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+      "url": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+      "published": "2026-07-29T17:06:52+00:00",
+      "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "published": "2026-07-29T16:04:59+00:00",
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Google DeepMind",
+      "title": "We\u2019re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "2026-07-29T16:02:10+00:00",
+      "summary": ""
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "published": "2026-07-29T15:39:30+00:00",
+      "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+      "published": "2026-07-29T15:35:09+00:00",
+      "summary": "AI home management startup Hint, co-founded by Martha Stewart, wants to become an \u201cAI for your home,\u201d combining property records, maintenance schedules, home documents, and an AI assistant into a single app."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "published": "2026-07-29T15:31:15+00:00",
+      "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.\n\n\"A malicious actor with network access to vCenter"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+      "published": "2026-07-29T14:55:57+00:00",
+      "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Secure your npm and pip package updates in Amazon Linux",
+      "url": "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/",
+      "published": "2026-07-29T14:53:39+00:00",
+      "summary": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can\u2019t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and removed within hours. However, while those packages were available to the general public, it\u2019s [\u2026]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Laundry Bear\u2019s webmail hackers had more in store after February, report says",
+      "url": "https://therecord.media/russia-hackers-outlook-webmail-malware",
+      "published": "2026-07-29T14:45:00+00:00",
+      "summary": "Researchers say the Russian state-linked hacking group tracked as Laundry Bear recently began exploiting a bug in Microsoft Outlook Web Access."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+      "published": "2026-07-29T14:41:06+00:00",
+      "summary": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+      "url": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+      "published": "2026-07-29T14:40:33+00:00",
+      "summary": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+      "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+      "published": "2026-07-29T14:02:12+00:00",
+      "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+      "published": "2026-07-29T13:56:22+00:00",
+      "summary": "\u200b\u200bMicrosoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "published": "2026-07-29T13:48:36+00:00",
+      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls.\n\nBraham's water plant went offline, and the city asked residents to minimize"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+      "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "published": "2026-07-29T13:42:57+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security",
+      "url": "https://www.securityweek.com/us-bans-foreign-made-humanoid-robots-targeting-china-over-national-security/",
+      "published": "2026-07-29T13:31:00+00:00",
+      "summary": "The agency said imports of advanced robots pose cybersecurity and other national security risks.\nThe post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Mate Security Raises $35 Million for Agentic SOC",
+      "url": "https://www.securityweek.com/mate-security-raises-35-million-for-agentic-soc/",
+      "published": "2026-07-29T12:47:13+00:00",
+      "summary": "The startup will use the investment to expand its customer support, sales, and R&#038;D teams.\nThe post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Russia accuses Telegram founder of aiding terrorism, seeks international arrest",
+      "url": "https://therecord.media/russia-telegram-durov-arrest",
+      "published": "2026-07-29T12:45:00+00:00",
+      "summary": "Russia is seeking to place Telegram founder Pavel Durov on an international wanted list, alleging that the app has been used by Ukrainian intelligence to organize terrorist attacks and conduct espionage inside Russia."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "ThreatLocker Raises $190 Million in Series F Funding",
+      "url": "https://www.securityweek.com/threatlocker-raises-190-million-in-series-f-funding/",
+      "published": "2026-07-29T12:17:14+00:00",
+      "summary": "The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation.\nThe post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+      "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+      "published": "2026-07-29T12:15:00+00:00",
+      "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change?\n\nThe honest answer is"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Cyberattack hits Angola\u2019s largest telco hours before landmark stock debut",
+      "url": "https://therecord.media/angola-unitel-cyberattack-outage",
+      "published": "2026-07-29T12:15:00+00:00",
+      "summary": "Angola\u2019s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Artists are lawyering up against AI slop, and some are even winning",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+      "published": "2026-07-29T12:00:00+00:00",
+      "summary": "When The Atlantic published a searchable dataset of works used to train AI, Kirk Wallace Johnson, like a lot of artists, looked for his name out of curiosity. And, like a lot of artists, he found it. Essentially, his books, like The Feather Thief and The Fishermen and the Dragon - nonfiction tomes that he [&#8230;]"
+    },
+    {
+      "section": "Government / Advisory",
+      "source": "CISA Alerts",
+      "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
+      "url": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+      "published": "2026-07-29T12:00:00+00:00",
+      "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance,&nbsp;2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for an SBOM published by the National Telecommunications and Information Administration (NTIA) in 2021. The new guidance incorporates stakeholder feedback from a 2025 public comment period&nbsp;and reflects current SBOM tools and needs while preserving the core principles of the original NTIA document.\nAn SBOM serves as an \u201cingredients list\u201d for software and"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "published": "2026-07-29T11:57:00+00:00",
+      "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update.\n\n\"No settings or additional user interaction are required,\" Eten Zou,"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "OpenAI\u2019s rogue AI agent didn\u2019t stop at hacking Hugging Face",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "published": "2026-07-29T11:54:29+00:00",
+      "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical VM Escape Vulnerability Patched in VMware ESXi",
+      "url": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/",
+      "published": "2026-07-29T11:42:38+00:00",
+      "summary": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion.\nThe post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+      "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+      "published": "2026-07-29T11:13:10+00:00",
+      "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.\n\nAccording to The State of Incident Response Readiness 2026, based on a survey of 600 senior IT security decision makers conducted by Vanson Bourne in January"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "These near-mint ASUS Chromebook refurbs are only $145",
+      "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
+      "published": "2026-07-29T11:12:19+00:00",
+      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This\u00a0ASUS Chromebook CM30\u00a0refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
+      "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+      "published": "2026-07-29T11:00:00+00:00",
+      "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law.\n\nThe principal security agency said the instant messaging platform \"failed to remove numerous channels, chats, and bots on the platform that are"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "published": "2026-07-29T11:00:00+00:00",
+      "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "We\u2019re running out of reasons to ignore AI safety",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "published": "2026-07-29T11:00:00+00:00",
+      "summary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
+      "url": "https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/",
+      "published": "2026-07-29T10:58:44+00:00",
+      "summary": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period.\nThe post US, Australia Release OT Isolation Guidance for Critical Infrastructure\u00a0 appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "OpenAI\u2019s Rogue AI Ventured Beyond Hugging Face",
+      "url": "https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/",
+      "published": "2026-07-29T10:10:09+00:00",
+      "summary": "Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation.\nThe post OpenAI&#8217;s Rogue AI Ventured Beyond Hugging Face appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "OpenAI Blog",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "published": "2026-07-29T10:00:00+00:00",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Spur Raises $200 Million for IP Intelligence Platform",
+      "url": "https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/",
+      "published": "2026-07-29T09:12:19+00:00",
+      "summary": "The IP intelligence company will use the fresh investment to accelerate and scale its operations.\nThe post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+      "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+      "published": "2026-07-29T08:58:27+00:00",
+      "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
+      "url": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
+      "published": "2026-07-29T08:46:30+00:00",
+      "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given.\nThe post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks",
+      "url": "https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/",
+      "published": "2026-07-29T07:53:22+00:00",
+      "summary": "State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities.\nThe post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "published": "2026-07-29T07:51:00+00:00",
+      "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+      "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+      "published": "2026-07-29T07:47:19+00:00",
+      "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account.\n\nTracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "published": "2026-07-29T07:07:23+00:00",
+      "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers.\n\nThey linked the framework to a fake \"\u516c\u5b89\u4e00\u7f51\u901a\u529e\" Public Security service application targeting Android users in China. The kit supports payment-password"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "ShinyHunters Claims Ernst & Young Hack",
+      "url": "https://www.securityweek.com/shinyhunters-claims-ernst-young-hack/",
+      "published": "2026-07-29T06:23:34+00:00",
+      "summary": "Ernst &#038; Young previously confirmed that personal and financial information was stolen from a third-party management platform.\nThe post ShinyHunters Claims Ernst &#038; Young Hack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+      "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "published": "2026-07-29T04:20:57+00:00",
+      "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/components@4.0.0-rc24-2773-beta.4\n\nThe two packages \"contain an import-time JavaScript implant that resolves encrypted code"
+    }
+  ]
+}
