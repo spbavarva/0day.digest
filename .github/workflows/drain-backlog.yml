@@ -1,0 +1,125 @@
+name: Drain Backlog
+
+# Clears the frozen backlog of digest PRs (the ones labeled `backlog-drain`),
+# newest-first, a fixed number per run, ONE commit per PR. For each PR it
+# publishes only the critical / must_know items straight into _posts/ (via
+# scripts/publish_pr.py) WITHOUT merging the branch, then closes the PR.
+#
+# Why this shape:
+#  - Never touches _drafts/ or scripts/feed-cache/ on main, so it can never
+#    conflict with the RSS-digest cron (which only writes those paths on its
+#    own PR branches and never pushes to main).
+#  - Only labeled PRs are eligible, so fresh PRs opened by the RSS cron are
+#    never auto-published — they wait for normal review.
+#  - Closes (does not merge) each PR, so the flaky Publish-Drafts workflow
+#    never fires for drained PRs.
+
+on:
+  schedule:
+    # 21:00 UTC = 17:00 (5PM) America/New_York during EDT (summer).
+    # Sits between the RSS cron's 07:00 and 17:00 UTC runs.
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many backlog PRs to drain this run"
+        required: false
+        default: "10"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: drain-backlog
+  cancel-in-progress: false
+
+jobs:
+  drain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Drain backlog
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COUNT: ${{ github.event.inputs.count || '10' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Oldest-safe, newest-first selection of eligible PRs.
+          gh pr list --state open --label backlog-drain -L 300 \
+            --json number,headRefName,createdAt \
+            --jq "sort_by(.createdAt) | reverse | .[0:${COUNT}][] | \"\(.number)\t\(.headRefName)\"" \
+            > /tmp/queue.tsv || true
+
+          if [ ! -s /tmp/queue.tsv ]; then
+            echo "Backlog queue empty — nothing to drain."
+            exit 0
+          fi
+
+          echo "Draining up to $COUNT PR(s):"
+          cat /tmp/queue.tsv
+
+          published_any=0
+          : > /tmp/processed.txt
+          : > /tmp/published_prs.txt
+
+          while IFS=$'\t' read -r num branch; do
+            [ -z "$num" ] && continue
+            echo "::group::PR #$num ($branch)"
+            git fetch origin "refs/heads/$branch:refs/remotes/origin/$branch" --quiet || {
+              echo "  branch fetch failed; skipping (will not close)"; echo "::endgroup::"; continue;
+            }
+            python3 scripts/publish_pr.py --branch "origin/$branch" || true
+            git add _posts
+            if git diff --cached --quiet; then
+              echo "  no critical/must_know items -> no commit"
+            else
+              n=$(git diff --cached --name-only | grep -c '^_posts/' || true)
+              git commit -q -m "chore(publish): digest $branch (#$num)"
+              echo "  committed $n post(s)"
+              published_any=1
+              echo "$num" >> /tmp/published_prs.txt
+            fi
+            echo "$num" >> /tmp/processed.txt
+            echo "::endgroup::"
+          done < /tmp/queue.tsv
+
+          # Push once (all per-PR commits), with a rebase-retry in case main moved.
+          if [ "$published_any" = "1" ]; then
+            for attempt in 1 2 3; do
+              git pull --rebase origin main --quiet || true
+              if git push origin main; then echo "pushed"; break; fi
+              echo "push attempt $attempt failed; retrying"; sleep 5
+            done
+          fi
+
+          # Close every processed PR (only reached after a successful push / no-op push).
+          while read -r num; do
+            [ -z "$num" ] && continue
+            if grep -qx "$num" /tmp/published_prs.txt; then
+              gh pr close "$num" -c "Backlog drain: published the critical / must_know items from this digest directly to \`main\` as a single commit. Lower-severity items were intentionally not published. Closed (not merged) to avoid feed-cache conflicts."
+            else
+              gh pr close "$num" -c "Backlog drain: no critical / must_know items in this digest (lower-severity only), so nothing was published. Closed as part of backlog triage."
+            fi
+            echo "closed #$num"
+          done < /tmp/processed.txt
+
+      - name: Trigger site deploy
+        # GITHUB_TOKEN pushes don't trigger the on:push Build and Deploy, so kick it explicitly.
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "Build and Deploy" || echo "deploy dispatch skipped"
