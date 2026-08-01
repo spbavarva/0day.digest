@@ -1,0 +1,415 @@
+{
+  "generated_at": "2026-07-31T09:36:38.513532+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 24,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 5,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "OpenAI Blog",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "published": "2026-07-31T15:00:00+00:00",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical Flaw Led to Azure Cosmos DB Pwnage",
+      "url": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
+      "published": "2026-07-31T09:04:02+00:00",
+      "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.\nThe post Critical Flaw Led to Azure Cosmos DB Pwnage appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "CareCloud Data Breach Impacts Over 350,000",
+      "url": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+      "published": "2026-07-31T07:51:43+00:00",
+      "summary": "In March 2026, hackers stole personal, financial, and medical information from the company\u2019s AWS environment.\nThe post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "OpenAI Blog",
+      "title": "Univ\u00e9 builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "published": "2026-07-31T07:00:00+00:00",
+      "summary": "See how Univ\u00e9 built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Critical Code Execution Vulnerability Patched in TeamCity",
+      "url": "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
+      "published": "2026-07-31T06:50:30+00:00",
+      "summary": "Tracked as CVE-2026-63077, the security defect can be exploited without authentication via the agent polling protocol.\nThe post Critical Code Execution Vulnerability Patched in TeamCity\u00a0 appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "published": "2026-07-31T01:06:54+00:00",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+      "published": "2026-07-31T00:57:25+00:00",
+      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Advancing the price-performance frontier with GPT\u20115.6",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "published": "2026-07-30T23:58:42+00:00",
+      "summary": "Advancing the price-performance frontier with GPT\u20115.6\nHuge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.\nOpenAI credit 5.6 Sol with enabling this: in How GPT\u20115.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:\n\nWe also used GPT\u20115.6 Sol to optimize the model\u2019s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, an"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "published": "2026-07-30T23:41:29+00:00",
+      "summary": "Investigating three real-world incidents in our cybersecurity evaluations\nIt happened again! This is turning into something of a pattern.\nLast week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.\nThis inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April!\n\nOf the 141,006 evaluation runs we reviewed, we identified three "
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "published": "2026-07-30T23:25:58+00:00",
+      "summary": "The former OpenAI researcher\u2019s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Reddit reports a solid quarter but shows signs of AI\u2019s impact",
+      "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+      "published": "2026-07-30T23:08:58+00:00",
+      "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "llm 0.32rc2",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "published": "2026-07-30T22:52:06+00:00",
+      "summary": "Release: llm 0.32rc2\n        Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:\n\n\nThe default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini, or switch to GPT-5 nano, an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano. #15"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Investors love AI, as long as you\u2019re a cloud host",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "published": "2026-07-30T22:41:41+00:00",
+      "summary": "Amazon isn't slowing down on data center spending \u2014 but investors don't seem to mind."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "published": "2026-07-30T22:29:45+00:00",
+      "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "South Korea fines telco giant KT $39 million for customer data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
+      "published": "2026-07-30T22:28:30+00:00",
+      "summary": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs",
+      "url": "https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/",
+      "published": "2026-07-30T22:18:36+00:00",
+      "summary": "CISA is urging water and wastewater utilities to lock down internet-exposed controllers, days after intrusions hit dozens of Minnesota systems.\nThe post CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "JetBrains warns of critical TeamCity remote code execution flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+      "published": "2026-07-30T22:01:31+00:00",
+      "summary": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Balancing speed and safety: A control framework for AI coding agents",
+      "url": "https://aws.amazon.com/blogs/security/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/",
+      "published": "2026-07-30T21:49:15+00:00",
+      "summary": "AI coding agents are part of the developer toolchain. Tools like Kiro and Claude Code generate features, tests, and code refactors from natural-language prompts. A single agent can open dozens of pull requests (PRs) across your repositories in an afternoon. That productivity comes with a trade-off: agents optimize for task completion at machine speed with [\u2026]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
+      "url": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks",
+      "published": "2026-07-30T21:16:13+00:00",
+      "summary": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Bank of America to Acquire Cybersecurity Firm MDSec",
+      "url": "https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/",
+      "published": "2026-07-30T21:02:21+00:00",
+      "summary": "The acquisition will add approximately 65 cybersecurity professionals to Bank of America\u2019s operations in the United Kingdom.\nThe post Bank of America to Acquire Cybersecurity Firm MDSec appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "The loss of Situational Awareness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+      "published": "2026-07-30T20:46:25+00:00",
+      "summary": "I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"Long-Term Capital Management\" or \"Amaranth Advisors\" (named for the floral symbol for [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic \u2018supply-chain risk\u2019 label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "published": "2026-07-30T20:26:38+00:00",
+      "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+      "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+      "published": "2026-07-30T19:44:16+00:00",
+      "summary": "Friend, the AI wearable, can now talk to its users \u2014 for an enhanced price."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "AI Harnesses Burst With Potential Exploit Opps",
+      "url": "https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps",
+      "published": "2026-07-30T19:40:40+00:00",
+      "summary": "A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors."
+    }
+  ]
+}

@@ -46,7 +46,7 @@
       "name": "The Record (Recorded Future)",
       "url": "https://therecord.media/feed",
       "status": "ok",
-      "items": 3,
+      "items": 0,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "name": "Unit 42 (Palo Alto)",
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "status": "ok",
-      "items": 1,
+      "items": 0,
       "error": null
     },
     {
@@ -134,7 +134,7 @@
       "name": "Google DeepMind",
       "url": "https://deepmind.google/blog/rss.xml",
       "status": "ok",
-      "items": 1,
+      "items": 0,
       "error": null
     },
     {
@@ -166,7 +166,7 @@
       "name": "Simon Willison",
       "url": "https://simonwillison.net/atom/everything/",
       "status": "ok",
-      "items": 0,
+      "items": 3,
       "error": null
     },
     {
@@ -206,7 +206,7 @@
       "name": "Google Cloud Security",
       "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
       "status": "ok",
-      "items": 1,
+      "items": 0,
       "error": null
     },
     {
