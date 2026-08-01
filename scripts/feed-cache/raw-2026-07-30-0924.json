@@ -1,0 +1,439 @@
+{
+  "generated_at": "2026-07-30T09:24:24.935313+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 26,
+  "feeds_empty": 0,
+  "feeds_error": 0,
+  "item_count": 27,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 7,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 3,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "US and Allies Update SBOM Guidance",
+      "url": "https://www.securityweek.com/us-and-allies-update-sbom-guidance/",
+      "published": "2026-07-30T08:21:19+00:00",
+      "summary": "Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology.\nThe post US and Allies Update SBOM Guidance appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "Toy Ghouls\u2019 new toy: the GenieLocker ransomware",
+      "url": "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/",
+      "published": "2026-07-30T08:00:57+00:00",
+      "summary": "Kaspersky experts dissect GenieLocker: new custom ransomware variants for Windows, Linux, and ESXi systems. We found this family in attacks by Toy Ghouls, a financially motivated extortion group."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Chrome 151 Patches 370 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/",
+      "published": "2026-07-30T07:51:24+00:00",
+      "summary": "The major browser update resolves roughly 80 critical- and high-severity security defects.\nThe post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "published": "2026-07-30T07:40:48+00:00",
+      "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and aerospace sectors.\n\nThe activity, which began on July 22, 2026, involves the"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "published": "2026-07-30T07:28:43+00:00",
+      "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US.\n\nPreviously authorized models can still be sold, and devices people already own are unaffected. Federal purchases and use"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Cisco Secure FMC Zero-Day Exploited in the Wild",
+      "url": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
+      "published": "2026-07-30T06:31:31+00:00",
+      "summary": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices.\u00a0\nThe post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea\u2019s Sapphire Sleet",
+      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "published": "2026-07-30T06:05:17+00:00",
+      "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them.\n\nThe original Aikido and Wiz reports did not attribute the"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "published": "2026-07-30T05:08:39+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.\n\nThe vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "SE Asian Cybercriminal Syndicates Become a Global Power",
+      "url": "https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power",
+      "published": "2026-07-30T01:00:00+00:00",
+      "summary": "The groups move from goods to services and continue to traffic people from at least 80 countries, costing nations in the region at least $88 billion in 2025 alone."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+      "url": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china",
+      "published": "2026-07-30T00:30:00+00:00",
+      "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "published": "2026-07-30T00:21:06+00:00",
+      "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+      "published": "2026-07-29T23:44:07+00:00",
+      "summary": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+      "published": "2026-07-29T23:00:11+00:00",
+      "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "published": "2026-07-29T22:46:03+00:00",
+      "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents",
+      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+      "published": "2026-07-29T22:23:12+00:00",
+      "summary": "On the company\u2019s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a \u201clarge enterprise opportunity\u201d spanning AI agents, APIs, compute, and internal software."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year",
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "published": "2026-07-29T22:17:38+00:00",
+      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+      "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+      "published": "2026-07-29T21:48:07+00:00",
+      "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "published": "2026-07-29T21:39:29+00:00",
+      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models.\u00a0The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+      "published": "2026-07-29T21:35:40+00:00",
+      "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Discover\u00a0what\u2019s\u00a0next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+      "published": "2026-07-29T21:16:39+00:00",
+      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "Simon Willison",
+      "title": "Quoting D. Richard Hipp",
+      "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "published": "2026-07-29T21:15:21+00:00",
+      "summary": "Years ago, we didn\u2019t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.\nThen SQL comes along\u2014I\u2019m simplifying this only a little bit\u2014and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.\nThat didn\u2019t mean programmers went away. It just meant the job changed a little bit.\n&mdash; D. Richard Hipp\n\n    Tags: d-richard-hipp, sql, careers"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+      "published": "2026-07-29T21:07:48+00:00",
+      "summary": "Weng previously served as the VP of AI Safety Research at OpenAI."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "xAI\u2019s last-minute scramble to stop Minnesota\u2019s anti-nudification app law",
+      "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+      "published": "2026-07-29T21:06:52+00:00",
+      "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, the company argues, violates the First Amendment. Back in January, [&#8230;]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
+      "url": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
+      "published": "2026-07-29T21:00:12+00:00",
+      "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People\u2019s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the [\u2026]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
+      "url": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
+      "published": "2026-07-29T19:48:12+00:00",
+      "summary": "OpenAI revealed rogue AI models compromised more services than initially disclosed, including a Modal customer environment and others."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Red Agents vs. Blue Agents: How to Make AI Better At Defense",
+      "url": "https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense",
+      "published": "2026-07-29T19:46:20+00:00",
+      "summary": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "The Hugging Face break-in explained",
+      "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+      "published": "2026-07-29T19:44:49+00:00",
+      "summary": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)"
+    }
+  ]
+}
