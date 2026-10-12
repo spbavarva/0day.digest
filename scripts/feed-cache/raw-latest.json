@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-22T19:59:39.335551+00:00",
+  "generated_at": "2026-10-12T23:27:35.500681+00:00",
   "window_hours": 14,
   "feed_count": 26,
   "feeds_ok": 25,
   "feeds_empty": 0,
   "feeds_error": 1,
-  "item_count": 67,
+  "item_count": 38,
   "seen_skipped": 0,
-  "near_dup_skipped": 1,
+  "near_dup_skipped": 0,
   "feeds": [
     {
       "section": "Cybersecurity \u2014 Primary",
       "name": "The Hacker News",
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "status": "ok",
-      "items": 15,
+      "items": 4,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "name": "The Record (Recorded Future)",
       "url": "https://therecord.media/feed",
       "status": "ok",
-      "items": 4,
+      "items": 1,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "name": "SecurityWeek",
       "url": "https://feeds.feedburner.com/securityweek",
       "status": "ok",
-      "items": 8,
+      "items": 6,
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "name": "Cisco Talos",
       "url": "https://blog.talosintelligence.com/rss/",
       "status": "ok",
-      "items": 2,
+      "items": 0,
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "name": "OpenAI Blog",
       "url": "https://openai.com/blog/rss.xml",
       "status": "ok",
-      "items": 1,
+      "items": 0,
       "error": null
     },
     {
@@ -158,7 +158,7 @@
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "status": "ok",
-      "items": 10,
+      "items": 7,
       "error": null
     },
     {
@@ -166,7 +166,7 @@
       "name": "Simon Willison",
       "url": "https://simonwillison.net/atom/everything/",
       "status": "ok",
-      "items": 2,
+      "items": 1,
       "error": null
     },
     {
@@ -182,7 +182,7 @@
       "name": "The Verge AI",
       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
       "status": "ok",
-      "items": 4,
+      "items": 2,
       "error": null
     },
     {
@@ -190,7 +190,7 @@
       "name": "AWS Security Blog",
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "status": "ok",
-      "items": 0,
+      "items": 3,
       "error": null
     },
     {
@@ -198,7 +198,7 @@
       "name": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/feed/",
       "status": "ok",
-      "items": 0,
+      "items": 1,
       "error": null
     },
     {
@@ -214,546 +214,314 @@
       "name": "CISA Alerts",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "status": "ok",
-      "items": 9,
+      "items": 0,
       "error": null
     }
   ],
   "items": [
     {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS News Blog",
+      "title": "Announcing AWS Lambda Web Functions",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "published": "2026-10-12T22:34:47+00:00",
+      "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution."
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "GuardDuty Extended Threat Detection has added five new indicators to surface attack sequences",
+      "url": "https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/",
+      "published": "2026-10-12T21:58:44+00:00",
+      "summary": "Amazon GuardDuty Extended Threat Detection correlates weak GuardDuty signals into a single, critical-severity attack sequence finding when their composition crosses a threshold of credibility. On May 20, 2026, the service started attaching five new indicator types to those sequences: MALICIOUS_PACKAGE, MISCONFIGURATION, REACHABILITY, SENSITIVE_DATA, and VULNERABILITY. For more information, see Document history for Amazon GuardDuty and [\u2026]"
+    },
+    {
       "section": "Cybersecurity \u2014 Primary",
       "source": "Dark Reading",
-      "title": "[Virtual Event] Cybersecurity Outlook 2027",
-      "url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
-      "published": "2026-12-03T16:00:00+00:00",
-      "summary": ""
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Record (Recorded Future)",
-      "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
-      "url": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
-      "published": "2026-09-22T19:52:00+00:00",
-      "summary": "The investigation, announced Monday, will probe IDScan\u2019s security practices and whether victim notifications were adequate under Canada\u2019s federal private-sector privacy law, the regulator said in a press release."
+      "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+      "published": "2026-10-12T21:42:42+00:00",
+      "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "BleepingComputer",
-      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-      "published": "2026-09-22T19:13:29+00:00",
-      "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]"
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "published": "2026-10-12T20:13:52+00:00",
+      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]"
     },
     {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Meta admits Muse\u2019s likeness to OpenClaw isn\u2019t a coincidence",
-      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-      "published": "2026-09-22T19:09:11+00:00",
-      "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw \u2014 down to some of its workspace filenames and content."
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM",
+      "url": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/",
+      "published": "2026-10-12T20:13:06+00:00",
+      "summary": "You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which algorithms and parameter sets fit your business needs, balancing security against signature size, key [\u2026]"
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "source": "AWS Security Blog",
+      "title": "Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA",
+      "url": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/",
+      "published": "2026-10-12T20:12:53+00:00",
+      "summary": "Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity. Those trust mechanisms rely on digital signature algorithms, and today many use traditional algorithms such as Rivest-Shamir-Adleman (RSA) and the Elliptic Curve [\u2026]"
     },
     {
       "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-      "published": "2026-09-22T18:29:39+00:00",
-      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point"
+      "source": "Dark Reading",
+      "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+      "url": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+      "published": "2026-10-12T20:00:53+00:00",
+      "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "BleepingComputer",
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-      "published": "2026-09-22T18:04:39+00:00",
-      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]"
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "published": "2026-10-12T19:23:01+00:00",
+      "summary": "Russian cloud services provider Yandex\u00a0announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "published": "2026-10-12T18:51:59+00:00",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+      "url": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+      "published": "2026-10-12T18:27:25+00:00",
+      "summary": "The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink."
     },
     {
       "section": "AI \u2014 News & Analysis",
       "source": "Simon Willison",
-      "title": "Quoting @therealcornpop",
-      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "published": "2026-09-22T18:03:21+00:00",
-      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.\nIt's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.\n&mdash; @therealcornpop, on TikTok\n\n    Tags: tiktok, ai, a"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-      "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-      "published": "2026-09-22T18:03:10+00:00",
-      "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners"
-    },
-    {
-      "section": "AI \u2014 Labs & Model Launches",
-      "source": "OpenAI Blog",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "published": "2026-09-22T18:00:00+00:00",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "published": "2026-10-12T18:15:38+00:00",
+      "summary": "Python 3.15 is here! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.\nFirst, some highlights from Python 3.15.\nExplicit lazy imports\nI'm most excited about Explicit lazy imports from PEP 810. These let you import modules like so:\nlazy import json\nlazy from pathlib import Path\nThe module will then be imported the first time those symbols are used in th"
     },
     {
       "section": "AI \u2014 News & Analysis",
       "source": "TechCrunch AI",
-      "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-      "published": "2026-09-22T18:00:00+00:00",
-      "summary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra."
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "published": "2026-10-12T17:56:56+00:00",
+      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "published": "2026-10-12T17:19:14+00:00",
+      "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Meta has some Wonder Full new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "published": "2026-10-12T17:00:00+00:00",
+      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "published": "2026-10-12T16:27:23+00:00",
+      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "published": "2026-10-12T15:45:00+00:00",
+      "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "published": "2026-10-12T15:31:19+00:00",
+      "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "published": "2026-10-12T15:27:59+00:00",
+      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "published": "2026-10-12T15:23:34+00:00",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]"
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "The Hacker News",
-      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-      "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-      "published": "2026-09-22T17:58:15+00:00",
-      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\""
+      "title": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "published": "2026-10-12T15:16:26+00:00",
+      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\n\nBut speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "SecurityWeek",
-      "title": "BigCommerce Data Stolen via Ribon Apps Hack",
-      "url": "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/",
-      "published": "2026-09-22T17:58:00+00:00",
-      "summary": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data.\nThe post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek."
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "published": "2026-10-12T14:25:00+00:00",
+      "summary": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio.\nThe post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "published": "2026-10-12T14:00:10+00:00",
+      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "published": "2026-10-12T14:00:00+00:00",
+      "summary": "Tomorrow at 8 a.m. PT, it all begins z\u2014 10,000+ founders, investors, and tech operators will gather at San Francisco\u2019s Moscone West for\u00a0TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "published": "2026-10-12T13:51:07+00:00",
+      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "published": "2026-10-12T13:14:37+00:00",
+      "summary": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.\nThe post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "published": "2026-10-12T13:09:09+00:00",
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Microsoft\u2019s new AI chip makes it less reliant on Nvidia\u2019s GPUs",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "published": "2026-10-12T13:00:00+00:00",
+      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will [&#8230;]"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "published": "2026-10-12T12:47:59+00:00",
+      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "Dark Reading",
-      "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
-      "published": "2026-09-22T17:32:49+00:00",
-      "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "BleepingComputer",
-      "title": "Reducing shadow IT visibility gaps with Wazuh",
-      "url": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-      "published": "2026-09-22T17:17:41+00:00",
-      "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these visibility gaps. [...]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "Dark Reading",
-      "title": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
-      "url": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
-      "published": "2026-09-22T17:12:26+00:00",
-      "summary": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "published": "2026-09-22T17:03:31+00:00",
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "published": "2026-09-22T16:41:12+00:00",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is"
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "The Verge AI",
-      "title": "Andreessen Horowitz is launching an \u2018academy\u2019 with no homework and partnerships with Palantir, Google, and Meta",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-      "published": "2026-09-22T16:34:08+00:00",
-      "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]"
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-      "published": "2026-09-22T16:30:07+00:00",
-      "summary": "Anthropic called it \"the strongest-performing model we've tested to date.\""
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "The Verge AI",
-      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-      "published": "2026-09-22T16:30:00+00:00",
-      "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "published": "2026-09-22T16:14:04+00:00",
-      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in"
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "The Verge AI",
-      "title": "Trump says the US is officially renaming AI to \u2018super intelligence\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-      "published": "2026-09-22T16:01:10+00:00",
-      "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is now \"officially\" renaming artificial intelligence to \"super intelligence.\" Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started [&#8230;]"
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "Simon Willison",
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "published": "2026-09-22T15:54:16+00:00",
-      "summary": "Release: llm-typesafe 0.1a0\n        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:\nllm install llm-typesafe\n\nThen set an API key (get one here, the waitlist seems to move pretty fast):\nllm keys set typesafe\n# Paste key\n\nAnd now you can ask yes/no \"noul\" questions like this:\nllm -m jev 'Please refund my last payment.' \\\n  -s 'Does this message explicitly request a refund?'\n\nOutput:\n{\"type\": \"noul\", \"noul\": 0.99}\n\nOr choice questions like this:\ncat message.txt | llm -m jev \\\n  -s 'Which team should handle this message? If billing and technic"
+      "title": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
+      "url": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
+      "published": "2026-10-12T12:30:58+00:00",
+      "summary": "Fahmida Y Rashid will keep the momentum going as she leads Dark Reading."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "The Record (Recorded Future)",
-      "title": "Two arrested in UK after Microsoft takedown of \u2018Eviltokens\u2019 AI-chatbot for cybercriminals",
-      "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
-      "published": "2026-09-22T15:51:00+00:00",
-      "summary": "Available on Telegram for a $1,500 initiation fee and a recurring monthly $500 subscription, EvilTokens provided cybercriminals with artificial intelligence tools enabling them to compromise accounts, analyze breached inboxes and find the best methods for monetizing their access through fraud."
+      "title": "Ukraine strikes third Yandex data center, disrupting digital services across Russia",
+      "url": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+      "published": "2026-10-12T12:00:00+00:00",
+      "summary": "A third Yandex data center in Russia was hit by Ukrainian drones over the weekend, forcing it to shut down and causing further disruptions to cloud services, payments, deliveries and other online services across the country."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "published": "2026-10-12T11:58:39+00:00",
+      "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal.\nThe post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "BleepingComputer",
-      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-      "published": "2026-09-22T15:00:00+00:00",
-      "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]"
+      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+      "published": "2026-10-12T11:58:33+00:00",
+      "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]"
     },
     {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "AstroForge is putting AI in command of its next spacecraft",
-      "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-      "published": "2026-09-22T15:00:00+00:00",
-      "summary": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-      "published": "2026-09-22T15:00:00+00:00",
-      "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot\u2019s Stretch 4 to life onstage",
-      "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-      "published": "2026-09-22T14:30:00+00:00",
-      "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off."
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "published": "2026-10-12T11:55:00+00:00",
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up.\n\nRegardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year"
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "SecurityWeek",
-      "title": "Cyera Raises $400 Million at $12+ Billion Valuation",
-      "url": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/",
-      "published": "2026-09-22T14:29:34+00:00",
-      "summary": "The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round.\nThe post Cyera Raises $400 Million at $12+ Billion Valuation appeared first on SecurityWeek."
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "published": "2026-10-12T11:24:50+00:00",
+      "summary": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.\nThe post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek."
     },
     {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-      "published": "2026-09-22T14:15:00+00:00",
-      "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "4 days to save up to $200: Reason 2 of 5\u00a0to be at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-      "published": "2026-09-22T14:00:00+00:00",
-      "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today."
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "published": "2026-10-12T11:21:48+00:00",
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\n\nOn Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86"
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "SecurityWeek",
-      "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/",
-      "published": "2026-09-22T13:26:51+00:00",
-      "summary": "Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse.\u00a0\nThe post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared first on SecurityWeek."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Record (Recorded Future)",
-      "title": "AI is set to help cyber attackers much more than defenders, says UK official",
-      "url": "https://therecord.media/ai-set-to-help-attackers-more-than-defenders",
-      "published": "2026-09-22T13:05:00+00:00",
-      "summary": "Dave Chismon, the NCSC\u2019s chief technology officer for architecture, said in a blog post that the imbalance in AI means cyberattacks would likely grow as automated defenses struggle to keep pace."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Record (Recorded Future)",
-      "title": "Russia's internet shutdowns disrupt warnings about incoming drone attacks",
-      "url": "https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks",
-      "published": "2026-09-22T13:00:00+00:00",
-      "summary": "Russia\u2019s growing restrictions on mobile internet and cellular service are making it harder for people to receive warnings about incoming Ukrainian drone and missile attacks."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Everyone can find a reason to dislike data center construction",
-      "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-      "published": "2026-09-22T13:00:00+00:00",
-      "summary": "Inside two years of fraught AI data center debates in Pennsylvania."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "BleepingComputer",
-      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-      "published": "2026-09-22T12:57:07+00:00",
-      "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "BleepingComputer",
-      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-      "published": "2026-09-22T12:48:06+00:00",
-      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]"
+      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+      "published": "2026-10-12T11:05:43+00:00",
+      "summary": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers.\nThe post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek."
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "The Hacker News",
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "published": "2026-09-22T12:30:00+00:00",
-      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "published": "2026-09-22T12:29:00+00:00",
-      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are"
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "published": "2026-10-12T10:36:56+00:00",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\n\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their"
     },
     {
       "section": "Cybersecurity \u2014 Primary",
       "source": "SecurityWeek",
-      "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
-      "url": "https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/",
-      "published": "2026-09-22T12:24:30+00:00",
-      "summary": "Forescout\u2019s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.\nThe post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared first on SecurityWeek."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "TechCrunch AI",
-      "title": "Nscale\u2019s IPO will test Wall Street\u2019s appetite for concentrated AI bets once again",
-      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-      "published": "2026-09-22T12:23:05+00:00",
-      "summary": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "Dark Reading",
-      "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
-      "url": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk."
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens Industrial Edge Management",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verification. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Industrial Edge Management are affected:\n\nIndustrial Edge Management Cloud vers:all/* (CVE-2026-18963)\nIndustrial Edge Management Pro V1 vers:intdot/&gt;=1.14.9|&lt;1.15.20 (CVE-2026-18963)\nIndustrial Edge Mana"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "OpenPLC Runtime v3",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller and the physical processes it drives.\nThe following versions of OpenPLC Runtime v3 are affected:\n\nOpenPLC 3 (CVE-2026-88020)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.1\nAutonomy Logic\nOpenPLC Runtime v3\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting')\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manuf"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "lwIP (Lightweight IP)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightweight IP) are affected:\n\nAPI &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-91018)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.8\nlwIP\nlwIP (Lightweight IP)\nDouble Free\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater Systems\nCountries"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens WTV676 and WTV776",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) to the devices. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens WTV676 and WTV776 are affected:\n\nWTV676-HB6035 Web Interface vers:intdot/&lt;3.94 (CVE-2026-89207)\nWTV776-HB6035 Web Interface vers:intdot/&lt;4.17 (CVE-2026-89207)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabi"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens SIPLUS and SIMATIC Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nMultiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.\nThe following versions of Siemens SIPLUS and SIMATIC Products are affected:\n\nSIMATIC AX Runtime Core Linux Common Debian vers:all/* (CVE-2026-31431)\nSIMATIC AX Runtime Core Linux Common Debian arm64 vers:all/* (CVE-2026-31431)\nSIMATIC AX Runtime Core Linux"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens Desigo CC family",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics containing embedded scripts that are executed on client application instances. Successful exploitation could lead to compromise of the client operating system and potential lateral movement within the organization.\nThe following versions of Siemens Desigo CC family are affected:\n\nDesigo CC family V6 vers:all/* (CVE-2026-342"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens SIMOVE Fleetmanager and SIPLANT",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nSIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens SIMOVE Fleetmanager and SIPLANT are affected:\n\nSIMOVE Fleetmanager V3.1 vers:intdot/&lt;3.1.13 (CVE-2026-67367)\nSIMOVE Fleetmanager V3.2 vers:intdot/&lt;3.2.4 (CVE-2026-67367)\nSIMOVE Fleetmanager V3.3 vers:intdot/&lt;3.3.2 (CVE-2026-67367)\nSIMOVE Fleetmanager V4.0 vers:intdot/&lt;4.0.1 (CVE-2026"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "Siemens Siveillance Control",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nA vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized root-level access on the OIS server. Siemens has released patches and updates for Siveillance OIS to apply to the products that incorporate the OIS service, and recommends to update to the latest versions.\nThe following versions of Siemens Siveillance Control are affected:\n\nSiveillance Control Pro V3.0 ver"
-    },
-    {
-      "section": "Government / Advisory",
-      "source": "CISA Alerts",
-      "title": "lwIP TCP/IP Stack MQTT Client Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-      "published": "2026-09-22T12:00:00+00:00",
-      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.\nThe following versions of lwIP TCP/IP Stack MQTT Client Application are affected:\n\nMQTT Client Application &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-87121)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nlwIP\nlwIP TCP/IP Stack MQTT Client Application\nOut-of-bounds Write\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater "
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "SecurityWeek",
-      "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
-      "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
-      "published": "2026-09-22T11:55:20+00:00",
-      "summary": "A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.\nThe post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek."
-    },
-    {
-      "section": "AI \u2014 News & Analysis",
-      "source": "The Verge AI",
-      "title": "Meta patches Muse exploit that let attackers control the AI agent",
-      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-      "published": "2026-09-22T11:53:58+00:00",
-      "summary": "Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-      "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-      "published": "2026-09-22T11:45:00+00:00",
-      "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.\n\nNow in its second year, the harder part of DORA is"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-      "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-      "published": "2026-09-22T11:38:40+00:00",
-      "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nThe bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "SecurityWeek",
-      "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
-      "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
-      "published": "2026-09-22T11:33:59+00:00",
-      "summary": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.\nThe post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-      "published": "2026-09-22T11:17:41+00:00",
-      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.\n\nThe flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "SecurityWeek",
-      "title": "WordPress Patches \u2018Click2Shell\u2019 Vulnerability",
-      "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
-      "published": "2026-09-22T10:22:27+00:00",
-      "summary": "The bug lets attackers automatically install and preview themes and could lead to remote code execution.\nThe post WordPress Patches &#8216;Click2Shell&#8217; Vulnerability appeared first on SecurityWeek."
-    },
-    {
-      "section": "Cybersecurity \u2014 Research & Threat Intel",
-      "source": "Cisco Talos",
-      "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
-      "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
-      "published": "2026-09-22T10:00:58+00:00",
-      "summary": "CLOSEDQUORUM, a malware binary discovered through Cisco Talos\u2019 CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain can be executed without operator involvement."
-    },
-    {
-      "section": "Cybersecurity \u2014 Research & Threat Intel",
-      "source": "Cisco Talos",
-      "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
-      "url": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
-      "published": "2026-09-22T10:00:25+00:00",
-      "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "BleepingComputer",
-      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-      "published": "2026-09-22T09:55:11+00:00",
-      "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as\u00a0Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-      "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-      "published": "2026-09-22T09:38:18+00:00",
-      "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "BleepingComputer",
-      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-      "published": "2026-09-22T08:53:09+00:00",
-      "summary": "\u200bAttackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "SecurityWeek",
-      "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
-      "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
-      "published": "2026-09-22T08:37:06+00:00",
-      "summary": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea\u2019s WaterPlum campaign.\nThe post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek."
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-      "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-      "published": "2026-09-22T07:52:03+00:00",
-      "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "published": "2026-09-22T06:33:57+00:00",
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in"
-    },
-    {
-      "section": "Cybersecurity \u2014 Primary",
-      "source": "The Hacker News",
-      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-      "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-      "published": "2026-09-22T06:03:14+00:00",
-      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is"
+      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+      "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+      "published": "2026-10-12T10:32:05+00:00",
+      "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference.\nThe post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek."
     }
   ]
 }
