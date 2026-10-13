@@ -1,399 +1,498 @@
-# Raw feed pull — 2026-09-22 19:59 UTC
+# Raw feed pull — 2026-10-13 21:42 UTC
 
 - Window: last 14h
 - Feeds: 26 (25 ok, 0 empty, 1 error)
-- Items kept after dedup: 67 (seen-skipped: 0, near-dup-skipped: 1)
+- Items kept after dedup: 74 (seen-skipped: 0, near-dup-skipped: 0)
 
 ## Feed health
 
-- [OK] The Hacker News (15 items)
-- [OK] BleepingComputer (9 items)
+- [OK] The Hacker News (12 items)
+- [OK] BleepingComputer (12 items)
 - [OK] Krebs on Security (0 items)
-- [OK] Dark Reading (4 items)
-- [OK] The Record (Recorded Future) (4 items)
-- [OK] SecurityWeek (8 items)
+- [OK] Dark Reading (1 items)
+- [OK] The Record (Recorded Future) (5 items)
+- [OK] SecurityWeek (10 items)
 - [ERR] SentinelOne Labs (0 items) — HTTP 404
-- [OK] Cisco Talos (2 items)
+- [OK] Cisco Talos (1 items)
 - [OK] Unit 42 (Palo Alto) (0 items)
-- [OK] Flashpoint (0 items)
+- [OK] Flashpoint (1 items)
 - [OK] PortSwigger Research (0 items)
 - [OK] Trail of Bits (0 items)
 - [OK] Google Project Zero (0 items)
 - [OK] Securelist (Kaspersky GReAT) (0 items)
 - [OK] OpenAI Blog (1 items)
-- [OK] Google DeepMind (0 items)
-- [OK] Google AI Blog (0 items)
-- [OK] Hugging Face Blog (0 items)
-- [OK] TechCrunch AI (10 items)
-- [OK] Simon Willison (2 items)
+- [OK] Google DeepMind (3 items)
+- [OK] Google AI Blog (1 items)
+- [OK] Hugging Face Blog (1 items)
+- [OK] TechCrunch AI (12 items)
+- [OK] Simon Willison (1 items)
 - [OK] Lilian Weng (OpenAI) (0 items)
-- [OK] The Verge AI (4 items)
-- [OK] AWS Security Blog (0 items)
-- [OK] AWS News Blog (0 items)
+- [OK] The Verge AI (10 items)
+- [OK] AWS Security Blog (1 items)
+- [OK] AWS News Blog (1 items)
 - [OK] Google Cloud Security (0 items)
-- [OK] CISA Alerts (9 items)
+- [OK] CISA Alerts (2 items)
 
 ## Items
 
-### 1. [Virtual Event] Cybersecurity Outlook 2027
+### 1. Ghostscript flaw lets hackers hijack servers via PDF uploads
 - Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027
-- Published: 2026-12-03T16:00:00+00:00
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/
+- Published: 2026-10-13T21:33:26+00:00
+- Summary: A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]
 
-### 2. Canadian regulator opens probe of IDScan for allegedly violating data privacy laws
+### 2. Anthropic warns self-replicating AI could spread to your smart devices
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/
+- Published: 2026-10-13T21:16:34+00:00
+- Summary: Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]
+
+### 3. Part 2 – Cybersecurity journeys: What even is this job?
+- Section: Cloud Security & Infrastructure
+- Source: AWS Security Blog
+- URL: https://aws.amazon.com/blogs/security/part-2-cybersecurity-journeys-what-even-is-this-job/
+- Published: 2026-10-13T20:58:01+00:00
+- Summary: If you’ve ever looked at a list of cybersecurity jobs and felt like none of them fit you, you might just be looking at a short list. Most career guides cover the same few roles, like the analyst watching alerts or the pen tester (penetration tester, someone hired to legally break into systems to find […]
+
+### 4. Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue
 - Section: Cybersecurity — Primary
 - Source: The Record (Recorded Future)
-- URL: https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach
-- Published: 2026-09-22T19:52:00+00:00
-- Summary: The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.
+- URL: https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas
+- Published: 2026-10-13T20:55:00+00:00
+- Summary: More than 40 residences in Texas were the target of a federal operation in September to clamp down on remote worker scams that feed money back to the North Korean regime.
 
-### 3. ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
-- Published: 2026-09-22T19:13:29+00:00
-- Summary: The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]
+### 5. OpenAI employee arrested for allegedly planting a bug in a conference room
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device
+- Published: 2026-10-13T20:45:25+00:00
+- Summary: An OpenAI engineer was arrested after the company said it discovered a "sophisticated recording device" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]
 
-### 4. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence
+### 6. Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Cisco Talos
+- URL: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
+- Published: 2026-10-13T20:37:58+00:00
+- Summary: Blog post covering the vulnerabilities disclosed during Microsoft Patch Tuesday.
+
+### 7. Judge orders OpenAI to turn over hiring records in Apple trade secrets case
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/
-- Published: 2026-09-22T19:09:11+00:00
-- Summary: Meta says Muse was built from scratch, but acknowledges the AI assistant was "heavily inspired" by OpenClaw — down to some of its workspace filenames and content.
+- URL: https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/
+- Published: 2026-10-13T20:36:44+00:00
+- Summary: A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.
 
-### 5. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+### 8. Anthropic Finds Ingredients for Future AI Worms
 - Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
-- Published: 2026-09-22T18:29:39+00:00
-- Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.
+- Source: Dark Reading
+- URL: https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms
+- Published: 2026-10-13T20:35:23+00:00
+- Summary: Anthropic's latest study combined IoT and network tests to explore AI self-replication, which researchers said would be &quot;challenging&quot; to shut down.
 
-The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+### 9. FTC: Company netted at least $60 million charging sextortion victims for help it didn’t provide
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint
+- Published: 2026-10-13T20:12:00+00:00
+- Summary: An Ohio-based company charged individuals thousands of dollars to fight sextortion scams, but the operation itself was fraudulent, according to a Federal Trade Commission complaint.
 
-### 6. New ClosedQuorum Windows malware uses AI for attack decisions
+### 10. Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-- Published: 2026-09-22T18:04:39+00:00
-- Summary: A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/
+- Published: 2026-10-13T19:56:09+00:00
+- Summary: Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]
 
-### 7. Quoting @therealcornpop
+### 11. Microsoft releases Windows 10 KB5126657 extended security update
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/
+- Published: 2026-10-13T19:47:30+00:00
+- Summary: Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]
+
+### 12. Developing Gemini 4 Argon responsibly and safely
+- Section: AI — Labs & Model Launches
+- Source: Google DeepMind
+- URL: https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
+- Published: 2026-10-13T19:43:07+00:00
+
+### 13. Shopify opens its catalog up to more AI agents
 - Section: AI — News & Analysis
-- Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/therealcornpop/
-- Published: 2026-09-22T18:03:21+00:00
-- Summary: Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
-It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.
-&mdash; @therealcornpop, on TikTok
+- Source: The Verge AI
+- URL: https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents
+- Published: 2026-10-13T19:42:42+00:00
+- Summary: More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion listings in Shopify's catalog. (The catalog consists [&#8230;]
 
-    Tags: tiktok, ai, a
+### 14. Microsoft: Windows 11 24H2 Home and Pro reached end of support
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/
+- Published: 2026-10-13T19:04:38+00:00
+- Summary: Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]
 
-### 8. WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers
+### 15. Xbox is officially embracing the chaos of AI-powered game ports
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration
+- Published: 2026-10-13T19:00:48+00:00
+- Summary: Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty and Halo being played in a web [&#8230;]
+
+### 16. Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/
+- Published: 2026-10-13T18:43:43+00:00
+- Summary: CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. 
+The post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on SecurityWeek.
+
+### 17. Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/
+- Published: 2026-10-13T18:30:00+00:00
+- Summary: Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.
+
+### 18. Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html
-- Published: 2026-09-22T18:03:10+00:00
-- Summary: WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.
+- URL: https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html
+- Published: 2026-10-13T18:20:57+00:00
+- Summary: Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.
 
-On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners
+The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are "challenging to shut down," since "there's no centralized point to shut off."
 
-### 9. Introducing GPT-6 Sol and Luna
+### 19. UK Housing Ombudsman Service investigates 'security incident'
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/
+- Published: 2026-10-13T18:19:44+00:00
+- Summary: The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]
+
+### 20. Facebook is giving users more control over their algorithm
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/
+- Published: 2026-10-13T18:05:24+00:00
+- Summary: Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.
+
+### 21. Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
+- Published: 2026-10-13T18:03:18+00:00
+- Summary: A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.
+
+The flaw was in the feature that&nbsp;converts a personal account&nbsp;into an organization, Docker said in a&nbsp;security advisory&nbsp;on October 12.
+
+### 22. I don’t miss the camera on the Ray-Ban Meta Audio glasses
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables
+- Published: 2026-10-13T18:00:00+00:00
+- Summary: The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to [&#8230;]
+
+### 23. Windows 11 KB5127648 & KB5126653 cumulative updates released
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/
+- Published: 2026-10-13T17:49:38+00:00
+- Summary: Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]
+
+### 24. Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html
+- Published: 2026-10-13T17:33:11+00:00
+- Summary: An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to "act immediately." A fix for the third is still pending, according to Volexity.
+
+Volexity, which reported the flaws to Ivanti,
+
+### 25. Laplace Intelligence red-teams robots and self-driving cars before they hit the real world
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/
+- Published: 2026-10-13T17:30:00+00:00
+- Summary: University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.
+
+### 26. SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html
+- Published: 2026-10-13T17:28:50+00:00
+- Summary: A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,
+
+### 27. Pluto Security raises $42M as AI gives enterprise security teams a new headache
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/
+- Published: 2026-10-13T17:18:25+00:00
+- Summary: The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.
+
+### 28. Adobe Patches 140 Vulnerabilities Across 10 Products
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/
+- Published: 2026-10-13T17:14:42+00:00
+- Summary: The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge.
+The post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on SecurityWeek.
+
+### 29. Run fast, private agents on-device with LFM2.5-24B-A2B
+- Section: AI — Labs & Model Launches
+- Source: Hugging Face Blog
+- URL: https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+- Published: 2026-10-13T17:05:48+00:00
+
+### 30. Facebook will let you customize your feed algorithm using AI
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai
+- Published: 2026-10-13T17:01:31+00:00
+- Summary: Facebook's new "Your Algorithm" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations "respond right away" after you make updates using the new feature by hitting "interested" or "not interested" for different topics. Your Algorithm previously launched on Instagram earlier this [&#8230;]
+
+### 31. Google Partially Reverses Chrome Bug Bounty Cuts
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/
+- Published: 2026-10-13T17:00:00+00:00
+- Summary: Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. 
+The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek.
+
+### 32. Google Play now lets anyone build private, vibe-coded apps that run on Android
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/
+- Published: 2026-10-13T17:00:00+00:00
+- Summary: Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.
+
+### 33. Google makes it easier to launch your vibe-coded apps
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch
+- Published: 2026-10-13T17:00:00+00:00
+- Summary: The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]
+
+### 34. TFG London cyberattack disrupts systems at Hobbs and Whistles retailers
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/
+- Published: 2026-10-13T16:44:18+00:00
+- Summary: TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]
+
+### 35. Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce
+- Published: 2026-10-13T16:42:51+00:00
+- Summary: Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads "MY EX IS MY BIGGEST FAN" in bold black letters. [&#8230;]
+
+### 36. SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/
+- Published: 2026-10-13T16:30:00+00:00
+- Summary: Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.
+
+### 37. GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html
+- Published: 2026-10-13T16:18:18+00:00
+- Summary: GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.
+
+"Your configuration becomes validated and exempt from expiry after its first successful publish," the Microsoft-owned subsidiary
+
+### 38. Sandbox vulnerability gives rogue AI agents a path to escape and leak data, research says
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out
+- Published: 2026-10-13T16:18:00+00:00
+- Summary: The new research, published by AI security startup AIR, found that a network filtering flaw in Vercel Sandbox — a tool used to run code in isolated environments — could allow agents to exploit certificate validation processes to transmit data outside approved networks.
+
+### 39. West African scam compounds raided, more than 100 suspected trafficking victims ‘rescued’
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/ghana-nigeria-scam-centers-raided-uk-us
+- Published: 2026-10-13T16:05:00+00:00
+- Summary: More than two dozen people were arrested by police in Ghana and Nigeria as part of a U.K.-hosted operation that also included tech companies.
+
+### 40. Gemini 4 Argon for Robotics
+- Section: AI — Labs & Model Launches
+- Source: Google DeepMind
+- URL: https://deepmind.google/blog/gemini-4-argon-for-robotics/
+- Published: 2026-10-13T16:01:58+00:00
+
+### 41. Gemini 4 Argon: Built to solve your hardest problems
+- Section: AI — Labs & Model Launches
+- Source: Google DeepMind
+- URL: https://deepmind.google/blog/introducing-gemini-4-argon/
+- Published: 2026-10-13T16:01:52+00:00
+
+### 42. Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/
+- Published: 2026-10-13T16:01:00+00:00
+- Summary: Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services.
+The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek.
+
+### 43. Google finally releases Gemini 4 Argon
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon
+- Published: 2026-10-13T16:00:00+00:00
+- Summary: After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers "frontier reasoning and improved performance across complex workflows," while cutting down on hedging, repetition, and the cliches that [&#8230;]
+
+### 44. AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)
+- Section: Cloud Security & Infrastructure
+- Source: AWS News Blog
+- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/
+- Published: 2026-10-13T15:59:06+00:00
+- Summary: Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]
+
+### 45. Ivanti warns of Connect Secure zero-day exploited in attacks
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/
+- Published: 2026-10-13T15:45:50+00:00
+- Summary: Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]
+
+### 46. Docker Hub flaw let attackers impersonate users, tamper with images
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/
+- Published: 2026-10-13T15:20:20+00:00
+- Summary: Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]
+
+### 47. North Korean hackers target Ukrainian experts for possible intelligence on Russia's war
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/north-korea-hackers-russia-ukraine
+- Published: 2026-10-13T15:15:00+00:00
+- Summary: North Korean hackers have been targeting Ukrainian experts in diplomacy, security and international policy amid Pyongyang’s growing military cooperation with Russia.
+
+### 48. Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art
+- Published: 2026-10-13T15:12:59+00:00
+- Summary: Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an "AI-first" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]
+
+### 49. The MFA Gaps Attackers are Still Exploiting
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/
+- Published: 2026-10-13T14:01:11+00:00
+- Summary: Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [...]
+
+### 50. TechCrunch Disrupt 2026: Day 1
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/
+- Published: 2026-10-13T14:00:00+00:00
+- Summary: TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.
+
+### 51. DLSS 5 gets toned down for its Hogwarts Legacy debut next month
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements
+- Published: 2026-10-13T13:55:45+00:00
+- Summary: When Nvidia originally showed off DLSS 5 earlier this year, the technology immediately got branded as gen AI for video games. To gamers, Nvidia had lost the plot. I personally couldn't get over how faces were transformed using DLSS 5. The 15-year-old student from Hogwarts Legacy suddenly looked much older, and Grace from Resident Evil [&#8230;]
+
+### 52. SAP warns of maximum severity OAuth2 SSRF security flaw
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/
+- Published: 2026-10-13T13:51:02+00:00
+- Summary: SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]
+
+### 53. SpaceXSI bundles X Premium, Grok, and Cursor into one subscription
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/
+- Published: 2026-10-13T13:50:19+00:00
+- Summary: The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.
+
+### 54. Quoting Geoffrey Huntley
+- Section: AI — News & Analysis
+- Source: Simon Willison
+- URL: https://simonwillison.net/2026/Oct/13/geoffrey-huntley/
+- Published: 2026-10-13T13:32:00+00:00
+- Summary: If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.
+&mdash; Geoffrey Huntley, nobody should type code by hand anymore. here's what's left.
+
+    Tags: coding-agents, generative-ai, git, agentic-engineering, ai, geoffrey-huntley, llms
+
+### 55. The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/
+- Published: 2026-10-13T13:28:06+00:00
+- Summary: The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off.
+
+### 56. Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html
+- Published: 2026-10-13T13:12:32+00:00
+- Summary: The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.
+
+The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the "very serious" nature of the breach. The infringements
+
+### 57. Amex introduces a framework to prevent AI agents from making unauthorized purchases
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/
+- Published: 2026-10-13T13:00:00+00:00
+- Summary: American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.
+
+### 58. The Enterprise Threat Intelligence Report: 2026
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Flashpoint
+- URL: https://flashpoint.io/blog/enterprise-threat-intelligence-report-2026/
+- Published: 2026-10-13T12:42:36+00:00
+- Summary: New research examines the challenges shaping enterprise threat intelligence programs, what teams are prioritizing for the months ahead, and how they are approaching agentic AI plans and budgets.
+The post The Enterprise Threat Intelligence Report: 2026 appeared first on Flashpoint.
+
+### 59. Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/
+- Published: 2026-10-13T12:23:42+00:00
+- Summary: The startup will sell some of its assets to Disney for $20 million.
+
+### 60. Higgsfield takes AI video from 1 minute to over 10
 - Section: AI — Labs & Model Launches
 - Source: OpenAI Blog
-- URL: https://openai.com/index/introducing-gpt-6-sol-and-luna
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.
+- URL: https://openai.com/index/higgsfield-longer-videos-voice
+- Published: 2026-10-13T12:00:00+00:00
+- Summary: Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
 
-### 10. OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: OpenAI is launching two new models, which it says are cut from the same cloth as Astra.
-
-### 11. Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html
-- Published: 2026-09-22T17:58:15+00:00
-- Summary: Cybersecurity researchers have disclosed details of a malicious npm package named "tw-pkgprobe-7731" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.
-
-The package, named "tw-pkgprobe-7731," was first uploaded to the npm registry in mid-August 2026 by an npm account named "twdepprobe7731."
-
-### 12. BigCommerce Data Stolen via Ribon Apps Hack
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/
-- Published: 2026-09-22T17:58:00+00:00
-- Summary: The attackers used a compromised BigCommerce application key held by Ribon to access customer data.
-The post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.
-
-### 13. Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data
-- Published: 2026-09-22T17:32:49+00:00
-- Summary: Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.
-
-### 14. Reducing shadow IT visibility gaps with Wazuh
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/
-- Published: 2026-09-22T17:17:41+00:00
-- Summary: Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these visibility gaps. [...]
-
-### 15. Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real
-- Published: 2026-09-22T17:12:26+00:00
-- Summary: As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.
-
-### 16. Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html
-- Published: 2026-09-22T17:03:31+00:00
-- Summary: Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain."
-
-The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver
-
-### 17. Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
-- Published: 2026-09-22T16:41:12+00:00
-- Summary: A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.
-
-The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is
-
-### 18. Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy
-- Published: 2026-09-22T16:34:08+00:00
-- Summary: Venture capital firm Andreessen Horowitz (a16z) is creating an "academy" positioned as a pipeline for young people to build or join a Silicon Valley startup. The "Horowitz Andreessen Academy" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]
-
-### 19. Anthropic releases Opus 5.5 with lower prices and Fable-level performance
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
-- Published: 2026-09-22T16:30:07+00:00
-- Summary: Anthropic called it "the strongest-performing model we've tested to date."
-
-### 20. Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity
-- Published: 2026-09-22T16:30:00+00:00
-- Summary: Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]
-
-### 21. Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
-- Published: 2026-09-22T16:14:04+00:00
-- Summary: A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.
-
-The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in
-
-### 22. Trump says the US is officially renaming AI to ‘super intelligence’
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence
-- Published: 2026-09-22T16:01:10+00:00
-- Summary: In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, "globalists," climate change, and transgender people while also claiming that the US is now "officially" renaming artificial intelligence to "super intelligence." Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started [&#8230;]
-
-### 23. llm-typesafe 0.1a0
-- Section: AI — News & Analysis
-- Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/llm-typesafe/
-- Published: 2026-09-22T15:54:16+00:00
-- Summary: Release: llm-typesafe 0.1a0
-        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:
-llm install llm-typesafe
-
-Then set an API key (get one here, the waitlist seems to move pretty fast):
-llm keys set typesafe
-# Paste key
-
-And now you can ask yes/no "noul" questions like this:
-llm -m jev 'Please refund my last payment.' \
-  -s 'Does this message explicitly request a refund?'
-
-Output:
-{"type": "noul", "noul": 0.99}
-
-Or choice questions like this:
-cat message.txt | llm -m jev \
-  -s 'Which team should handle this message? If billing and technic
-
-### 24. Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens
-- Published: 2026-09-22T15:51:00+00:00
-- Summary: Available on Telegram for a $1,500 initiation fee and a recurring monthly $500 subscription, EvilTokens provided cybercriminals with artificial intelligence tools enabling them to compromise accounts, analyze breached inboxes and find the best methods for monetizing their access through fraud.
-
-### 25. EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]
-
-### 26. AstroForge is putting AI in command of its next spacecraft
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.
-
-### 27. Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.
-
-### 28. TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/
-- Published: 2026-09-22T14:30:00+00:00
-- Summary: Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.
-
-### 29. Cyera Raises $400 Million at $12+ Billion Valuation
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/
-- Published: 2026-09-22T14:29:34+00:00
-- Summary: The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round.
-The post Cyera Raises $400 Million at $12+ Billion Valuation appeared first on SecurityWeek.
-
-### 30. Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/
-- Published: 2026-09-22T14:15:00+00:00
-- Summary: We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.
-
-### 31. 4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/
-- Published: 2026-09-22T14:00:00+00:00
-- Summary: Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.
-
-### 32. Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/
-- Published: 2026-09-22T13:26:51+00:00
-- Summary: Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. 
-The post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared first on SecurityWeek.
-
-### 33. AI is set to help cyber attackers much more than defenders, says UK official
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/ai-set-to-help-attackers-more-than-defenders
-- Published: 2026-09-22T13:05:00+00:00
-- Summary: Dave Chismon, the NCSC’s chief technology officer for architecture, said in a blog post that the imbalance in AI means cyberattacks would likely grow as automated defenses struggle to keep pace.
-
-### 34. Russia's internet shutdowns disrupt warnings about incoming drone attacks
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Russia’s growing restrictions on mobile internet and cellular service are making it harder for people to receive warnings about incoming Ukrainian drone and missile attacks.
-
-### 35. Everyone can find a reason to dislike data center construction
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Inside two years of fraught AI data center debates in Pennsylvania.
-
-### 36. Webinar tomorrow: Inside real-world Google Workspace breaches
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/
-- Published: 2026-09-22T12:57:07+00:00
-- Summary: Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]
-
-### 37. D-Link warns of max severity zero-day bug in DIR-822A routers
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/
-- Published: 2026-09-22T12:48:06+00:00
-- Summary: D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]
-
-### 38. AI Agents Are Rewriting the Rules of Lateral Movement
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html
-- Published: 2026-09-22T12:30:00+00:00
-- Summary: Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?
-
-A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May
-
-### 39. New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html
-- Published: 2026-09-22T12:29:00+00:00
-- Summary: Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.
-
-The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are
-
-### 40. Only 13% of OT Network Segments Are Fully Isolated: Analysis
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/
-- Published: 2026-09-22T12:24:30+00:00
-- Summary: Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.
-The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared first on SecurityWeek.
-
-### 41. Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/
-- Published: 2026-09-22T12:23:05+00:00
-- Summary: The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.
-
-### 42. More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.
-
-### 43. Siemens Industrial Edge Management
+### 61. CISA Adds Two Known Exploited Vulnerabilities to Catalog
 - Section: Government / Advisory
 - Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verification. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens Industrial Edge Management are affected:
+- URL: https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- Published: 2026-10-13T12:00:00+00:00
+- Summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
 
-Industrial Edge Management Cloud vers:all/* (CVE-2026-18963)
-Industrial Edge Management Pro V1 vers:intdot/&gt;=1.14.9|&lt;1.15.20 (CVE-2026-18963)
-Industrial Edge Mana
+CVE-2026-96951 Microsoft Windows Command Injection Vulnerability
+CVE-2026-104935 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability
 
-### 44. OpenPLC Runtime v3
+These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;
+Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executi
+
+### 62. Swann Communications SWIFI-SE2KIC
 - Section: Government / Advisory
 - Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09
-- Published: 2026-09-22T12:00:00+00:00
+- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02
+- Published: 2026-10-13T12:00:00+00:00
 - Summary: View CSAF
 Summary
-Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller and the physical processes it drives.
-The following versions of OpenPLC Runtime v3 are affected:
+Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.
+The following versions of Swann Communications SWIFI-SE2KIC are affected:
 
-OpenPLC 3 (CVE-2026-88020)
+SWIFI-SE2KIC firmware &lt;=2.0.22 (CVE-2026-107605, CVE-2026-107606, CVE-2026-107607)
 
 
 
@@ -402,299 +501,139 @@ OpenPLC 3 (CVE-2026-88020)
 CVSS
 Vendor
 Equipment
-Vulnerabilities
 
 
 
 
-v3 6.1
-Autonomy Logic
-OpenPLC Runtime v3
-Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+v3 6.2
+Swann Communications
+SWIFI-SE2KIC firmware
+
+
+
+
+
+
+1 Vulnerability
+
+
+
+
+Missing Authentication for Critical Function
 
 
 
 
 Background
 
-Critical Infrastructure Sectors: Critical Manuf
+Critical Infrastructure Sectors: Commercial Facilities
+Countries/Areas Deployed: Worldwide
+Company Headquarters Location: Australi
 
-### 45. lwIP (Lightweight IP)
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.
-The following versions of lwIP (Lightweight IP) are affected:
-
-API &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-91018)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 8.8
-lwIP
-lwIP (Lightweight IP)
-Double Free
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater Systems
-Countries
-
-### 46. Siemens WTV676 and WTV776
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) to the devices. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens WTV676 and WTV776 are affected:
-
-WTV676-HB6035 Web Interface vers:intdot/&lt;3.94 (CVE-2026-89207)
-WTV776-HB6035 Web Interface vers:intdot/&lt;4.17 (CVE-2026-89207)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabi
-
-### 47. Siemens SIPLUS and SIMATIC Products
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Multiple Siemens products are vulnerable to the "Copy Fail" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.
-The following versions of Siemens SIPLUS and SIMATIC Products are affected:
-
-SIMATIC AX Runtime Core Linux Common Debian vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux Common Debian arm64 vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux
-
-### 48. Siemens Desigo CC family
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics containing embedded scripts that are executed on client application instances. Successful exploitation could lead to compromise of the client operating system and potential lateral movement within the organization.
-The following versions of Siemens Desigo CC family are affected:
-
-Desigo CC family V6 vers:all/* (CVE-2026-342
-
-### 49. Siemens SIMOVE Fleetmanager and SIPLANT
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens SIMOVE Fleetmanager and SIPLANT are affected:
-
-SIMOVE Fleetmanager V3.1 vers:intdot/&lt;3.1.13 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.2 vers:intdot/&lt;3.2.4 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.3 vers:intdot/&lt;3.3.2 (CVE-2026-67367)
-SIMOVE Fleetmanager V4.0 vers:intdot/&lt;4.0.1 (CVE-2026
-
-### 50. Siemens Siveillance Control
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized root-level access on the OIS server. Siemens has released patches and updates for Siveillance OIS to apply to the products that incorporate the OIS service, and recommends to update to the latest versions.
-The following versions of Siemens Siveillance Control are affected:
-
-Siveillance Control Pro V3.0 ver
-
-### 51. lwIP TCP/IP Stack MQTT Client Application
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.
-The following versions of lwIP TCP/IP Stack MQTT Client Application are affected:
-
-MQTT Client Application &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-87121)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 9.8
-lwIP
-lwIP TCP/IP Stack MQTT Client Application
-Out-of-bounds Write
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater 
-
-### 52. Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers
+### 63. Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/
-- Published: 2026-09-22T11:55:20+00:00
-- Summary: A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.
-The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/
+- Published: 2026-10-13T11:58:29+00:00
+- Summary: Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own.
+The post Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns appeared first on SecurityWeek.
 
-### 53. Meta patches Muse exploit that let attackers control the AI agent
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent
-- Published: 2026-09-22T11:53:58+00:00
-- Summary: Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]
-
-### 54. DORA Year Two: Can Your SOC Actually See the Attack?
+### 64. [Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html
-- Published: 2026-09-22T11:45:00+00:00
-- Summary: When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.
+- URL: https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html
+- Published: 2026-10-13T11:57:06+00:00
+- Summary: The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.
 
-Now in its second year, the harder part of DORA is
+With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much
 
-### 55. New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html
-- Published: 2026-09-22T11:38:40+00:00
-- Summary: A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.
-
-The bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.
-
-### 56. Malicious B-tree NPM Package Accumulates Millions of Downloads
+### 65. XWorm RAT Evolves Into Surveillance Platform
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/
-- Published: 2026-09-22T11:33:59+00:00
-- Summary: Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.
-The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/
+- Published: 2026-10-13T11:13:10+00:00
+- Summary: Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions.
+The post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWeek.
 
-### 57. SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
+### 66. LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html
-- Published: 2026-09-22T11:17:41+00:00
-- Summary: A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.
+- URL: https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html
+- Published: 2026-10-13T11:09:10+00:00
+- Summary: Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.
 
-The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been
+LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.
 
-### 58. WordPress Patches ‘Click2Shell’ Vulnerability
+The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware
+
+### 67. AI Turns Familiar Cyberattacks Into a Race Against Time
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
-- Published: 2026-09-22T10:22:27+00:00
-- Summary: The bug lets attackers automatically install and preview themes and could lead to remote code execution.
-The post WordPress Patches &#8216;Click2Shell&#8217; Vulnerability appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/
+- Published: 2026-10-13T11:00:00+00:00
+- Summary: IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses.
+The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.
 
-### 59. The Closed Quorum: Inside the first reported autonomous AI C2 implant
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
-- Published: 2026-09-22T10:00:58+00:00
-- Summary: CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain can be executed without operator involvement.
-
-### 60. Introducing CAIRN: Frontier tracking for AI-integrated malware
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
-- Published: 2026-09-22T10:00:25+00:00
-- Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
-
-### 61. New Windows Defender zero-day blocks Microsoft antivirus updates
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/
-- Published: 2026-09-22T09:55:11+00:00
-- Summary: Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]
-
-### 62. Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html
-- Published: 2026-09-22T09:38:18+00:00
-- Summary: A malicious npm package named "indexed-btree" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.
-
-"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility," Checkmarx said. "
-
-### 63. CISA orders feds to patch Zyxel flaw exploited for data theft
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/
-- Published: 2026-09-22T08:53:09+00:00
-- Summary: ​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
-
-### 64. Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme
+### 68. $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/
-- Published: 2026-09-22T08:37:06+00:00
-- Summary: The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.
-The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/
+- Published: 2026-10-13T10:36:05+00:00
+- Summary: A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers.
+The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek.
 
-### 65. SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
+### 69. Product Walkthrough: Bitdefender AI Visibility and Control
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html
-- Published: 2026-09-22T07:52:03+00:00
-- Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
+- URL: https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html
+- Published: 2026-10-13T10:30:00+00:00
+- Summary: A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.
 
-"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers
+A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.
 
-### 66. One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
+Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data
+
+### 70. Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/
+- Published: 2026-10-13T09:37:12+00:00
+- Summary: The company says it took some of its systems offline to contain a security issue within its network.
+The post Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek.
+
+### 71. Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html
-- Published: 2026-09-22T06:33:57+00:00
-- Summary: Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.
+- URL: https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html
+- Published: 2026-10-13T08:48:41+00:00
+- Summary: Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.
 
-It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
+The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires
 
-The flaw is in
-
-### 67. WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
+### 72. Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
-- Published: 2026-09-22T06:03:14+00:00
-- Summary: A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+- URL: https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html
+- Published: 2026-10-13T08:44:01+00:00
+- Summary: Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says.
 
-WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is
+Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0.
+
+Affected
+
+### 73. GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html
+- Published: 2026-10-13T08:43:37+00:00
+- Summary: GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.
+
+"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD
+
+### 74. Refrigeration Controller Hack Spoils Food Across European Supermarkets
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/
+- Published: 2026-10-13T08:28:51+00:00
+- Summary: A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost.
+The post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek.
