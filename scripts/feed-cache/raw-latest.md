@@ -1,700 +1,260 @@
-# Raw feed pull — 2026-09-22 19:59 UTC
+# Raw feed pull — 2026-10-14 12:33 UTC
 
 - Window: last 14h
 - Feeds: 26 (25 ok, 0 empty, 1 error)
-- Items kept after dedup: 67 (seen-skipped: 0, near-dup-skipped: 1)
+- Items kept after dedup: 27 (seen-skipped: 0, near-dup-skipped: 0)
 
 ## Feed health
 
-- [OK] The Hacker News (15 items)
-- [OK] BleepingComputer (9 items)
-- [OK] Krebs on Security (0 items)
-- [OK] Dark Reading (4 items)
-- [OK] The Record (Recorded Future) (4 items)
-- [OK] SecurityWeek (8 items)
+- [OK] The Hacker News (7 items)
+- [OK] BleepingComputer (2 items)
+- [OK] Krebs on Security (1 items)
+- [OK] Dark Reading (1 items)
+- [OK] The Record (Recorded Future) (1 items)
+- [OK] SecurityWeek (6 items)
 - [ERR] SentinelOne Labs (0 items) — HTTP 404
-- [OK] Cisco Talos (2 items)
+- [OK] Cisco Talos (0 items)
 - [OK] Unit 42 (Palo Alto) (0 items)
 - [OK] Flashpoint (0 items)
 - [OK] PortSwigger Research (0 items)
-- [OK] Trail of Bits (0 items)
+- [OK] Trail of Bits (1 items)
 - [OK] Google Project Zero (0 items)
 - [OK] Securelist (Kaspersky GReAT) (0 items)
 - [OK] OpenAI Blog (1 items)
-- [OK] Google DeepMind (0 items)
+- [OK] Google DeepMind (1 items)
 - [OK] Google AI Blog (0 items)
 - [OK] Hugging Face Blog (0 items)
-- [OK] TechCrunch AI (10 items)
-- [OK] Simon Willison (2 items)
+- [OK] TechCrunch AI (5 items)
+- [OK] Simon Willison (1 items)
 - [OK] Lilian Weng (OpenAI) (0 items)
-- [OK] The Verge AI (4 items)
+- [OK] The Verge AI (0 items)
 - [OK] AWS Security Blog (0 items)
 - [OK] AWS News Blog (0 items)
 - [OK] Google Cloud Security (0 items)
-- [OK] CISA Alerts (9 items)
+- [OK] CISA Alerts (0 items)
 
 ## Items
 
-### 1. [Virtual Event] Cybersecurity Outlook 2027
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027
-- Published: 2026-12-03T16:00:00+00:00
-
-### 2. Canadian regulator opens probe of IDScan for allegedly violating data privacy laws
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach
-- Published: 2026-09-22T19:52:00+00:00
-- Summary: The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.
-
-### 3. ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
+### 1. Hirudo Android malware replaces banking apps to evade security checks
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
-- Published: 2026-09-22T19:13:29+00:00
-- Summary: The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]
+- URL: https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/
+- Published: 2026-10-14T11:41:20+00:00
+- Summary: A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]
 
-### 4. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence
+### 2. Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html
+- Published: 2026-10-14T11:19:02+00:00
+- Summary: A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.
+
+Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $
+
+### 3. Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html
+- Published: 2026-10-14T11:08:22+00:00
+- Summary: Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp;
+
+Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking
+
+### 4. An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
+- Published: 2026-10-14T11:00:00+00:00
+- Summary: The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.
+
+TL;DR
+
+
+  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own.
+  One login request let the user choose where the one-time passcode went.
+  The attack was the easy part. Proving it
+
+### 5. Package managers have an integrity problem
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Trail of Bits
+- URL: https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/
+- Published: 2026-10-14T11:00:00+00:00
+- Summary: I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.
+Supply-chain attacks caused by developer compromise are a common story, but imagine what happens if ongoing mit
+
+### 6. Scimplify raises $25M to challenge China’s grip on critical materials with AI
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/
-- Published: 2026-09-22T19:09:11+00:00
-- Summary: Meta says Muse was built from scratch, but acknowledges the AI assistant was "heavily inspired" by OpenClaw — down to some of its workspace filenames and content.
+- URL: https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/
+- Published: 2026-10-14T11:00:00+00:00
+- Summary: Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.
 
-### 5. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+### 7. US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms
 - Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
-- Published: 2026-09-22T18:29:39+00:00
-- Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/
+- Published: 2026-10-14T10:55:21+00:00
+- Summary: Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location.
+The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.
 
-The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
-
-### 6. New ClosedQuorum Windows malware uses AI for attack decisions
+### 8. Microsoft: Recent Windows updates may trigger Remote Desktop failures
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-- Published: 2026-09-22T18:04:39+00:00
-- Summary: A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]
+- URL: https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/
+- Published: 2026-10-14T10:48:09+00:00
+- Summary: Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the "Administrator protection" security feature is enabled. [...]
 
-### 7. Quoting @therealcornpop
-- Section: AI — News & Analysis
-- Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/therealcornpop/
-- Published: 2026-09-22T18:03:21+00:00
-- Summary: Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
-It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.
-&mdash; @therealcornpop, on TikTok
-
-    Tags: tiktok, ai, a
-
-### 8. WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers
+### 9. AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html
-- Published: 2026-09-22T18:03:10+00:00
-- Summary: WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.
+- URL: https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html
+- Published: 2026-10-14T07:46:57+00:00
+- Summary: A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.
 
-On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners
+The bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the
 
-### 9. Introducing GPT-6 Sol and Luna
+### 10. Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/
+- Published: 2026-10-14T07:38:51+00:00
+- Summary: Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements.
+The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek.
+
+### 11. Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/
+- Published: 2026-10-14T07:26:35+00:00
+- Summary: Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks.
+The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.
+
+### 12. Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/
+- Published: 2026-10-14T07:16:12+00:00
+- Summary: The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.
+The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWeek.
+
+### 13. SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/
+- Published: 2026-10-14T06:12:10+00:00
+- Summary: The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system.
+The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.
+
+### 14. Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html
+- Published: 2026-10-14T05:52:28+00:00
+- Summary: Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.
+
+The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.
+
+The work was done in a lab as a proof of
+
+### 15. Ransomware Gangs Embrace Physical Threats, Family Stalking?
+- Section: Cybersecurity — Primary
+- Source: Dark Reading
+- URL: https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking
+- Published: 2026-10-14T05:00:00+00:00
+- Summary: Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.
+
+### 16. Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html
+- Published: 2026-10-14T04:34:43+00:00
+- Summary: Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.
+
+These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code
+
+### 17. Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection
+- Section: AI — Labs & Model Launches
+- Source: Google DeepMind
+- URL: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
+- Published: 2026-10-14T02:00:14+00:00
+- Summary: Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.
+
+### 18. OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html
+- Published: 2026-10-14T01:59:25+00:00
+- Summary: A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.
+
+Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by
+
+### 19. The EU’s next chapter in AI is agentic
 - Section: AI — Labs & Model Launches
 - Source: OpenAI Blog
-- URL: https://openai.com/index/introducing-gpt-6-sol-and-luna
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.
+- URL: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
+- Published: 2026-10-14T00:00:00+00:00
+- Summary: New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.
 
-### 10. OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes
+### 20. Microsoft Patches More Than 1,400 Security Flaws
+- Section: Cybersecurity — Primary
+- Source: Krebs on Security
+- URL: https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/
+- Published: 2026-10-13T23:24:53+00:00
+- Summary: Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.
+
+### 21. Science Corporation implants its vision-restoring chip in its first Stargardt disease patient
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: OpenAI is launching two new models, which it says are cut from the same cloth as Astra.
+- URL: https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/
+- Published: 2026-10-13T23:13:31+00:00
+- Summary: Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).
 
-### 11. Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html
-- Published: 2026-09-22T17:58:15+00:00
-- Summary: Cybersecurity researchers have disclosed details of a malicious npm package named "tw-pkgprobe-7731" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.
-
-The package, named "tw-pkgprobe-7731," was first uploaded to the npm registry in mid-August 2026 by an npm account named "twdepprobe7731."
-
-### 12. BigCommerce Data Stolen via Ribon Apps Hack
+### 22. Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/
-- Published: 2026-09-22T17:58:00+00:00
-- Summary: The attackers used a compromised BigCommerce application key held by Ribon to access customer data.
-The post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/
+- Published: 2026-10-13T23:07:00+00:00
+- Summary: Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.
+The post Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say appeared first on SecurityWeek.
 
-### 13. Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data
-- Published: 2026-09-22T17:32:49+00:00
-- Summary: Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.
-
-### 14. Reducing shadow IT visibility gaps with Wazuh
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/
-- Published: 2026-09-22T17:17:41+00:00
-- Summary: Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these visibility gaps. [...]
-
-### 15. Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real
-- Published: 2026-09-22T17:12:26+00:00
-- Summary: As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.
-
-### 16. Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html
-- Published: 2026-09-22T17:03:31+00:00
-- Summary: Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain."
-
-The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver
-
-### 17. Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
-- Published: 2026-09-22T16:41:12+00:00
-- Summary: A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.
-
-The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is
-
-### 18. Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy
-- Published: 2026-09-22T16:34:08+00:00
-- Summary: Venture capital firm Andreessen Horowitz (a16z) is creating an "academy" positioned as a pipeline for young people to build or join a Silicon Valley startup. The "Horowitz Andreessen Academy" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]
-
-### 19. Anthropic releases Opus 5.5 with lower prices and Fable-level performance
+### 23. Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
-- Published: 2026-09-22T16:30:07+00:00
-- Summary: Anthropic called it "the strongest-performing model we've tested to date."
+- URL: https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/
+- Published: 2026-10-13T23:05:34+00:00
+- Summary: Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.
 
-### 20. Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity
-- Published: 2026-09-22T16:30:00+00:00
-- Summary: Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]
-
-### 21. Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
-- Published: 2026-09-22T16:14:04+00:00
-- Summary: A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.
-
-The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in
-
-### 22. Trump says the US is officially renaming AI to ‘super intelligence’
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence
-- Published: 2026-09-22T16:01:10+00:00
-- Summary: In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, "globalists," climate change, and transgender people while also claiming that the US is now "officially" renaming artificial intelligence to "super intelligence." Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started [&#8230;]
-
-### 23. llm-typesafe 0.1a0
+### 24. Redesigning source control at Anthropic
 - Section: AI — News & Analysis
 - Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/llm-typesafe/
-- Published: 2026-09-22T15:54:16+00:00
-- Summary: Release: llm-typesafe 0.1a0
-        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:
-llm install llm-typesafe
+- URL: https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/
+- Published: 2026-10-13T23:00:06+00:00
+- Summary: Redesigning source control at Anthropic
+Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.
 
-Then set an API key (get one here, the waitlist seems to move pretty fast):
-llm keys set typesafe
-# Paste key
+In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.
 
-And now you can ask yes/no "noul" questions like this:
-llm -m jev 'Please refund my last payment.' \
-  -s 'Does this message explicitly request a refund?'
+They included a chart showing those changes. I had Claude modify their chart (code here) to add markers for the public releases of each of their models in 2026:
 
-Output:
-{"type": "noul", "noul": 0.99}
+This shows public release dates, not the date when models became available for 
 
-Or choice questions like this:
-cat message.txt | llm -m jev \
-  -s 'Which team should handle this message? If billing and technic
-
-### 24. Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals
+### 25. Saudi national charged with planting spy device in OpenAI executive conference room
 - Section: Cybersecurity — Primary
 - Source: The Record (Recorded Future)
-- URL: https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens
-- Published: 2026-09-22T15:51:00+00:00
-- Summary: Available on Telegram for a $1,500 initiation fee and a recurring monthly $500 subscription, EvilTokens provided cybercriminals with artificial intelligence tools enabling them to compromise accounts, analyze breached inboxes and find the best methods for monetizing their access through fraud.
+- URL: https://therecord.media/saudi-national-charged-with-spy-device-openai
+- Published: 2026-10-13T23:00:00+00:00
+- Summary: Abdulrahman Alfozan, 35, a Saudi national working as an engineer for OpenAI, was charged Tuesday with secretly bugging an executive conference room at one of the company’s buildings in San Francisco.
 
-### 25. EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]
-
-### 26. AstroForge is putting AI in command of its next spacecraft
+### 26. Industrial Next wants factory robots to switch tasks in minutes, not weeks
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.
+- URL: https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/
+- Published: 2026-10-13T23:00:00+00:00
+- Summary: Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.
 
-### 27. Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda
+### 27. Cerebras CEO pushes back on AI doomsday warnings
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.
-
-### 28. TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/
-- Published: 2026-09-22T14:30:00+00:00
-- Summary: Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.
-
-### 29. Cyera Raises $400 Million at $12+ Billion Valuation
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/
-- Published: 2026-09-22T14:29:34+00:00
-- Summary: The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round.
-The post Cyera Raises $400 Million at $12+ Billion Valuation appeared first on SecurityWeek.
-
-### 30. Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/
-- Published: 2026-09-22T14:15:00+00:00
-- Summary: We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.
-
-### 31. 4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/
-- Published: 2026-09-22T14:00:00+00:00
-- Summary: Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.
-
-### 32. Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/
-- Published: 2026-09-22T13:26:51+00:00
-- Summary: Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. 
-The post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared first on SecurityWeek.
-
-### 33. AI is set to help cyber attackers much more than defenders, says UK official
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/ai-set-to-help-attackers-more-than-defenders
-- Published: 2026-09-22T13:05:00+00:00
-- Summary: Dave Chismon, the NCSC’s chief technology officer for architecture, said in a blog post that the imbalance in AI means cyberattacks would likely grow as automated defenses struggle to keep pace.
-
-### 34. Russia's internet shutdowns disrupt warnings about incoming drone attacks
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Russia’s growing restrictions on mobile internet and cellular service are making it harder for people to receive warnings about incoming Ukrainian drone and missile attacks.
-
-### 35. Everyone can find a reason to dislike data center construction
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Inside two years of fraught AI data center debates in Pennsylvania.
-
-### 36. Webinar tomorrow: Inside real-world Google Workspace breaches
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/
-- Published: 2026-09-22T12:57:07+00:00
-- Summary: Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]
-
-### 37. D-Link warns of max severity zero-day bug in DIR-822A routers
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/
-- Published: 2026-09-22T12:48:06+00:00
-- Summary: D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]
-
-### 38. AI Agents Are Rewriting the Rules of Lateral Movement
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html
-- Published: 2026-09-22T12:30:00+00:00
-- Summary: Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?
-
-A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May
-
-### 39. New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html
-- Published: 2026-09-22T12:29:00+00:00
-- Summary: Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.
-
-The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are
-
-### 40. Only 13% of OT Network Segments Are Fully Isolated: Analysis
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/
-- Published: 2026-09-22T12:24:30+00:00
-- Summary: Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.
-The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared first on SecurityWeek.
-
-### 41. Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/
-- Published: 2026-09-22T12:23:05+00:00
-- Summary: The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.
-
-### 42. More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.
-
-### 43. Siemens Industrial Edge Management
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verification. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens Industrial Edge Management are affected:
-
-Industrial Edge Management Cloud vers:all/* (CVE-2026-18963)
-Industrial Edge Management Pro V1 vers:intdot/&gt;=1.14.9|&lt;1.15.20 (CVE-2026-18963)
-Industrial Edge Mana
-
-### 44. OpenPLC Runtime v3
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller and the physical processes it drives.
-The following versions of OpenPLC Runtime v3 are affected:
-
-OpenPLC 3 (CVE-2026-88020)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 6.1
-Autonomy Logic
-OpenPLC Runtime v3
-Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Critical Manuf
-
-### 45. lwIP (Lightweight IP)
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.
-The following versions of lwIP (Lightweight IP) are affected:
-
-API &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-91018)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 8.8
-lwIP
-lwIP (Lightweight IP)
-Double Free
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater Systems
-Countries
-
-### 46. Siemens WTV676 and WTV776
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) to the devices. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens WTV676 and WTV776 are affected:
-
-WTV676-HB6035 Web Interface vers:intdot/&lt;3.94 (CVE-2026-89207)
-WTV776-HB6035 Web Interface vers:intdot/&lt;4.17 (CVE-2026-89207)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabi
-
-### 47. Siemens SIPLUS and SIMATIC Products
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Multiple Siemens products are vulnerable to the "Copy Fail" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.
-The following versions of Siemens SIPLUS and SIMATIC Products are affected:
-
-SIMATIC AX Runtime Core Linux Common Debian vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux Common Debian arm64 vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux
-
-### 48. Siemens Desigo CC family
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics containing embedded scripts that are executed on client application instances. Successful exploitation could lead to compromise of the client operating system and potential lateral movement within the organization.
-The following versions of Siemens Desigo CC family are affected:
-
-Desigo CC family V6 vers:all/* (CVE-2026-342
-
-### 49. Siemens SIMOVE Fleetmanager and SIPLANT
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens SIMOVE Fleetmanager and SIPLANT are affected:
-
-SIMOVE Fleetmanager V3.1 vers:intdot/&lt;3.1.13 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.2 vers:intdot/&lt;3.2.4 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.3 vers:intdot/&lt;3.3.2 (CVE-2026-67367)
-SIMOVE Fleetmanager V4.0 vers:intdot/&lt;4.0.1 (CVE-2026
-
-### 50. Siemens Siveillance Control
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized root-level access on the OIS server. Siemens has released patches and updates for Siveillance OIS to apply to the products that incorporate the OIS service, and recommends to update to the latest versions.
-The following versions of Siemens Siveillance Control are affected:
-
-Siveillance Control Pro V3.0 ver
-
-### 51. lwIP TCP/IP Stack MQTT Client Application
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.
-The following versions of lwIP TCP/IP Stack MQTT Client Application are affected:
-
-MQTT Client Application &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-87121)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 9.8
-lwIP
-lwIP TCP/IP Stack MQTT Client Application
-Out-of-bounds Write
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater 
-
-### 52. Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/
-- Published: 2026-09-22T11:55:20+00:00
-- Summary: A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.
-The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek.
-
-### 53. Meta patches Muse exploit that let attackers control the AI agent
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent
-- Published: 2026-09-22T11:53:58+00:00
-- Summary: Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]
-
-### 54. DORA Year Two: Can Your SOC Actually See the Attack?
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html
-- Published: 2026-09-22T11:45:00+00:00
-- Summary: When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.
-
-Now in its second year, the harder part of DORA is
-
-### 55. New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html
-- Published: 2026-09-22T11:38:40+00:00
-- Summary: A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.
-
-The bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.
-
-### 56. Malicious B-tree NPM Package Accumulates Millions of Downloads
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/
-- Published: 2026-09-22T11:33:59+00:00
-- Summary: Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.
-The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek.
-
-### 57. SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html
-- Published: 2026-09-22T11:17:41+00:00
-- Summary: A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.
-
-The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been
-
-### 58. WordPress Patches ‘Click2Shell’ Vulnerability
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
-- Published: 2026-09-22T10:22:27+00:00
-- Summary: The bug lets attackers automatically install and preview themes and could lead to remote code execution.
-The post WordPress Patches &#8216;Click2Shell&#8217; Vulnerability appeared first on SecurityWeek.
-
-### 59. The Closed Quorum: Inside the first reported autonomous AI C2 implant
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
-- Published: 2026-09-22T10:00:58+00:00
-- Summary: CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain can be executed without operator involvement.
-
-### 60. Introducing CAIRN: Frontier tracking for AI-integrated malware
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
-- Published: 2026-09-22T10:00:25+00:00
-- Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
-
-### 61. New Windows Defender zero-day blocks Microsoft antivirus updates
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/
-- Published: 2026-09-22T09:55:11+00:00
-- Summary: Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]
-
-### 62. Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html
-- Published: 2026-09-22T09:38:18+00:00
-- Summary: A malicious npm package named "indexed-btree" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.
-
-"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility," Checkmarx said. "
-
-### 63. CISA orders feds to patch Zyxel flaw exploited for data theft
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/
-- Published: 2026-09-22T08:53:09+00:00
-- Summary: ​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
-
-### 64. Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/
-- Published: 2026-09-22T08:37:06+00:00
-- Summary: The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.
-The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek.
-
-### 65. SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html
-- Published: 2026-09-22T07:52:03+00:00
-- Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
-
-"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers
-
-### 66. One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html
-- Published: 2026-09-22T06:33:57+00:00
-- Summary: Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.
-
-It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
-
-The flaw is in
-
-### 67. WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
-- Published: 2026-09-22T06:03:14+00:00
-- Summary: A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
-
-WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is
+- URL: https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/
+- Published: 2026-10-13T22:36:59+00:00
+- Summary: Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.
