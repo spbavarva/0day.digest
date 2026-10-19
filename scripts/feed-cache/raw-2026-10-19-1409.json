@@ -1,0 +1,383 @@
+{
+  "generated_at": "2026-10-19T14:09:27.687925+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 25,
+  "feeds_empty": 0,
+  "feeds_error": 1,
+  "item_count": 20,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 5,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 6,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "error",
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Inside the Underground Market for Know Your Client Services",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "published": "2026-10-19T14:00:10+00:00",
+      "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
+      "published": "2026-10-19T14:00:00+00:00",
+      "summary": "An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "published": "2026-10-19T13:58:41+00:00",
+      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "published": "2026-10-19T13:49:24+00:00",
+      "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Krebs on Security",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "published": "2026-10-19T13:48:56+00:00",
+      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
+      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+      "published": "2026-10-19T13:16:20+00:00",
+      "summary": "The services remain unavailable as the company continues remediation and security validation.\nThe post ConnectWise Suspends Cloud Services in Response to Cyberattack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "published": "2026-10-19T13:05:45+00:00",
+      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+      "published": "2026-10-19T12:44:44+00:00",
+      "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
+      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+      "published": "2026-10-19T12:44:39+00:00",
+      "summary": "Threat actors have been observed delivering cryptocurrency miners and proxy software.\nThe post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "published": "2026-10-19T12:00:00+00:00",
+      "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "One Compromised Login Exposed Millions of California Students\u2019 Records",
+      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+      "published": "2026-10-19T11:55:50+00:00",
+      "summary": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.\nThe post One Compromised Login Exposed Millions of California Students&#8217; Records appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "published": "2026-10-19T11:50:00+00:00",
+      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+      "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+      "published": "2026-10-19T11:45:00+00:00",
+      "summary": "Hackers have stolen passwords, access credentials and other sensitive data belonging to customers of Russian hosting provider FirstVDS after exploiting a vulnerability in software used to manage its servers."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+      "published": "2026-10-19T11:13:23+00:00",
+      "summary": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.\nThe post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "published": "2026-10-19T10:06:40+00:00",
+      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\n\"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+      "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+      "published": "2026-10-19T09:37:04+00:00",
+      "summary": "Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics.\nThe post MITRE ATT&#038;CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "published": "2026-10-19T08:58:41+00:00",
+      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery\u00a0issues on some\u00a0Exchange Server systems. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+      "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
+      "published": "2026-10-19T07:45:25+00:00",
+      "summary": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware.\nThe post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "published": "2026-10-19T06:29:44+00:00",
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "published": "2026-10-19T06:07:08+00:00",
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without"
+    }
+  ]
+}
