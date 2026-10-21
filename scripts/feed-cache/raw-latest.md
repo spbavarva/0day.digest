@@ -1,700 +1,594 @@
-# Raw feed pull — 2026-09-22 19:59 UTC
+# Raw feed pull — 2026-10-21 20:26 UTC
 
 - Window: last 14h
 - Feeds: 26 (25 ok, 0 empty, 1 error)
-- Items kept after dedup: 67 (seen-skipped: 0, near-dup-skipped: 1)
+- Items kept after dedup: 71 (seen-skipped: 0, near-dup-skipped: 0)
 
 ## Feed health
 
 - [OK] The Hacker News (15 items)
-- [OK] BleepingComputer (9 items)
-- [OK] Krebs on Security (0 items)
-- [OK] Dark Reading (4 items)
+- [OK] BleepingComputer (7 items)
+- [OK] Krebs on Security (1 items)
+- [OK] Dark Reading (6 items)
 - [OK] The Record (Recorded Future) (4 items)
-- [OK] SecurityWeek (8 items)
+- [OK] SecurityWeek (10 items)
 - [ERR] SentinelOne Labs (0 items) — HTTP 404
 - [OK] Cisco Talos (2 items)
-- [OK] Unit 42 (Palo Alto) (0 items)
-- [OK] Flashpoint (0 items)
+- [OK] Unit 42 (Palo Alto) (2 items)
+- [OK] Flashpoint (1 items)
 - [OK] PortSwigger Research (0 items)
-- [OK] Trail of Bits (0 items)
+- [OK] Trail of Bits (1 items)
 - [OK] Google Project Zero (0 items)
-- [OK] Securelist (Kaspersky GReAT) (0 items)
-- [OK] OpenAI Blog (1 items)
+- [OK] Securelist (Kaspersky GReAT) (1 items)
+- [OK] OpenAI Blog (5 items)
 - [OK] Google DeepMind (0 items)
 - [OK] Google AI Blog (0 items)
-- [OK] Hugging Face Blog (0 items)
-- [OK] TechCrunch AI (10 items)
+- [OK] Hugging Face Blog (4 items)
+- [OK] TechCrunch AI (2 items)
 - [OK] Simon Willison (2 items)
 - [OK] Lilian Weng (OpenAI) (0 items)
 - [OK] The Verge AI (4 items)
-- [OK] AWS Security Blog (0 items)
+- [OK] AWS Security Blog (1 items)
 - [OK] AWS News Blog (0 items)
-- [OK] Google Cloud Security (0 items)
-- [OK] CISA Alerts (9 items)
+- [OK] Google Cloud Security (2 items)
+- [OK] CISA Alerts (1 items)
 
 ## Items
 
-### 1. [Virtual Event] Cybersecurity Outlook 2027
+### 1. Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens
 - Section: Cybersecurity — Primary
 - Source: Dark Reading
-- URL: https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027
-- Published: 2026-12-03T16:00:00+00:00
+- URL: https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss
+- Published: 2026-10-21T20:03:14+00:00
+- Summary: Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.
 
-### 2. Canadian regulator opens probe of IDScan for allegedly violating data privacy laws
+### 2. Anthropic takes on Muse with Claude Duet, its new AI agent
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent
+- Published: 2026-10-21T19:53:20+00:00
+- Summary: Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a "research preview," according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is [&#8230;]
+
+### 3. Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity
 - Section: Cybersecurity — Primary
 - Source: The Record (Recorded Future)
-- URL: https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach
-- Published: 2026-09-22T19:52:00+00:00
-- Summary: The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.
+- URL: https://therecord.media/utilities-cybersecurity-initiative-accenture
+- Published: 2026-10-21T19:45:00+00:00
+- Summary: Up to 500 under-resourced utilities will receive support in order to bolster their cybersecurity through a private sector initiative launched this week.
 
-### 3. ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
-- Published: 2026-09-22T19:13:29+00:00
-- Summary: The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]
-
-### 4. Meta admits Muse’s likeness to OpenClaw isn’t a coincidence
+### 4. While Amazon blocks AI agents, Walmart rolls out the welcome mat
 - Section: AI — News & Analysis
 - Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/
-- Published: 2026-09-22T19:09:11+00:00
-- Summary: Meta says Muse was built from scratch, but acknowledges the AI assistant was "heavily inspired" by OpenClaw — down to some of its workspace filenames and content.
+- URL: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
+- Published: 2026-10-21T19:30:00+00:00
+- Summary: As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.
 
-### 5. Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+### 5. Walmart is inviting AI agents to shop for you
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents
+- Published: 2026-10-21T19:30:00+00:00
+- Summary: Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to connect your own AI agent to the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, [&#8230;]
+
+### 6. 'PHP2Shell' Bugs Signal Red Alert for Security Industry
+- Section: Cybersecurity — Primary
+- Source: Dark Reading
+- URL: https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry
+- Published: 2026-10-21T19:19:17+00:00
+- Summary: Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.
+
+### 7. Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
-- Published: 2026-09-22T18:29:39+00:00
-- Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.
+- URL: https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html
+- Published: 2026-10-21T18:57:34+00:00
+- Summary: GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.
 
-The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an
 
-### 6. New ClosedQuorum Windows malware uses AI for attack decisions
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-- Published: 2026-09-22T18:04:39+00:00
-- Summary: A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]
+### 8. The Missing Layer in Vulnerability Prioritization: Full Visibility Into Your Attack Surface
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Flashpoint
+- URL: https://flashpoint.io/blog/the-missing-layer-in-vulnerability-prioritization-full-visibility-into-your-attack-surface/
+- Published: 2026-10-21T18:50:20+00:00
+- Summary: Discover how connecting external attack surface visibility with threat-informed vulnerability intelligence helps security teams identify exposures, assess risk, and prioritize remediation.
+The post The Missing Layer in Vulnerability Prioritization: Full Visibility Into Your Attack Surface appeared first on Flashpoint.
 
-### 7. Quoting @therealcornpop
+### 9. Today's PHP Security Release, and How We're Strengthening PHP Security
 - Section: AI — News & Analysis
 - Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/therealcornpop/
-- Published: 2026-09-22T18:03:21+00:00
-- Summary: Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.
-It's the lack of anything. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.
-&mdash; @therealcornpop, on TikTok
+- URL: https://simonwillison.net/2026/Oct/21/php-security-release/
+- Published: 2026-10-21T18:41:53+00:00
+- Summary: Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security
+If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.
+This post from the PHP Foundation explain what went so wrong:
 
-    Tags: tiktok, ai, a
+On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actu
 
-### 8. WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers
+### 10. CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/
+- Published: 2026-10-21T18:34:42+00:00
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]
+
+### 11. Democrat lawmakers say Russia is aiming to undermine party ahead of midterms
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/democrat-lawmakers-say-russia-is-aiming-to-undermine-party
+- Published: 2026-10-21T18:28:00+00:00
+- Summary: The pair stressed the latest update showed no country is pursuing the technically challenging effort to interfere with or hack into the country’s election infrastructure or tamper directly with votes.
+
+### 12. NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required
+- Section: AI — Labs & Model Launches
+- Source: Hugging Face Blog
+- URL: https://huggingface.co/blog/nvidia/kumo-relational
+- Published: 2026-10-21T18:26:30+00:00
+
+### 13. LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html
-- Published: 2026-09-22T18:03:10+00:00
-- Summary: WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.
+- URL: https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
+- Published: 2026-10-21T18:01:57+00:00
+- Summary: The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.
 
-On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners
+The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the
 
-### 9. Introducing GPT-6 Sol and Luna
+### 14. How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications
+- Section: AI — Labs & Model Launches
+- Source: Hugging Face Blog
+- URL: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
+- Published: 2026-10-21T17:35:36+00:00
+
+### 15. PHP says AI review of critical bugs first sparked alarm in August, but signs surfaced in 2024
+- Section: Cybersecurity — Primary
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/php-foundation-statement-critical-vulnerabilities
+- Published: 2026-10-21T17:30:00+00:00
+- Summary: In a lengthy statement about two critical vulnerabilities, the PHP Foundation explained how one dated to 2024, how a recent third-party review by AI companies heightened attention on both, why it scrambled to post information earlier than planned.
+
+### 16. Best practices for integrating IAM Roles Anywhere with your PKI
+- Section: Cloud Security & Infrastructure
+- Source: AWS Security Blog
+- URL: https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/
+- Published: 2026-10-21T17:03:50+00:00
+- Summary: Using temporary credentials is a security best practice to reduce the risk from credentials getting compromised. With AWS IAM Roles Anywhere, now your workloads outside of Amazon Web Services (AWS) will be able to access AWS resources by obtaining temporary security credentials in AWS Identity and Access Management (IAM). IAM Roles Anywhere relies on public […]
+
+### 17. Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/
+- Published: 2026-10-21T17:00:00+00:00
+- Summary: Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis.
+The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared first on SecurityWeek.
+
+### 18. How AT&T is rethinking in-house legal work with OpenAI
 - Section: AI — Labs & Model Launches
 - Source: OpenAI Blog
-- URL: https://openai.com/index/introducing-gpt-6-sol-and-luna
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.
+- URL: https://openai.com/index/att-legal
+- Published: 2026-10-21T17:00:00+00:00
+- Summary: AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.
 
-### 10. OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
-- Published: 2026-09-22T18:00:00+00:00
-- Summary: OpenAI is launching two new models, which it says are cut from the same cloth as Astra.
-
-### 11. Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html
-- Published: 2026-09-22T17:58:15+00:00
-- Summary: Cybersecurity researchers have disclosed details of a malicious npm package named "tw-pkgprobe-7731" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.
-
-The package, named "tw-pkgprobe-7731," was first uploaded to the npm registry in mid-August 2026 by an npm account named "twdepprobe7731."
-
-### 12. BigCommerce Data Stolen via Ribon Apps Hack
+### 19. PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/
-- Published: 2026-09-22T17:58:00+00:00
-- Summary: The attackers used a compromised BigCommerce application key held by Ribon to access customer data.
-The post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/
+- Published: 2026-10-21T16:50:40+00:00
+- Summary: Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches.
+The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.
 
-### 13. Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data
+### 20. OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors
 - Section: Cybersecurity — Primary
 - Source: Dark Reading
-- URL: https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data
-- Published: 2026-09-22T17:32:49+00:00
-- Summary: Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.
+- URL: https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors
+- Published: 2026-10-21T16:50:15+00:00
+- Summary: A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.
 
-### 14. Reducing shadow IT visibility gaps with Wazuh
+### 21. OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html
+- Published: 2026-10-21T16:33:47+00:00
+- Summary: OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.
+
+The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.
+
+"A GPT-6.1 Sol agent repairing an
+
+### 22. Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Unit 42 (Palo Alto)
+- URL: https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
+- Published: 2026-10-21T16:30:34+00:00
+- Summary: CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.
+The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared first on Unit 42.
+
+### 23. OpenAI agents disabled safety monitoring, one lied about it
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/
-- Published: 2026-09-22T17:17:41+00:00
-- Summary: Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help organizations identify and reduce these visibility gaps. [...]
+- URL: https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/
+- Published: 2026-10-21T16:26:53+00:00
+- Summary: OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]
 
-### 15. Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real
-- Section: Cybersecurity — Primary
-- Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real
-- Published: 2026-09-22T17:12:26+00:00
-- Summary: As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.
-
-### 16. Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html
-- Published: 2026-09-22T17:03:31+00:00
-- Summary: Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain."
-
-The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver
-
-### 17. Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
-- Published: 2026-09-22T16:41:12+00:00
-- Summary: A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.
-
-The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is
-
-### 18. Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy
-- Published: 2026-09-22T16:34:08+00:00
-- Summary: Venture capital firm Andreessen Horowitz (a16z) is creating an "academy" positioned as a pipeline for young people to build or join a Silicon Valley startup. The "Horowitz Andreessen Academy" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]
-
-### 19. Anthropic releases Opus 5.5 with lower prices and Fable-level performance
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
-- Published: 2026-09-22T16:30:07+00:00
-- Summary: Anthropic called it "the strongest-performing model we've tested to date."
-
-### 20. Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity
-- Published: 2026-09-22T16:30:00+00:00
-- Summary: Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]
-
-### 21. Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
-- Published: 2026-09-22T16:14:04+00:00
-- Summary: A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.
-
-The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in
-
-### 22. Trump says the US is officially renaming AI to ‘super intelligence’
-- Section: AI — News & Analysis
-- Source: The Verge AI
-- URL: https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence
-- Published: 2026-09-22T16:01:10+00:00
-- Summary: In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, "globalists," climate change, and transgender people while also claiming that the US is now "officially" renaming artificial intelligence to "super intelligence." Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started [&#8230;]
-
-### 23. llm-typesafe 0.1a0
+### 24. Panache — RTS Belle Époque pour mobile
 - Section: AI — News & Analysis
 - Source: Simon Willison
-- URL: https://simonwillison.net/2026/Sep/22/llm-typesafe/
-- Published: 2026-09-22T15:54:16+00:00
-- Summary: Release: llm-typesafe 0.1a0
-        I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this:
-llm install llm-typesafe
+- URL: https://simonwillison.net/2026/Oct/21/panache/
+- Published: 2026-10-21T16:25:16+00:00
+- Summary: Panache — RTS Belle Époque pour mobile
+Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro!
 
-Then set an API key (get one here, the waitlist seems to move pretty fast):
-llm keys set typesafe
-# Paste key
+Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache.
 
-And now you can ask yes/no "noul" questions like this:
-llm -m jev 'Please refund my last payment.' \
-  -s 'Does this message explicitly request a refund?'
+You can play Panache here - it's worth clicking that link just to experience the new i
 
-Output:
-{"type": "noul", "noul": 0.99}
+### 25. Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.
+- Section: AI — Labs & Model Launches
+- Source: Hugging Face Blog
+- URL: https://huggingface.co/blog/amazon/profiling-torchneuron-part-1
+- Published: 2026-10-21T16:04:43+00:00
 
-Or choice questions like this:
-cat message.txt | llm -m jev \
-  -s 'Which team should handle this message? If billing and technic
-
-### 24. Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens
-- Published: 2026-09-22T15:51:00+00:00
-- Summary: Available on Telegram for a $1,500 initiation fee and a recurring monthly $500 subscription, EvilTokens provided cybercriminals with artificial intelligence tools enabling them to compromise accounts, analyze breached inboxes and find the best methods for monetizing their access through fraud.
-
-### 25. EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]
-
-### 26. AstroForge is putting AI in command of its next spacecraft
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.
-
-### 27. Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/
-- Published: 2026-09-22T15:00:00+00:00
-- Summary: At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.
-
-### 28. TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/
-- Published: 2026-09-22T14:30:00+00:00
-- Summary: Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.
-
-### 29. Cyera Raises $400 Million at $12+ Billion Valuation
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/
-- Published: 2026-09-22T14:29:34+00:00
-- Summary: The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round.
-The post Cyera Raises $400 Million at $12+ Billion Valuation appeared first on SecurityWeek.
-
-### 30. Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/
-- Published: 2026-09-22T14:15:00+00:00
-- Summary: We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.
-
-### 31. 4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/
-- Published: 2026-09-22T14:00:00+00:00
-- Summary: Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.
-
-### 32. Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/
-- Published: 2026-09-22T13:26:51+00:00
-- Summary: Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. 
-The post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared first on SecurityWeek.
-
-### 33. AI is set to help cyber attackers much more than defenders, says UK official
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/ai-set-to-help-attackers-more-than-defenders
-- Published: 2026-09-22T13:05:00+00:00
-- Summary: Dave Chismon, the NCSC’s chief technology officer for architecture, said in a blog post that the imbalance in AI means cyberattacks would likely grow as automated defenses struggle to keep pace.
-
-### 34. Russia's internet shutdowns disrupt warnings about incoming drone attacks
-- Section: Cybersecurity — Primary
-- Source: The Record (Recorded Future)
-- URL: https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Russia’s growing restrictions on mobile internet and cellular service are making it harder for people to receive warnings about incoming Ukrainian drone and missile attacks.
-
-### 35. Everyone can find a reason to dislike data center construction
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/
-- Published: 2026-09-22T13:00:00+00:00
-- Summary: Inside two years of fraught AI data center debates in Pennsylvania.
-
-### 36. Webinar tomorrow: Inside real-world Google Workspace breaches
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/
-- Published: 2026-09-22T12:57:07+00:00
-- Summary: Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]
-
-### 37. D-Link warns of max severity zero-day bug in DIR-822A routers
-- Section: Cybersecurity — Primary
-- Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/
-- Published: 2026-09-22T12:48:06+00:00
-- Summary: D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]
-
-### 38. AI Agents Are Rewriting the Rules of Lateral Movement
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html
-- Published: 2026-09-22T12:30:00+00:00
-- Summary: Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?
-
-A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May
-
-### 39. New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html
-- Published: 2026-09-22T12:29:00+00:00
-- Summary: Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.
-
-The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are
-
-### 40. Only 13% of OT Network Segments Are Fully Isolated: Analysis
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/
-- Published: 2026-09-22T12:24:30+00:00
-- Summary: Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.
-The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared first on SecurityWeek.
-
-### 41. Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again
-- Section: AI — News & Analysis
-- Source: TechCrunch AI
-- URL: https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/
-- Published: 2026-09-22T12:23:05+00:00
-- Summary: The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.
-
-### 42. More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds
+### 26. Optiv Launches CyberBOT Cybersecurity Awareness Training Program
 - Section: Cybersecurity — Primary
 - Source: Dark Reading
-- URL: https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.
-
-### 43. Siemens Industrial Edge Management
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verification. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens Industrial Edge Management are affected:
-
-Industrial Edge Management Cloud vers:all/* (CVE-2026-18963)
-Industrial Edge Management Pro V1 vers:intdot/&gt;=1.14.9|&lt;1.15.20 (CVE-2026-18963)
-Industrial Edge Mana
-
-### 44. OpenPLC Runtime v3
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller and the physical processes it drives.
-The following versions of OpenPLC Runtime v3 are affected:
-
-OpenPLC 3 (CVE-2026-88020)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 6.1
-Autonomy Logic
-OpenPLC Runtime v3
-Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Critical Manuf
-
-### 45. lwIP (Lightweight IP)
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.
-The following versions of lwIP (Lightweight IP) are affected:
-
-API &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-91018)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 8.8
-lwIP
-lwIP (Lightweight IP)
-Double Free
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater Systems
-Countries
-
-### 46. Siemens WTV676 and WTV776
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) to the devices. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens WTV676 and WTV776 are affected:
-
-WTV676-HB6035 Web Interface vers:intdot/&lt;3.94 (CVE-2026-89207)
-WTV776-HB6035 Web Interface vers:intdot/&lt;4.17 (CVE-2026-89207)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabi
-
-### 47. Siemens SIPLUS and SIMATIC Products
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Multiple Siemens products are vulnerable to the "Copy Fail" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.
-The following versions of Siemens SIPLUS and SIMATIC Products are affected:
-
-SIMATIC AX Runtime Core Linux Common Debian vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux Common Debian arm64 vers:all/* (CVE-2026-31431)
-SIMATIC AX Runtime Core Linux
-
-### 48. Siemens Desigo CC family
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics containing embedded scripts that are executed on client application instances. Successful exploitation could lead to compromise of the client operating system and potential lateral movement within the organization.
-The following versions of Siemens Desigo CC family are affected:
-
-Desigo CC family V6 vers:all/* (CVE-2026-342
-
-### 49. Siemens SIMOVE Fleetmanager and SIPLANT
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-SIMOVE Fleetmanager and SIPLANT contain a path traversal vulnerability that could allow an attacker to access files outside of intended scope. Siemens has released new versions for the affected products and recommends to update to the latest versions.
-The following versions of Siemens SIMOVE Fleetmanager and SIPLANT are affected:
-
-SIMOVE Fleetmanager V3.1 vers:intdot/&lt;3.1.13 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.2 vers:intdot/&lt;3.2.4 (CVE-2026-67367)
-SIMOVE Fleetmanager V3.3 vers:intdot/&lt;3.3.2 (CVE-2026-67367)
-SIMOVE Fleetmanager V4.0 vers:intdot/&lt;4.0.1 (CVE-2026
-
-### 50. Siemens Siveillance Control
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized root-level access on the OIS server. Siemens has released patches and updates for Siveillance OIS to apply to the products that incorporate the OIS service, and recommends to update to the latest versions.
-The following versions of Siemens Siveillance Control are affected:
-
-Siveillance Control Pro V3.0 ver
-
-### 51. lwIP TCP/IP Stack MQTT Client Application
-- Section: Government / Advisory
-- Source: CISA Alerts
-- URL: https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01
-- Published: 2026-09-22T12:00:00+00:00
-- Summary: View CSAF
-Summary
-Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.
-The following versions of lwIP TCP/IP Stack MQTT Client Application are affected:
-
-MQTT Client Application &gt;=2.0.1|&lt;=2.2.1 (CVE-2026-87121)
-
-
-
-
-
-CVSS
-Vendor
-Equipment
-Vulnerabilities
-
-
-
-
-v3 9.8
-lwIP
-lwIP TCP/IP Stack MQTT Client Application
-Out-of-bounds Write
-
-
-
-
-Background
-
-Critical Infrastructure Sectors: Chemical, Communications, Critical Manufacturing, Energy, Financial Services, Healthcare and Public Health, Transportation Systems, Water and Wastewater 
-
-### 52. Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers
+- URL: https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program
+- Published: 2026-10-21T15:44:48+00:00
+- Summary: Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.
+
+### 27. Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk
+- Section: Cybersecurity — Primary
+- Source: Dark Reading
+- URL: https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable
+- Published: 2026-10-21T15:29:09+00:00
+- Summary: 360 Privacy finds more than 8 in 10 security and wealth professionals say cybersecurity and physical security can no longer be separated.
+
+### 28. Widespread PHP Flaw May Cause Many Site Outages Today
+- Section: Cybersecurity — Primary
+- Source: Krebs on Security
+- URL: https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+- Published: 2026-10-21T15:26:07+00:00
+- Summary: Expect to see quite a few websites serving "404" or "Page Not Found" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.
+
+### 29. Critical RCE vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619)
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Securelist (Kaspersky GReAT)
+- URL: https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
+- Published: 2026-10-21T15:18:04+00:00
+- Summary: We discuss the incident involving the leak of information about vulnerabilities CVE-2026-109618 and CVE-2026-109619. Kaspersky solutions detect the PHP2Shell exploit: we’ll walk you through examples using KEDR, KATA, and KES.
+
+### 30. Two critical RCEs in PHP core
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Cisco Talos
+- URL: https://blog.talosintelligence.com/two-critical-rces-in-php-core/
+- Published: 2026-10-21T15:10:53+00:00
+- Summary: Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset.
+
+### 31. ‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/
-- Published: 2026-09-22T11:55:20+00:00
-- Summary: A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.
-The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/
+- Published: 2026-10-21T15:00:00+00:00
+- Summary: Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold.
+The post ‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets appeared first on SecurityWeek.
 
-### 53. Meta patches Muse exploit that let attackers control the AI agent
+### 32. Your AI agent fixed the bug, but what else did it change?
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Trail of Bits
+- URL: https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/
+- Published: 2026-10-21T15:00:00+00:00
+- Summary: Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break previously working and supported behavior. Engineers can direct the work and review their results; maintainers can supply their own security assumptions and patching requirements, so the agents work within the project’s rules.
+We built patching-bugs and regression-hunt through Patch the Planet, our joint in
+
+### 33. Conversational Gemini navigation comes to Apple CarPlay
 - Section: AI — News & Analysis
 - Source: The Verge AI
-- URL: https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent
-- Published: 2026-09-22T11:53:58+00:00
-- Summary: Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]
+- URL: https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps
+- Published: 2026-10-21T15:00:00+00:00
+- Summary: After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with "rollout happening globally too," according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring [&#8230;]
 
-### 54. DORA Year Two: Can Your SOC Actually See the Attack?
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html
-- Published: 2026-09-22T11:45:00+00:00
-- Summary: When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.
+### 34. Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster
+- Section: AI — Labs & Model Launches
+- Source: Hugging Face Blog
+- URL: https://huggingface.co/blog/ibm-granite/granite-speech-5
+- Published: 2026-10-21T14:58:18+00:00
 
-Now in its second year, the harder part of DORA is
-
-### 55. New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html
-- Published: 2026-09-22T11:38:40+00:00
-- Summary: A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.
-
-The bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.
-
-### 56. Malicious B-tree NPM Package Accumulates Millions of Downloads
+### 35. High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/
-- Published: 2026-09-22T11:33:59+00:00
-- Summary: Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.
-The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/
+- Published: 2026-10-21T14:45:00+00:00
+- Summary: Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.
+The post High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7 appeared first on SecurityWeek.
 
-### 57. SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
+### 36. Hundreds of websites taken offline as concern grows over two PHP vulnerabilities
 - Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html
-- Published: 2026-09-22T11:17:41+00:00
-- Summary: A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.
+- Source: The Record (Recorded Future)
+- URL: https://therecord.media/php-script-vulnerabilities-warnings
+- Published: 2026-10-21T14:17:00+00:00
+- Summary: The maintainers of the globally used PHP scripting language released patches for two vulnerabilities after alerting users that the bugs were severe.
 
-The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been
-
-### 58. WordPress Patches ‘Click2Shell’ Vulnerability
-- Section: Cybersecurity — Primary
-- Source: SecurityWeek
-- URL: https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
-- Published: 2026-09-22T10:22:27+00:00
-- Summary: The bug lets attackers automatically install and preview themes and could lead to remote code execution.
-The post WordPress Patches &#8216;Click2Shell&#8217; Vulnerability appeared first on SecurityWeek.
-
-### 59. The Closed Quorum: Inside the first reported autonomous AI C2 implant
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
-- Published: 2026-09-22T10:00:58+00:00
-- Summary: CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain can be executed without operator involvement.
-
-### 60. Introducing CAIRN: Frontier tracking for AI-integrated malware
-- Section: Cybersecurity — Research & Threat Intel
-- Source: Cisco Talos
-- URL: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
-- Published: 2026-09-22T10:00:25+00:00
-- Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
-
-### 61. New Windows Defender zero-day blocks Microsoft antivirus updates
+### 37. PHP ships emergency patches for critical PHP2Shell flaws
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/
-- Published: 2026-09-22T09:55:11+00:00
-- Summary: Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]
+- URL: https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/
+- Published: 2026-10-21T14:07:05+00:00
+- Summary: The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]
 
-### 62. Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal
-- Section: Cybersecurity — Primary
-- Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html
-- Published: 2026-09-22T09:38:18+00:00
-- Summary: A malicious npm package named "indexed-btree" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.
+### 38. “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Unit 42 (Palo Alto)
+- URL: https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/
+- Published: 2026-10-21T14:00:24+00:00
+- Summary: An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration.
+The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42.
 
-"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility," Checkmarx said. "
-
-### 63. CISA orders feds to patch Zyxel flaw exploited for data theft
+### 39. ClickFix has never been bigger, and AI tools are its most convincing lure yet
 - Section: Cybersecurity — Primary
 - Source: BleepingComputer
-- URL: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/
-- Published: 2026-09-22T08:53:09+00:00
-- Summary: ​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
+- URL: https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/
+- Published: 2026-10-21T14:00:10+00:00
+- Summary: ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]
 
-### 64. Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme
+### 40. PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html
+- Published: 2026-10-21T14:00:00+00:00
+- Summary: PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.
+
+The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own
+
+### 41. Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619
+- Section: Cloud Security & Infrastructure
+- Source: Google Cloud Security
+- URL: https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
+- Published: 2026-10-21T14:00:00+00:00
+- Summary: PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. 
+Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch.
+While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable. At Google Cloud, we understand the severity of these vulnerabilities, and
+
+### 42. AI promises productivity, but for managers, it’s mostly a headache for now
+- Section: AI — News & Analysis
+- Source: TechCrunch AI
+- URL: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
+- Published: 2026-10-21T14:00:00+00:00
+- Summary: More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.
+
+### 43. OpenAI says an AI agent lied about disabling its safety monitoring system
+- Section: AI — News & Analysis
+- Source: The Verge AI
+- URL: https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems
+- Published: 2026-10-21T13:57:43+00:00
+- Summary: OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. "The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]
+
+### 44. Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security
 - Section: Cybersecurity — Primary
 - Source: SecurityWeek
-- URL: https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/
-- Published: 2026-09-22T08:37:06+00:00
-- Summary: The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.
-The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek.
+- URL: https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/
+- Published: 2026-10-21T13:17:35+00:00
+- Summary: Asymptote Labs raises $5.5M seed led by Tower Research Ventures to commercialize its Beacon AI agent runtime security platform.
+The post Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security appeared first on SecurityWeek.
 
-### 65. SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing
+### 45. Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html
-- Published: 2026-09-22T07:52:03+00:00
-- Summary: The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
+- URL: https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html
+- Published: 2026-10-21T13:15:09+00:00
+- Summary: Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.
 
-"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers
+ClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.
 
-### 66. One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
+As part of
+
+### 46. Decades-Old Windows Utility Powers Modern ClickFix Attack
+- Section: Cybersecurity — Primary
+- Source: Dark Reading
+- URL: https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack
+- Published: 2026-10-21T13:00:00+00:00
+- Summary: The attack uses malicious Google search results related to Amazon and leverages the &quot;finger&quot; utility to launch a CAPTCHA that installs malware, including the Lumma stealer.
+
+### 47. ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform
+- Section: AI — Labs & Model Launches
+- Source: OpenAI Blog
+- URL: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+- Published: 2026-10-21T13:00:00+00:00
+- Summary: From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.
+
+### 48. Memory Bugs Account for Most of Chrome’s 353 New Security Fixes
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/
+- Published: 2026-10-21T12:57:47+00:00
+- Summary: The update fixes 353 flaws, including 163 memory corruption and 125 use-after-free vulnerabilities.
+The post Memory Bugs Account for Most of Chrome&#8217;s 353 New Security Fixes appeared first on SecurityWeek.
+
+### 49. OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/
+- Published: 2026-10-21T12:34:22+00:00
+- Summary: In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it.
+The post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor appeared first on SecurityWeek.
+
+### 50. Microsoft PowerToys adds CursorHide, Button Lock mouse tools
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/
+- Published: 2026-10-21T12:20:34+00:00
+- Summary: Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]
+
+### 51. China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html
-- Published: 2026-09-22T06:33:57+00:00
-- Summary: Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.
+- URL: https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html
+- Published: 2026-10-21T12:05:00+00:00
+- Summary: Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.
 
-It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
+"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading," Sophos security researcher Gabor Szappanos said in a post published
 
-The flaw is in
+### 52. OpenAI models are coming to Google Cloud
+- Section: AI — Labs & Model Launches
+- Source: OpenAI Blog
+- URL: https://openai.com/index/openai-models-google-cloud
+- Published: 2026-10-21T12:00:00+00:00
+- Summary: OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.
 
-### 67. WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
+### 53. Critical Vulnerabilities in PHP Require Immediate Patching
+- Section: Government / Advisory
+- Source: CISA Alerts
+- URL: https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching
+- Published: 2026-10-21T12:00:00+00:00
+- Summary: CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619. These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web requests. Organizations should immediately update to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35 to fix these vulnerabilities. While CISA has not observed exploitation of these vulnerabilities as of the time of publication, they pose a risk to organizations if left unpatched.&nbsp;
+CISA urges organizations to ta
+
+### 54. Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports
 - Section: Cybersecurity — Primary
 - Source: The Hacker News
-- URL: https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
-- Published: 2026-09-22T06:03:14+00:00
-- Summary: A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+- URL: https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html
+- Published: 2026-10-21T11:53:34+00:00
+- Summary: Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.
 
-WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called "Comment2Shell," on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is
+Proofpoint shared several examples of the shift at its Protect 2026 conference.
+
+### 55. Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA
+- Section: Cloud Security & Infrastructure
+- Source: Google Cloud Security
+- URL: https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/
+- Published: 2026-10-21T11:30:00+00:00
+- Summary: Bringing autonomous agents into production means processing sensitive data and valuable intellectual property in real time. Protecting proprietary model weights, user prompts, and generated outputs requires security that safeguards data while it is actively being computed.As part of our efforts to enable your enterprise securely, today we are announcing that Confidential Computing on Google Cloud’s G4 instances enabled by NVIDIA RTX PRO 6000 Blackwell Server edition GPUs is now generally available. This release integrates NVIDIA Confidential Computing directly into Google Cloud's AI Hypercompu
+
+### 56. Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/
+- Published: 2026-10-21T11:22:05+00:00
+- Summary: The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them.
+The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first on SecurityWeek.
+
+### 57. China Defends DeepSeek After US Ban of Its AI From Government Systems
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/
+- Published: 2026-10-21T10:54:49+00:00
+- Summary: The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems.
+The post China Defends DeepSeek After US Ban of Its AI From Government Systems appeared first on SecurityWeek.
+
+### 58. PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html
+- Published: 2026-10-21T10:36:53+00:00
+- Summary: You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.
+
+PHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your
+
+### 59. The Harness Is the Hard Part of Agentic Pentesting
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html
+- Published: 2026-10-21T10:32:40+00:00
+- Summary: An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July
+
+### 60. Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html
+- Published: 2026-10-21T10:30:27+00:00
+- Summary: Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.
+
+Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception
+
+### 61. Microsoft says October updates didn’t actually fix VPN issues
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/
+- Published: 2026-10-21T10:14:53+00:00
+- Summary: Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]
+
+### 62. Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor
+- Section: Cybersecurity — Primary
+- Source: SecurityWeek
+- URL: https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/
+- Published: 2026-10-21T10:03:24+00:00
+- Summary: Tasked with writing an application for a US defense contractor, the model made the code 19% more likely to be hackable.
+The post Chinese AI Model Writes More Hackable Code When Told It&#8217;s for US Contractor appeared first on SecurityWeek.
+
+### 63. Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline for attackers
+- Section: Cybersecurity — Research & Threat Intel
+- Source: Cisco Talos
+- URL: https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/
+- Published: 2026-10-21T10:00:00+00:00
+- Summary: Adversaries are turning the tools businesses trust into delivery mechanisms for malicious activity. Cisco Talos observed abuse of more than 25 legitimate platforms over the past year, exploiting the built-in trust of collaboration, file-sharing, payment and other services to reach their targets.
+
+### 64. PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html
+- Published: 2026-10-21T09:05:17+00:00
+- Summary: This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.
+
+PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
+
+⚡
+
+### 65. Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html
+- Published: 2026-10-21T09:01:12+00:00
+- Summary: Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.
+
+TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote
+
+### 66. CISA: SafePay ransomware hit over 600 critical infrastructure orgs
+- Section: Cybersecurity — Primary
+- Source: BleepingComputer
+- URL: https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/
+- Published: 2026-10-21T08:36:24+00:00
+- Summary: The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]
+
+### 67. U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html
+- Published: 2026-10-21T08:04:17+00:00
+- Summary: U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services "developed using DeepSeek implementations," under a Department of Homeland Security order.
+
+They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates
+
+Homeland Security Secretary
+
+### 68. State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html
+- Published: 2026-10-21T07:44:22+00:00
+- Summary: State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.
+
+The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it "has experienced an incident involving the loss of certain data." The count is
+
+### 69. CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws
+- Section: Cybersecurity — Primary
+- Source: The Hacker News
+- URL: https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html
+- Published: 2026-10-21T07:26:49+00:00
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.
+
+The vulnerabilities are listed below -
+
+
+  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)
+
+### 70. Patch the Planet: global response coordination as agents uncover critical vulnerabilities
+- Section: AI — Labs & Model Launches
+- Source: OpenAI Blog
+- URL: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+- Published: 2026-10-21T07:00:00+00:00
+- Summary: Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.
+
+### 71. How we built ChatGPT’s novel ad stack for user trust and relevance
+- Section: AI — Labs & Model Launches
+- Source: OpenAI Blog
+- URL: https://openai.com/index/building-chatgpt-ad-stack
+- Published: 2026-10-21T07:00:00+00:00
+- Summary: Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.
