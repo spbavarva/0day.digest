@@ -1,0 +1,479 @@
+{
+  "generated_at": "2026-10-29T13:49:41.706045+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 25,
+  "feeds_empty": 0,
+  "feeds_error": 1,
+  "item_count": 32,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 8,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "error",
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+      "published": "2026-10-29T13:42:52+00:00",
+      "summary": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.\nThe post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Hugging Face Blog",
+      "title": "Granite Switch 4.1.1 \u2014 Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published": "2026-10-29T13:37:07+00:00",
+      "summary": ""
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Cyberattack disrupts Belgian tax services before filing deadline",
+      "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+      "published": "2026-10-29T13:31:00+00:00",
+      "summary": "The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax and financial affairs."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "University of New Mexico restores hospital systems, urges no contact with hackers",
+      "url": "https://therecord.media/new-mexico-cyberattack-hospital",
+      "published": "2026-10-29T13:30:00+00:00",
+      "summary": "The University of New Mexico was able to restore systems used by its healthcare facilities after a cyberattack forced it to divert ambulances and cancel classes at its medical school."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Anthropic\u2019s business plan: Build God or die trying",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "published": "2026-10-29T13:30:00+00:00",
+      "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+      "published": "2026-10-29T13:26:49+00:00",
+      "summary": "BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks.\nThe post BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "published": "2026-10-29T13:00:00+00:00",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "published": "2026-10-29T13:00:00+00:00",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Over 41,000 DHS Employee Records Leaked Online",
+      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+      "published": "2026-10-29T12:54:14+00:00",
+      "summary": "The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year.\nThe post Over 41,000 DHS Employee Records Leaked Online appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "published": "2026-10-29T12:00:07+00:00",
+      "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "published": "2026-10-29T11:39:41+00:00",
+      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+      "published": "2026-10-29T11:39:18+00:00",
+      "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+      "published": "2026-10-29T11:33:41+00:00",
+      "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "published": "2026-10-29T11:33:15+00:00",
+      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "published": "2026-10-29T11:10:13+00:00",
+      "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Hackers Steal 2.6 Million Records From Sony\u2019s Japanese ISP So-net",
+      "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+      "published": "2026-10-29T11:00:00+00:00",
+      "summary": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records.\nThe post Hackers Steal 2.6 Million Records From Sony&#8217;s Japanese ISP So-net appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "published": "2026-10-29T10:44:46+00:00",
+      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon\u2019s \u2018Silent Train\u2019 Network",
+      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "published": "2026-10-29T10:29:25+00:00",
+      "summary": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon\u2019s Silent Train network, which Lumen detailed.\nThe post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "published": "2026-10-29T10:26:33+00:00",
+      "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "AI has come for Arizona\u2019s water",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "published": "2026-10-29T10:00:04+00:00",
+      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+      "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+      "published": "2026-10-29T10:00:00+00:00",
+      "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale \u2014 but with key security features turned off."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Cisco Talos",
+      "title": "NIK C2: The new AI-enabled command-and-control framework",
+      "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+      "published": "2026-10-29T10:00:00+00:00",
+      "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called \u201cNIK C2.\u201d"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+      "published": "2026-10-29T09:47:10+00:00",
+      "summary": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload.\nThe post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Attacker Tried to Exploit Alpine Linux\u2019s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "published": "2026-10-29T09:05:39+00:00",
+      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+      "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+      "published": "2026-10-29T08:27:16+00:00",
+      "summary": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.\nThe post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "published": "2026-10-29T08:24:22+00:00",
+      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+      "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+      "published": "2026-10-29T08:01:05+00:00",
+      "summary": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.\nThe post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia",
+      "url": "https://securelist.com/netamloader/121676/",
+      "published": "2026-10-29T08:00:15+00:00",
+      "summary": "Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "Dark Reading",
+      "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
+      "published": "2026-10-29T08:00:00+00:00",
+      "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "published": "2026-10-29T06:22:33+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "published": "2026-10-29T05:50:17+00:00",
+      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Hugging Face Blog",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": ""
+    }
+  ]
+}
