@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-11-11T14:48:34.704493+00:00",
+  "window_hours": 14,
+  "feed_count": 26,
+  "feeds_ok": 25,
+  "feeds_empty": 0,
+  "feeds_error": 1,
+  "item_count": 35,
+  "seen_skipped": 0,
+  "near_dup_skipped": 0,
+  "feeds": [
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "status": "ok",
+      "items": 8,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "status": "ok",
+      "items": 4,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "The Record (Recorded Future)",
+      "url": "https://therecord.media/feed",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/securityweek",
+      "status": "ok",
+      "items": 10,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/feed/",
+      "status": "error",
+      "items": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Unit 42 (Palo Alto)",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Flashpoint",
+      "url": "https://flashpoint.io/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Google Project Zero",
+      "url": "https://projectzero.google/feed.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "name": "Securelist (Kaspersky GReAT)",
+      "url": "https://securelist.com/feed/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "status": "ok",
+      "items": 2,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "Lilian Weng (OpenAI)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": "ok",
+      "items": 1,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Cloud Security & Infrastructure",
+      "name": "Google Cloud Security",
+      "url": "https://cloudblog.withgoogle.com/products/identity-security/rss/",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    },
+    {
+      "section": "Government / Advisory",
+      "name": "CISA Alerts",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "status": "ok",
+      "items": 0,
+      "error": null
+    }
+  ],
+  "items": [
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "OpenAI Blog",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "published": "2026-11-12T00:00:00+00:00",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "PortSwigger Research",
+      "title": "Blind trust: stealing credentials through CSP",
+      "url": "https://portswigger.net/research/blind-trust-stealing-credentials-through-csp",
+      "published": "2026-11-11T14:26:01+00:00",
+      "summary": "Content Security Policy is supposed to be the safety net that stops an HTML injection from turning into XSS. Usually it works. But sometimes it doesn't, because the policy allows-lists a domain that h"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "published": "2026-11-11T14:01:00+00:00",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "published": "2026-11-11T14:00:00+00:00",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments."
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "The Verge AI",
+      "title": "Adobe\u2019s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "published": "2026-11-11T14:00:00+00:00",
+      "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. [&#8230;]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Asus, Zoom Release Security Patches",
+      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "published": "2026-11-11T13:58:38+00:00",
+      "summary": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation.\nThe post Asus, Zoom Release Security Patches appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "published": "2026-11-11T13:37:19+00:00",
+      "summary": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts.\nThe post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Poland shuts down government services platform ePUAP following cyberattack",
+      "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "published": "2026-11-11T13:18:00+00:00",
+      "summary": "The attack targeted a nationwide system that allows users to submit official documents, communicate with government agencies and complete administrative procedures online."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Record (Recorded Future)",
+      "title": "Britain, France set out first guidelines for commercial hacking firms",
+      "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+      "published": "2026-11-11T13:11:00+00:00",
+      "summary": "The guidelines call on businesses that develop, sell or finance CCICs to vet their customers, establish technical safeguards against misuse and to maintain systems for monitoring and reporting abuses."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "published": "2026-11-11T12:32:27+00:00",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "published": "2026-11-11T12:24:33+00:00",
+      "summary": "The Series C round will fund international expansion and more autonomous features for the firm\u2019s device security platform.\u00a0\nThe post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Flashpoint",
+      "title": "Inside the Fraud Underground: Key Takeaways for Retail and Financial Services Teams",
+      "url": "https://flashpoint.io/blog/inside-the-fraud-underground-key-takeaways-for-retail-and-financial-services-teams/",
+      "published": "2026-11-11T12:21:35+00:00",
+      "summary": "In our latest webinar, Flashpoint analysts explore the underground markets, stolen credentials, and illicit services fueling financial and retail fraud, from account takeover and refund fraud to emerging cash-out methods.\nThe post Inside the Fraud Underground: Key Takeaways for Retail and Financial Services Teams appeared first on Flashpoint."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "published": "2026-11-11T12:19:40+00:00",
+      "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "published": "2026-11-11T12:10:14+00:00",
+      "summary": "The massive drop comes after the company integrated frontier AI models into its product security testing.\nThe post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "published": "2026-11-11T12:01:59+00:00",
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they\u2019re given, and traceability that\u2019s separate from any human\u2019s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user\u2019s authenticated"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "published": "2026-11-11T12:00:53+00:00",
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+      "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+      "published": "2026-11-11T11:30:00+00:00",
+      "summary": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.\nThe post Bay Raises $50 Million to Control What Enterprise AI Agents Can Do appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes audio issues caused by September security updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "published": "2026-11-11T11:18:36+00:00",
+      "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+      "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+      "published": "2026-11-11T11:16:40+00:00",
+      "summary": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications.\u00a0\nThe post Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+      "published": "2026-11-11T10:35:15+00:00",
+      "summary": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy.\u00a0\nThe post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "published": "2026-11-11T10:12:08+00:00",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Securelist (Kaspersky GReAT)",
+      "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "url": "https://securelist.com/citrus-ransomware/121879/",
+      "published": "2026-11-11T10:00:25+00:00",
+      "summary": "We break down the Citrus Ransomware group's attacks: the attackers' TTPs and tooling, including VLESS traffic tunneling and LLM use, plus their links to Toy Ghouls."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+      "published": "2026-11-11T09:07:27+00:00",
+      "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "published": "2026-11-11T09:01:07+00:00",
+      "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.\nThe post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Google AI Blog",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "published": "2026-11-11T09:00:00+00:00",
+      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+      "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+      "published": "2026-11-11T08:42:44+00:00",
+      "summary": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs.\nThe post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "published": "2026-11-11T08:17:53+00:00",
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers."
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "OpenAI Blog",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "published": "2026-11-11T08:00:00+00:00",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "SecurityWeek",
+      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+      "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+      "published": "2026-11-11T07:53:51+00:00",
+      "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices.\nThe post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "published": "2026-11-11T07:49:04+00:00",
+      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database"
+    },
+    {
+      "section": "AI \u2014 News & Analysis",
+      "source": "TechCrunch AI",
+      "title": "Nvidia\u2019s crisis has corporate governance experts reaching for the popcorn",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "published": "2026-11-11T07:30:51+00:00",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now."
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "published": "2026-11-11T07:21:05+00:00",
+      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on"
+    },
+    {
+      "section": "Cybersecurity \u2014 Primary",
+      "source": "The Hacker News",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "published": "2026-11-11T06:04:02+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity"
+    },
+    {
+      "section": "AI \u2014 Labs & Model Launches",
+      "source": "Hugging Face Blog",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "published": "2026-11-11T05:01:16+00:00",
+      "summary": ""
+    },
+    {
+      "section": "Cybersecurity \u2014 Research & Threat Intel",
+      "source": "Cisco Talos",
+      "title": "Microsoft Patch Tuesday for November 2026 \u2014 Snort rules and prominent vulnerabilities",
+      "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+      "published": "2026-11-11T01:41:17+00:00",
+      "summary": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\"\nOut of 60 \"critical\" vulnerabilities, 45 are remote code execution (RCE) vulnerabilities."
+    }
+  ]
+}
